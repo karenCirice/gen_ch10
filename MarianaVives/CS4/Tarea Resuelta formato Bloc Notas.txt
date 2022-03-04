@@ -1,0 +1,17 @@
+Ejercicio 1:
+MÉTODO 1:
+let arr = ["This", "is", "a", "sentence."];
+console.log(arr.join(' '));
+
+MÉTODO 2:
+let sentence = "";
+
+let arr = ["This", "is", "a", "sentence"];
+function printOutString (){
+    
+    for (let i=0; i<arr.length; i++){
+        sentence= sentence + " " + arr[i];   
+    }
+    }
+printOutString();
+console.log(sentence + "");
