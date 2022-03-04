@@ -1,0 +1,17 @@
+/*Write a function that:
+•	Takes in an array of numbers.
+•	Doubles the value of each number in the array.
+•	Prints out the new updated array.
+Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]*/
+
+lista = [1,2,4,5]
+
+function double(a) {
+    let list = [];
+    for (let i = 0; i < a.length; i++){
+        list.push(a[i] * 2)
+    }
+    return list
+}
+
+console.log(double(lista))
