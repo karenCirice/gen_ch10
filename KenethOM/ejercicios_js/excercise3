@@ -1,0 +1,20 @@
+function sum(arr) {
+    let suma = 0;
+    for (let i = 0; i < arr.length; i++){
+        suma += arr[i];
+    }
+    return suma;
+}
+
+function producto(arr) {
+    let prod = 1;
+    for (let i = 0; i < arr.length; i++){
+        prod *= arr[i];
+    }
+    return prod;
+}
+
+let lista = [1,2,3,4];
+
+console.log("Suma: ", sum(lista));
+console.log("Multiplicación: ", producto(lista));
