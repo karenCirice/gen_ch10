@@ -1,0 +1,3 @@
+let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
+
+people.forEach(element => console.log(element));
