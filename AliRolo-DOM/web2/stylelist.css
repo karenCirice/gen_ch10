@@ -1,0 +1,27 @@
+h1 {
+    color:orange;
+    font-size:20px;
+    text-align:center;
+  }
+  li {
+    font-size:15px;
+  }
+
+  
+a:link {
+    color:red;
+  }
+  a:hover {
+    color:white;
+    text-decoration:none;
+  }
+  /*a:visited {
+    color:purple;
+  }*/
+  a:active {
+    color:lime;
+  }
+  body {
+    background:yellow;
+    font-family:verdana;
+  }

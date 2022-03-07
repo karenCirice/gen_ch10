@@ -1,0 +1,13 @@
+let arr = ["This ", "is ", "a ", "sentence"];
+function printOutString(a) {
+    for (let i = 0; i < a.length; i++) {
+        console.log(""+a[i]);
+    }
+}
+printOutString(arr);
+//Respuesta 2
+function printOutString(a) {
+console.log(""+a);
+}
+arr.forEach(printOutString);
+

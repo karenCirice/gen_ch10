@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre:</label>
+        <br>
+        <input type="text" name="nombre" id="name">
+        <br>
+        <label for="age">Edad:</label><br>
+        <input type="number" name="edad" id="age"><br>
+        <br>
+        <input type="submit" value="Enviar datos">
+        <br>
+        <fieldset>
+            <legend>Agrupando otras opciones de input</legend>
+        <p>Lista de seleccion:</p>
+        <select name="listaSeleccion" id="">
+            <option value="opcion1">opcion 1</option>
+            <option value="opcion2">opcion 2</option>
+            <option value="opcion32">opcion 3</option>
+        </select>
+        <p>Area de texto:</p>
+        <textarea name="areaDeTexto" id="textAreaDescription" cols="30" rows="10"></textarea>
+        <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Agrupacion de botones</legend>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html> 
