@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: bisque;
+}
+
+.list{
+    text-align: center;
+    padding: 5px;
+}

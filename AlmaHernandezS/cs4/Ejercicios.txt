@@ -1,0 +1,70 @@
+Ejercicio 1
+let arr = ["This", "is", "a", "sentence."];
+function printOutString(sentence) {
+    let resultado = " ";
+    sentence.forEach(function(elemento) {
+        resultado += elemento.concat(" ");
+    });
+        console.log(resultado);
+}
+console.log(printOutString(arr));
+
+Ejercicio 2
+let arreglo = [1,2,4,5];
+console.log(arreglo);
+const arreglo2 = arreglo.slice();
+for (let i=0; i< arreglo2.length; i++){
+    for(let j=2; j<=2; j++){
+        console.log("El doble del número ", arreglo2[i], " * ",j, " = ", arreglo2[i]*j);
+    }
+}
+console.log(arreglo2);
+
+Ejercicio 3
+let numberArray = [1,2,3,4];
+function sumAndProduct(array) {
+    let sum=0, product=1;
+    for (let i=0; i < numberArray.length; i++) {
+        
+    sum+=array[i];
+    product*=array[i];
+}
+console.log("La suma es ", sum, "El producto es ", product);
+}
+console.log(sumAndProduct(numberArray));
+
+Ejercicio 4
+let student1Courses = ["Math", "English" , "Programming"];
+let student2Courses = ["Geography", "Spanish", "Programming"];
+
+for (let i=0; i< student1Courses.length; i++) {
+    for (let j=0; j<student2Courses.length; j++) {
+        if(student1Courses[i] == student2Courses[i]){
+            console.log(student1Courses[i]);
+        }
+    }
+}
+
+Ejercicio 5
+let people = ["Maria", "Dani", "Luis", "Camila", "Juan"];
+console.log(people);
+
+let datoEliminado = people.splice(1,1);
+console.log(datoEliminado);
+console.log(people);
+
+let eliminar = people.splice(3,3);
+console.log(eliminar);
+console.log(people);
+
+people.unshift("Luis");
+console.log(people);
+
+people.push("Alma");
+console.log(people);
+
+let elimina =people.splice(1,1);
+console.log(elimina);
+console.log(people);
+
+console.log(people.indexOf("Maria"));
