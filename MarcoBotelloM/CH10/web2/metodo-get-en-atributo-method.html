@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo método GET en el atributo method</title>
+  </head>
+  <body>
+    <form action="http://www.google.com/search" method="get">
+        <!--Por defecto se aplica el método GET. -->
+        Google:
+        <input type="search" name="q">
+        <input type="submit" value="Buscar">
+    </form>
+  </body>
+</html>
+<!--
+    el atributo name del elemento "input" se ha indicado el nombre (identificador) 
+    del dato que se va a enviar. Esto es necesario hacerlo con todos los datos que se envíen 
+    –en este caso sólo q– para que la página de destino que reciba dichos datos pueda procesarlos.
+-->
