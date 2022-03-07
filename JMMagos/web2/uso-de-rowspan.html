@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         table, td {
             border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            padding: 10px;
         }
     </style>
 </head>
@@ -16,12 +21,11 @@
     <table>
         <tr> <!--tr significa cada fila-->
             <!--td significa cada columna-->
-            <td>uno</td>
+            <td rowspan="2">uno y cuatro</td>
             <td>dos</td>
             <td>tres</td>
         </tr>
         <tr>
-            <td>cuatro</td>
             <td>cinco</td>
             <td>seis</td>
         </tr>
