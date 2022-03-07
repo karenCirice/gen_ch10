@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html Lang="es-MX">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejemplo de tabla con bordes</title>
+       <!--
+           La propiedad CSS width permite definir el ancho de una 
+           tabla.
+            Por ejemplo, para ver:
+       -->
+       <style>
+           table, td , th{
+               border:1px solid black;
+           }
+           table {
+               border-collapse:collapse;
+               width:100%;
+           }
+           td {
+               padding:10ox 
+           }
+       </style>
+
+       <!--
+        Si se desea separar el contenido de las celdas 
+         de una tabla con sus respectivos bordes,
+         por ejemplo 10 píxeles.
+       -->
+
+       <!--Si se quiere separar el espacio que existe 
+        entre celdas, por ejemplo 10 píxeles:-->
+    
+        <!--
+         }
+      table {
+        border-spacing:10px;
+         }
+        -->
+
+        <!--
+            Para juntar 
+            las líneas del borde de una tabla, 
+            viéndose en pantalla
+
+      table, td {
+        border:1px solid black;
+      }
+      table {
+        border-collapse:collapse;
+      }
+        -->
+    </head>
+    <body>
+        <table>
+            <caption>Numeros del uno al doce</caption>
+           <!--El elemento "caption" tiene que escribirse 
+            justo después de la etiqueta <table>-->
+            <tr>
+                <td>Uno</td>
+                <td>Dos</td>
+                <td>Tres</td>
+            </tr>
+            <tr>
+                <td>Cuatro</td>
+                <td>Cinco</td>
+                <td>Seis</td>
+            </tr>
+            <tr>
+                <td>Siete</td>
+                <td>Ocho</td>
+                <td>Nueve</td>
+            </tr>
+            <tr>
+                <td>Diez</td>
+                <td>Once</td>
+                <td>Doce</td>
+            </tr>
+        </table>
+       
+    </body>
+</html>
