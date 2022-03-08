@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    pading: 20px;
+    text-align: center;
+    background: blue;
+    color: orange;
+}
