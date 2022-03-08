@@ -1,0 +1,22 @@
+body {
+    background: aqua;
+}
+
+p {
+    text-align: center;
+    color: blue;
+    font-family: verdana;
+}
+
+.thirdp {
+    font-size: 20px;
+    text-align: right;
+}
+
+.red {
+    color:darkred;
+}
+
+.silverp {
+    background: silver;
+}
