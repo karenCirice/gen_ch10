@@ -1,0 +1,8 @@
+h1 {
+    color:#0000ff;
+}
+
+p.example{
+    color: green;
+    background-color: rgba(255,0,0);
+}
