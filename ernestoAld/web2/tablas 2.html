@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,td{
+            border: 1px solid black;
+            border-spacing: 10px;
+            /*border-collapse: collapse;*/
+            padding: 10px;
+        }
+        table{
+            width: 100%;
+        }
+        thead{
+            background-color: #ccc;
+        }
+        tbody{
+            background-color: #ca54ff;
+        }
+        tfoot{
+            background-color: #aa5d36;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Numeros del uno al doce</caption>
+        <thead>
+        <tr>
+            <th>columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>uno</td>
+          <td>dos</td>
+          <td>tres</td>
+        </tr>
+        <tr>
+          <td>cuatro</td>
+          <td>cinco</td>
+          <td>seis</td>
+        </tr>
+        <tr>
+          <td>siete</td>
+          <td>ocho</td>
+          <td>nueve</td>
+        </tr>
+        <tr>
+          <td>diez</td>
+          <td>once</td>
+          <td>doce</td>
+        </tr>
+        <tr>
+            <td colspan="2">trece y catorce</td>
+            <td>quince</td>
+        </tr>
+    </tbody>
+        <tfoot>
+        <tr>
+            <td rowspan="2">16 y 19</td>
+            <td>dieciciete</td>
+            <td>dieciocho</td>
+          </tr>
+          <tr>
+            <td>veinte</td>
+            <td>veintiuno</td>
+          </tr>
+        </tfoot>
+      </table>
+</body>
+</html>
