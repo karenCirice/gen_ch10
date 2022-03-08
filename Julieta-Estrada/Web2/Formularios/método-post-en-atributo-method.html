@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método POST en el atributo method</title>
+</head>
+<body>
+    <!--Guardar contraseñas el metodo post no muestra los datos
+    enviados a diferencia del metodo get-->
+    <form action="procesar-datos.php" method="post">
+        Nombre de usuario:
+        <br>
+        <input type="text" name="usuario">
+        <br>
+        Contraseña:
+        <br>
+        <input type="password" name="clave">
+        <br><br>
+        <input type="submit" value="Enviar datos">
+      </form>
+</body>
+</html>
