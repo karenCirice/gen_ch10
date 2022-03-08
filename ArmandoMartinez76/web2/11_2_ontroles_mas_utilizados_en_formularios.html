@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario con algunos de los controles más utilizados</title>
+</head>
+
+<body>
+    <form action="procesar-datos.php" method="post">
+        Campo de texto:
+        <br>
+        <input type="text" name="campo_de_texto">
+        <br>
+        Lista de selección:
+        <br>
+        <select name="lista_de_seleccion">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <br>
+        Área de texto:
+        <br>
+        <textarea name="area_de_texto" rows="3"
+            cols="50">En este control del formulario se pueden escribir varias líneas de texto.</textarea>
+        <br><br>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
