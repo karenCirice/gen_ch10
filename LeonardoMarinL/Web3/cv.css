@@ -1,0 +1,44 @@
+/*your CSS code here*/
+.heading {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.intro {
+    background-color: #0C6969;
+    text-align: justify;
+    color: #050a30;
+    white-space: pre-line;
+    padding: 30px;
+    margin: 0px;
+    border: 1px solid #050a30;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #050a30;
+    width: max-content;
+    height: max-content;
+}
+.prof {
+    font-size: 25px;
+    font-weight: 300;
+}
+.contactinfo {
+    font-size: 15px;
+    padding: 50px;
+    margin: 0px;
+    border: 0px;
+}
+.subheading {
+    font-size: 20px;
+    font-weight: 530;
+    color: #050a30;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 0px;
+    border: 0px;
+}
+.icon{
+    color: #2F5A78;
+}
