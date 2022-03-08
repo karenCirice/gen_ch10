@@ -1,0 +1,46 @@
+/*your CSS code here*/
+.heading{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: blink;
+    text-transform: uppercase;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#2F5A78;
+    text-transform: uppercase;
+}
+/*Este es el fondo del encabezado*/
+.intro{
+    background-color: #2F5A78;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color:white;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+.contactinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #eeeeee;
+}
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.icon{
+    color: #2F5A78;
+}
+.date{
+    font-size: 16px;
+    color: #2F5A78;
+    font-weight: bold;  
+}
