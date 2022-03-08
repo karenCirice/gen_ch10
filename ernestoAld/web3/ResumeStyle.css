@@ -1,0 +1,32 @@
+*{
+    font-family: 'Smooch Sans', sans-serif;
+}
+.heading{
+    font-size: 35px;
+    
+}
+
+.intro{
+    background-color: rgb(55, 114, 255);
+    color: #fff;
+    text-align: justify;
+    vertical-align: bottom;
+}
+
+
+
+.intro .heading{
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.intro .prof{
+    font-size: 28px;
+}
+
+.intro .summary{
+    font-size: 24px;
+}
+
+
