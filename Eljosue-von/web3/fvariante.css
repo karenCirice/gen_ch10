@@ -1,0 +1,36 @@
+p.normal{
+    font-variant: normal;
+    letter-spacing: normal;
+}
+p.small{
+    font-variant: small-caps;
+}
+p{
+    text-indent: 60px;
+}
+h1{
+    color:blue;
+    font-size:30pt;
+    text-shadow: 5px 2px 4px gray;
+
+}
+h1.tamales{
+    font-size:20pt;
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+}
+p.capitalize{
+    text-transform: capitalize
+}
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+p.positive{
+    letter-spacing: 4px;
+}
+p.negative{
+    letter-spacing: -1.5px;
+}
+

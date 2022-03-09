@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <style>
+        .rojo{
+            color: red;
+        }
+
+        table, td {
+            border: 1px solid black;
+        }
+        table{
+            border-spacing: 10px;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        td{
+            padding: 10px;
+        }
+        thead {
+            color:navy;
+        }
+       tbody {
+            color:green;
+        }
+       tfoot {
+            color:maroon;
+        }
+        .rojo {
+            color:red;
+        }
+        .azul {
+            color:blue;
+        }
+        * { 
+        margin:0;
+        padding:0;
+        }
+        a:link, a:visited, a:hover, a:active {
+            color:#0f0;
+            font-size:16px;
+        }
+        body {
+            background:#eee;
+            font-family:verdana;
+        }
+        h1 {
+            color:#c0c;
+            font-size:24px;
+        }
+        p {
+            font-size:16px;
+        }
+        ul {
+            list-style-type:none;
+        }
+        #cabecera {
+            color:#ff9;
+            background-color:#000;
+            padding:10px;
+        }
+        #contenedor {
+            margin:0 auto;
+            width:800px;
+        }
+        #contenido {
+            background-color:#ddd;
+            float:left;
+            height:500px;
+            padding:10px;
+            width:560px;
+        }
+        #menu {
+            background-color:#999;
+            float:left;
+            height:480px;
+            padding:20px;
+            width:180px;
+        }
+        #pie { 
+            background-color:#bbb;
+            clear:both;
+            color:#900;
+            padding:10px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <!--En el body hay 2 párrafos-->
+    <p>Esto es un párrafo</p>
+    <p>Esto es otro párrafo</p>
+    <p style="color:red;">Esto es un párrafo de color rojo.</p>
+    <p>Párrafo con <span class="rojo"> dos palabras </span> de color rojo.</p>
+    <p>Párrafo con    6 espacios seguidos.</p>
+    <p>Párrafo con 
+
+        3 retornos de carro.</p>
+    <p>Párrafo con           2 tabulaciones.</p>
+    <pre>Párrafo con      6 espacios seguidos.</pre>
+    <pre>Párrafo con
+
+        3 retornos de carro.
+    </pre>
+    <pre>Párrafo con        2 tabulaciones.</pre>
+    <pre>Párrafo con     6 seguidos.
+    Párrafo con
+
+    
+    3 retornos de carro.
+    Párrafo con         2 tabulaciones.</pre>
+    <p>Texto uno.<br>Texto dos.<br>Texto tres.</p>
+    <p>Texto uno.<br>
+texto dos.<br>
+texto tres.</p>
+    <p>Texto uno.<br>
+        Texto dos.<br>
+        Texto tres.</p>
+    <p>Párrafo uno.</p>
+    <hr>
+    <p>Párrafo dos.</p>
+    <hr>
+    <p>Párrafo tres.</p>
+    <p>En este párrafo, <b>estas palabras se deben mostrar en negrita</b>, en un navegador web.</b></p>
+    <p>En este párrafo, <i>estas palabras se deben mostrar en cursiva</i>, en un navegador web.</p>
+    <p>En este párrafo, <strong>estas palabras son de gran importancia</strong> y <em>estas están enfatizadas</em>, mostrándose en negrita y cursiva respectivamente en un navegador web.</p>
+    <p>En este párrafo, <small>estas palabras se muestran más pequeñas</small>, en un navegador web.</p>
+    <p>Texto normal.<sub>Texto subíndice.</sub></p>
+    <p>Texto normal.<sup>Texto superíndice.</sup></p>
+    <p>En este párrafo, <mark>estas palabras se muestran resaltadas</mark>, en un navegador web.</p>
+    <h1>Esto es una cabecera h1</h1>
+    <p>Esto es un párrafo.</p>
+    <h2>Esto es una cabecera h2</h2>
+    <p>Esto es otro párrafo.</p>
+    <h1>Esto es una cabecera h1</h1>
+    <h2>Esto es una cabecera h2</h2>
+    <h3>Esto es una cabecera h3</h3>
+    <h4>Esto es una cabecera h4</h4>
+    <h5>Esto es una cabecera h5</h5>
+    <h6>Esto es una cabecera h6</h6>
+    <p><a href="http://www.abrirllave.com/">AbrirLlave</a> es un sitio web de tutoriales de informatica.</p>
+    <p><a href="http://www.abrirllave.com/" target="_blank">AbrirLlave</a> es un sitio web de tutoriales de informatica.</p>
+    <p>Lista desardenada de colores:</p>
+    <div id="menu">
+    <ul>
+        <li>Rojo</li>
+        <li>Amarillo</li>
+        <li>Verde</li>
+        <li>Blanco</li>
+        <li>Naranja</li>
+    </ul>
+    <ol>
+        <li>Rojo</li>
+        <li>Amarillo</li>
+        <li>Verde</li>
+        <li>Blanco</li>
+        <li>Naranja</li>
+    </ol>
+    </div>
+    <dl>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>W3C</dt>
+        <dd>World Wide Web Consortium</dd>
+      </dl>
+      <img src="logo-abrirllave.gif" width="230" height="60" alt="Logo de Abrirllave.com">
+      
+      <table>
+          <caption>Numero del uno al doce</caption>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>20</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>Destornillador</td>
+              <td>1</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Llave inglesa</td>
+              <td>2</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Martillo</td>
+              <td>1</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+      </table>
+
+      <p>Primer párrafo.</p>
+    <div class="rojo">
+       <p>Segundo párrafo.</p>
+       <p>Tercer párrafo.</p>
+    </div>
+    <p>Cuarto párrafo.</p>
+    <div class="azul">
+       <p>Quinto párrafo.</p>
+       <p>Sexto párrafo.</p>
+    </div>
+    <div class="rojo">
+       <p>Séptimo párrafo.</p>
+    </div>
+    <p>Octavo párrafo.</p>
+    <br><br>
+    <div id="contenedor">
+        <div id="cabecera">
+          <p>Párrafo en la cabecera de la página.</p>
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="enlace-1.html">Enlace 1</a></li>
+            <li><a href="enlace-2.html">Enlace 2</a></li>
+            <li><a href="enlace-3.html">Enlace 3</a></li>
+          </ul>
+        </div>
+        <div id="contenido">
+          <h1>Elemplo: Uso del elemento &quot;div&quot; y del atributo <i>id</i></h1>
+          <p>Párrafo en el contenido de la página.</p>
+          <br>
+          <form>
+                Nombre:
+                <br>
+                <input type="text">
+                <br>
+                Edad:
+                <br>
+                <input type="number">
+                <br><br>
+                <input type="submit" value="Enviar datos">
+          </form>
+          <br><br>
+          <form action="http://www.google.com/search" method="get">
+              Google:
+              <input type="search" name="q">
+              <input type="submit" value="Buscar">
+          </form>
+          <br><br>
+          <form action="procesar-datos.php" method="post">
+                Nombre de usuario:
+                <br>
+                <input type="text" name="usuario">
+                <br>
+                Contraseña:
+                <br>
+                <input type="password" name="clave">
+                <br><br>
+                <input type="submit" value="Enviar datos">
+
+          </form>
+        </div>
+        <div id="pie">
+          <p>Párrafo en el pie de la página.</p>
+        </div>
+    </div>
+    <br><br>
+    <form action="procesar-datos.php" method="post">
+        <fieldset>
+          <legend>Agrupación de varios controles:</legend>
+          Campo de texto:
+          <br>
+          <input type="text" name="campo_de_texto">
+          <br>
+          Lista de selección:
+          <br>
+          <select name="lista_de_seleccion">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+          </select>
+          <br>
+          Área de texto:
+          <br>
+          <textarea name="area_de_texto" rows="3" cols="50">En este control del formulario se pueden escribir varias líneas de texto.</textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Agrupación de botones:</legend>
+          <button type="reset">Resetear</button>
+          <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="procesar-datos.php" method="post">
+        <label>Usuario: <input type="text" name="usuario"></label>
+        <br><br>
+        <label>Contraseña: <input type="password" name="clave"></label>
+        <br><br>
+        <input type="submit" value="Enviar datos">
+      </form>
+     <br><br>
+     <form action="procesar-datos.php" method="post">
+        <label for="nombre_usuario">Usuario: </label>
+        <input type="text" name="usuario" id="nombre_usuario">
+        <br><br>
+        <label for="clave_usuario">Contraseña: </label>
+        <input type="password" name="clave" id="clave_usuario">
+        <br><br>
+        <input type="submit" value="Enviar datos">
+      </form>
+</body>
+</html>
