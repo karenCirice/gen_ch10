@@ -1,0 +1,67 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla con rowspan</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        thead {
+            color: navy;
+        }
+        tbody {
+            color: green;
+        }
+        tfoot {
+            color: morron;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <capion>Lista de la compra</capion>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>20</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Destornillador</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Llave inglesa</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Martilla</td>
+                <td>1</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
