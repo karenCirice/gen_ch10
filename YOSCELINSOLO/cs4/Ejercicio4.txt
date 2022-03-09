@@ -1,0 +1,14 @@
+let student1Courses = ['Math', 'English', 'Programming'];
+let student2Courses = ['Geography', 'Spanish', 'Programming'];
+
+for(let i=0; i < student1Courses.length; i=i+1){
+
+    for( let j=0; j < student2Courses.length; j=j+1){ // ciclo anidado para comparar todos los del arreglo 1 con todos los del arreglo 2
+
+        if(student1Courses[i] === student2Courses[j]){ // estrictamente igual
+
+            console.log(student2Courses[j]);
+            
+        }
+    }
+}
