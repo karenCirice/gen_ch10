@@ -32,7 +32,7 @@ body {
 }
 .subheading {
     font-size: 20px;
-    font-weight: 530;
+    font-weight: 550;
     color: #050a30;
     text-transform: uppercase;
     padding: 30px;
@@ -41,4 +41,45 @@ body {
 }
 .icon{
     color: #2F5A78;
+}
+.skills ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: square;
+}
+.skill_prog {
+    width: 60%;
+    height: 3px;
+    position: relative;
+}
+/*Barras de progreso*/
+span {
+    position: absolute;
+    height: 100%;
+    background: #050a30;
+    padding-right: 50px;
+}
+.skill_name {
+    width: 5px;
+}
+.skill_per {
+    margin-right: 50px;
+}
+img {
+    float: right;
+}
+.date {
+    font-size: 17px;
+    color:#050a30;
+    font-weight: 550;
+}
+.jobtitle {
+    font-size: 15px;
+    font-weight: 550;
+}
+.explist {
+    padding-left: 20px;
+}
+.social {
+    background-color:bisque;
 }
