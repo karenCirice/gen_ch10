@@ -1,0 +1,16 @@
+
+
+let arr = ["This", "is", "a", "sentence."];
+let a="     ";
+function printOutString(arr) {
+    for(i=0; i<arr.length; i=i+1){
+        a=a+ "     " + arr[i];
+        
+    }
+  // your code here
+
+// My code start here
+}
+
+printOutString(arr);
+console.log(a);
