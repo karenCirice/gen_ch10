@@ -1,0 +1,14 @@
+let arrnumbers=[10,20,30,40.5];
+let sum = 0;
+let mult = 1;
+//function sumayproducto(arraynumbers){ NO ES NECESARIA UNA FUNCIÓN
+for(let i=0; i < arrnumbers.length; i=i+1){
+sum = sum + arrnumbers[i];
+        mult = mult * arrnumbers[i];
+        
+    }
+
+console.log("sumatoria de números del arreglo:" + sum);
+console.log("Multiplicación de números del arreglo:" +mult);
+
+//sumayproducto(arraynumbers

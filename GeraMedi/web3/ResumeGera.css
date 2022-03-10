@@ -1,0 +1,10 @@
+/*your CSS code here*/
+
+.heading {
+    font-size: 35px;
+}
+.intro{
+    background-color: rgb(105, 105, 226);
+}
+body{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
