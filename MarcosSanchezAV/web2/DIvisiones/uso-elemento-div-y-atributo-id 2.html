@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ejemplo uso del elemento div y del atributo id</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+            color: rgb(117, 32, 117);
+            font-size: 16px;
+        }
+
+        body {
+            background: #eee;
+            font-family: verdana;
+        }
+
+        h3 {
+            color: #c0c;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        #cabecera {
+            color: #ff9;
+            background-color: rgb(45, 20, 90);
+            padding: 10px;
+        }
+
+        #contenedor {
+            margin: 0 auto;
+            width: 880px;
+        }
+
+        #contenido {
+            background-color: rgb(175, 221, 217);
+            float: right;
+            padding: 20px;
+            width: 500px;
+        }
+
+        #menu {
+            background-color: rgb(125, 233, 166);
+            float: left;
+            height: 480px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        #pie {
+            background-color: rgb(91, 91, 104);
+            clear: both;
+            color: rgb(180, 220, 223);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            <p>Mi top 3 artistas favoritos</p>
+        </div>
+        <div id="menu">
+            <p>Mis canciones favoritas de cada artista</p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=Ckom3gf57Yw" target="_blank">The Unforgiven - Metallica</a>
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=S9bCLPwzSC0" target="_blank">Mockingbird - Eminem</a></li>
+                <li><a href="https://www.youtube.com/watch?v=XWhQue2hut0" target="_blank">Night Thoughts - Else</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            <h3>Metallica</h3>
+            <p>Metallica es una banda estadounidense de thrash metal1​ originaria de Los Ángeles, pero con base en San
+                Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a
+                los que se les unirían Dave Mustaine y Ron McGovney. Estos dos músicos fueron después sustituidos por el
+                guitarrista Kirk Hammett y el bajista Cliff Burton respectivamente, Dave Mustaine fue despedido un año
+                después de ingresar en la banda debido a su excesiva adicción al alcohol y su actitud violenta, siendo
+                sustituido por Kirk Hammett (exguitarrista de Exodus). Ron renuncia a la banda debido al mal
+                comportamiento de Dave Mustaine, el cual era violento y problemático cuando estaba bajo el efecto del
+                alcohol. El colmo fue cuando Mustaine mojó el bajo de Ron con cerveza, él sin saberlo lo conectó,
+                recibiendo una descarga eléctrica. Es entonces, tras contactar con Cliff Burton que la banda se traslada
+                a San Francisco. (Cabe resaltar que Ron sabía que lo iban a despedir y sustituir por Cliff Burton). Por
+                otra parte, el 27 de septiembre de 1986, fue la muerte de Cliff Burton en un accidente de autobús en
+                Suecia, durante una de sus giras, esto provocó la entrada al grupo de Jason Newsted,2​ quien, tras su
+                abandono quince años más tarde, sería sustituido por el bajista actual, Robert Trujillo.</p>
+            <h3>Eminem</h3>
+            <p>Marshall Bruce Mathers III (St Joseph, 17 de octubre de 1972), conocido artísticamente como Eminem
+                (estilizado como EMINƎM) o como Slim Shady, es un rapero, productor discográfico y actor estadounidense.
+                Su nombre artístico proviene de la unión de las iniciales de Marshall Mathers: M&M («Em and Em»,
+                estilizándose como Eminem), mientras que su segundo nombre artístico (llevado al español como Sombra
+                Misteriosa o el Flaco Sombrío) se hizo conocer por primera vez en 1997 con su primer disco titulado The
+                Slim Shady EP.3​Es reconocido por la Revista Rolling Stone como el "Rey del Hip Hop" y uno de los
+                mejores raperos de la historia, tambien es conocido por ser el rapero que revolucionó el Hip Hop
+                llegando a ser respetado por todos hoy en dia.</p>
+            <h3>Else</h3>
+            <p>No encontré información acerca de este artista :(, pero dejaré un poderoso lorem para hacer texto xD.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error maxime odio, quod voluptas eos nobis
+                cumque quibusdam iure magni! Sed quis dolorem possimus facilis expedita minima vero animi doloribus
+                enim?</p>
+        </div>
+        <div id="pie">
+            <p>Toda la información ha sido sacada de wikipedia</p>
+        </div>
+    </div>
+</body>
+
+</html>

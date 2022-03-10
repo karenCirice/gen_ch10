@@ -1,0 +1,39 @@
+.heading {
+    font-size: 35px;
+}
+
+.intro {
+    background-color: #8FBC8F;
+    color: white;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2F5A78;
+}
+
+.icon {
+    color: #2F5A78;
+}
+
+.date {
+    font-size: 18px;
+    color: #2F5A78;
+    font-weight: bold;
+}
+
+
+.jobinfo {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.jobtitle {
+    color: #57a157;
+    font-weight: 900;
+}

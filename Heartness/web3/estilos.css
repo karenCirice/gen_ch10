@@ -1,0 +1,49 @@
+*{
+    font-family: verdana;
+}
+
+.heading {
+    font-size: 35px;
+    text-align: center;
+}
+
+body{
+    background-image: url(ciudad.jpg);
+    background-attachment: fixed;
+}
+
+.intro{
+    background-color: #2F5A78;
+    color: white;
+    text-align: center;
+    border: 10px solid black;
+    padding: 20px 30px;
+}
+
+.summary{
+    font-style: italic;
+}
+
+.data{
+    font-weight: 700;
+}
+
+.intro.heading{
+    font-weight: 900;
+    text-align: center;
+}
+
+.intro.prof{
+    font-size: 28px;
+    
+}
+
+.intro.summary{
+    font-size: 24px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+div p strong{
+    text-indent: 60px;
+}
