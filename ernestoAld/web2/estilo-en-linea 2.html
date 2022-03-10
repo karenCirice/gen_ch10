@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de estilo en linea</title>
+    <style>
+        .estilo-interno{
+            color: blue;
+            text-align: center;
+        }
+        .color-rojo{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="estilo-externo.css">
+</head>
+<body>
+
+    <p style="color: red;">Esto es un parrafo de color rojo</p>
+    <p class="estilo-interno">Este es un parrafo de color azul</p>
+    <p class="estiloExternoParrafo">Este es un parrafo de color verde</p>
+
+    <p>Este es un texto <span class="color-rojo">en color rojo</span> interno</p>
+    
+    <a href="#" class="estiloExternoParrafo">google</a>
+</body>
+</html>
