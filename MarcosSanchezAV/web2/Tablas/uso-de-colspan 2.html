@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>Uso de colspan</title>
+    <style>
+        table,
+        td {
+            border: 2px solid fuchsia;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!--Primero se indican las filas de la tabla-->
+            <td>enero</td>
+            <td colspan="2">febrero y marzo</td>
+        </tr>
+        <tr>
+            <td colspan="2">marzo y abril</td>
+            <td>junio</td>
+        </tr>
+        <tr>
+            <td>julio</td>
+            <td>agosto</td>
+            <td>septiembre</td>
+        </tr>
+        <tr>
+            <td>octubre</td>
+            <td>noviembre</td>
+            <td>diciembre</td>
+        </tr>
+    </table>
+</body>
+
+</html>
