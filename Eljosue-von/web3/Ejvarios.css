@@ -1,0 +1,56 @@
+p.normal{
+    word-spacing: normal;
+}
+p.px{
+    word-spacing: 30px;
+}
+p.positive{
+    word-spacing:20px;
+}
+p.negative{
+    word-spacing:-5px;
+}
+p.tostadas{
+    white-space:nowrap;
+}
+p.pre{
+    white-space:pre;
+}
+p.preline{
+    white-space:preline;
+}
+p.prewrap{
+    white-space:pre-wrap;
+}
+p.chango{
+    padding:10px;
+    border:5px solid green;
+}
+p.first{
+    padding:10px;
+    border-style:solid;
+    border-width: 2px;
+}
+p.second{
+    padding:10px;
+    border-style: solid;
+    border-width: 5px;
+}
+p.none{border-style: none;}
+p.dotted{
+    border-style:dotted}
+p.dashed{border-style: dashed;}
+p.double{border-style:double}
+p.groove{border-style:groove}
+p.ridge{
+    border-style: ridge;
+}
+p.inse{border-style:inset}
+p.outset{border-style:outset}
+p.hidden{border-style:hidden}
+
+
+
+
+
+
