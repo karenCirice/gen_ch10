@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Nombre:
+        <br>
+        <input type="text">
+        <br>
+        Edad:
+        <br>
+        <input type="number">
+        <br><br>
+        <input type="submit" value="Enviar datos">
+    </form>
+<br>
+    <form action="http://www.google.com/search" method="get">
+        Google:
+        <input type="search" name="q">
+        <input type="submit" value="Buscar">
+    </form>
+
+<br>
+    <form action="procesar-datos.php" method="post">
+        Nombre de usuario:
+        <br>
+        <input type="text" name="usuario">
+        <br>
+        Contraseña:
+        <br>
+        <input type="password" name="clave">
+        <br><br>
+        <input type="submit" value="Enviar datos">
+    </form>
+
+<br>
+    <form action="procesar-datos.php" method="post">
+        <fieldset>
+            <legend>Agrupación de varios controles:</legend>
+            Campo de texto:
+            <br>
+            <input type="text" name="campo_de_texto">
+            <br>
+            Lista de selección:
+            <br>
+            <select name="lista_de_seleccion">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+            <br>
+            Área de texto:
+            <br>
+            <textarea name="area_de_texto" rows="3"
+                cols="50">En este control del formulario se pueden escribir varias líneas de texto.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Agrupación de botones:</legend>
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

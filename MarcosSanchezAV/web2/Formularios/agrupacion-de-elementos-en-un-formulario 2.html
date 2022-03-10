@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ejemplo de agrupación de elementos en un formulario</title>
+</head>
+
+<body>
+    <form action="procesar-datos.php" method="post">
+        <!--Con fieldset puedes encasillar grupos de datos en específico-->
+        <fieldset>
+            <!--Con legend le asignas un nombre a la casilla-->
+            <legend>Datos personales</legend>
+            Nombre completo:
+            <br>
+            <input type="text" name="campo_de_texto">
+            <br>
+            Edad:
+            <br>
+            <input type="number" name="numero">
+        </fieldset>
+        <fieldset>
+            <legend>Datos académicos</legend>
+            Carrera a elegir:
+            <br>
+            <select name="lista_de_seleccion">
+                <option value="opcion1">Ingeniería en Computación</option>
+                <option value="opcion2">Ingeniería Mecánica</option>
+                <option value="opcion3">Ingeniería Civil</option>
+                <option value="opcion4">Ingeniería Industrial</option>
+                <option value="opcion5">Ingeniería Eléctrica-Electrónica</option>
+            </select>
+            <br>
+            Motivo de elección:
+            <br>
+            <textarea name="area_de_texto" cols="50"
+                rows="10">En este espacio escribe el motivo de tu elección de carrera.</textarea>
+            <br><br>
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
