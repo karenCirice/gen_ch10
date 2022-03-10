@@ -1,0 +1,18 @@
+<!DOCTYPE>
+	<head>
+		<title>
+			Login Form
+		</title>
+	</head>
+	<body>
+		<form>
+			<label>Email:</label>
+			<input type="email" name="email">
+			<br>
+			<label>Password:</label>
+			<input type="password" name="password">
+			<br>
+			<input type="submit" value="Submit">
+		</form>form>
+	</body>
+</html>
