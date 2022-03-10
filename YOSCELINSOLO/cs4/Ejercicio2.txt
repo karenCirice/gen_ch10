@@ -1,0 +1,13 @@
+let arreglonúmeros= [2,4,6,8];
+ function valorxdos (arreglonúmeros)
+{
+    for(let i=0; i<arreglonúmeros.length; i=i+1){
+
+        arreglonúmeros [i] = arreglonúmeros[i]*2;
+    }
+
+    console.log("El doble del arreglo es: " + arreglonúmeros);
+    }
+
+valorxdos(arreglonúmeros);
+
