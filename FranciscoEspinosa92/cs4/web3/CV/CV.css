@@ -1,0 +1,43 @@
+
+.intro{
+    background-color: #2FA78;
+    color:white;
+    padding-left: 16px;
+    padding-bottom:8px;
+    margin-bottom:4px;
+}
+body{
+    font-family:'Gill Sans', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contactionfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top:6px;
+    padding-bottom:6px;
+    background-color: #eeeeee;
+}
+
+.icon{
+    color: #2f5a78;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #346e98;
+    text-transform: uppercase;
+}
+.date{
+    font-size: 16px;
+    color:#2f5a78;
+    font-weight: bold;
+}
