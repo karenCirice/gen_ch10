@@ -1,0 +1,106 @@
+/*your CSS code here*/
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.intro{
+    background-color: #2f5A78;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2F5A78;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+
+.icon{
+    color: #2f5A78;
+}
+
+body{
+    font-family: 'Gill Sans', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.date{
+    font-size: 16px;
+    color: #2F5A78;
+    font-weight: bold;
+}
+
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #eeeeee;
+    
+}
+
+
+.jobtitle{
+    font-weight: bold;
+    color:black;
+}
+
+.social{
+    padding-left: 16px;
+}
+
+.skills ul li .skill_prog {
+    width: 60%;
+    height: 5px;
+    position: relative;
+    
+}
+
+.skills ul li .skill_prog span {
+    position: absolute;
+    height: 100%;
+    background: #2F5A78;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+/*Etiqueta de la clase que contiene el nombre de la skill*/
+.skill_name{
+    width: 4px;
+    display: inline;
+    float:left;
+}
+
+.skill_prog{
+    float:left;
+}
+/*Etiqueta de la clase que contiene el porcdntaje de la skill*/
+
+.skill_per{
+    margin-right: 15px;
+    padding-left: 1250px;
+}
+
+img{
+    float:right;
+}
+
+.icon{
+    float: left;
+    color: #2F5A78;
+}
+
+.skills ul li{
+    display: inline;
+}
