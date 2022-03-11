@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to bottom, #ee1729 0%, #ff0040 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 700;
+}
+.listado{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.campo{
+   width: 200px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+}

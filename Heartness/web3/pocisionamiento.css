@@ -1,0 +1,13 @@
+a {
+    color: black;
+    background-color: red;
+}
+
+p{
+    background-color: orange;
+}
+
+span{
+    display: block;
+    background-color: blue;
+}
