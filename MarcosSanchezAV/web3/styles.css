@@ -5,6 +5,7 @@
 }
 
 .intro {
+    border-radius: 15px;
     background-color: rgb(142, 109, 184);
     color:rgb(232, 208, 238);
     padding-left: 16px;
@@ -26,6 +27,7 @@ body {
     padding-top: 6px;
     padding-bottom: 8px;
     background-color: rgb(232, 208, 238);
+    border-radius: 15px;
 }
 
 .subheading {
