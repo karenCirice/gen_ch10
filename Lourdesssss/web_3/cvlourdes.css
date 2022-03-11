@@ -1,0 +1,38 @@
+* {
+outline: 1px solid gray;
+}
+
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 960px;
+margin: 0 auto;
+background:#F0DCCA;
+}
+.intro {
+width: 100%;
+height: 200px;
+background: #8D9F87;
+}
+
+.intro .heading {
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 25px;
+}
+.intro .prof {
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 17px;
+}
+
+.intro .summary {
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 17px;
+}
+
+.contactinfo {
+width: 100%;
+height: 200px;
+background: #8D9F87;
+}
