@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#062a3d
+}
+.icon{
+    color:rgb(3, 3, 63)
+}
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:rgb(160, 216, 197);
+}
+.education{
+    font-size:18px;
+    font-weight: normal;
+
+    color:darkblue;
+}
+p.left {
+    text-align: left;
+}
+p.right {
+    text-align: right;
+    text-align: center;
+
+}
+
+p.center {
+    text-align:center;
+}
+#columnas{
+    column-count:2;
+    column-gap:20px;
+    column-rule:3px  gray;
+ }
+ #skills{
+    column-count:2;
+    column-gap:20px;
+    column-rule:3px dotted gray;
+ }
+ .social {
+     height: 100px; width:1500px;
+     background-color:cornflowerblue;
+     display: inline-table;
+ }
