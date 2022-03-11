@@ -1,0 +1,33 @@
+table {
+	border-collapse: separate;
+	border-spacing:20px 40px;
+}
+/*the caption-side property specifies the position of a table caption.*/
+caption {
+	caption-side: top;
+}
+
+/*The empty-cells property specifies whether or not to display borders and background on empty cells in a table.*/
+
+table {
+	border-collapse: separate;
+	empty-cells: hide;
+}
+/*The table-layout specifies how the width of table columns is calculated.*/
+
+
+table {
+	border-collapse: separate;
+	width: 100%;
+	border: 1px solid gray;
+}
+td {
+	border: 1px solid gray;
+}
+
+table.auto {
+	table-layout: auto;
+}
+table.fixed {
+	table-layout: fixed;
+}
