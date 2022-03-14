@@ -1,0 +1,46 @@
+/*your CSS code her*/
+.prof{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.contactinfo{
+    font-size: 18px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: beige;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: 800;
+    color: grey;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+.icon {
+    color: grey;
+}
+
+.social{
+    padding-left: 16px;
+}
+.date {
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 750;
+    text-transform: uppercase;
+    }
+.intro{
+    background-color: green;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 4.5px;
+    }
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

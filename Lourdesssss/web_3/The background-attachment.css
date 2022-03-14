@@ -1,0 +1,12 @@
+body {
+	background-image: url("css_logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*the background image will scroll with the rest of the content.*/
+body {
+	background-image: url("css_logo.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
