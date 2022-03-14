@@ -11,6 +11,9 @@
     padding-bottom: 8px;
     margin-bottom: 4px;
 }
+.social{
+    padding-left: 16px;
+}
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -33,6 +36,9 @@ body{
 }
 .icon{
     color: #2f5a78;
+    float: left;
+    padding-left: 6px;
+    width: 20px;
 }
 .date{
     font-size: 16px;
@@ -41,4 +47,28 @@ body{
 }
 .jobtitle{
     font-weight: bold;
+}
+.skills ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.skills ul li .skill_prog{
+    width: 40%;
+    height: 5px;
+    position: relative;
+}
+.skills ul li .skill_prog span{
+    position: absolute;
+    height: 100%;
+    background: #2F5A78;
+    padding-right: 50px;
+}
+.skill_name{
+    width: 4px;
+}
+.skill_per{
+    margin-right: 2px;
+}
+img{
+    float: right;
 }
