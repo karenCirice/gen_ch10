@@ -82,4 +82,5 @@ body {
 
 .intro img {
     float: right;
+    border-radius: 50%;
 }
