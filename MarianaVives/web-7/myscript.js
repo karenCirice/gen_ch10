@@ -11,16 +11,16 @@ function myFunction(){
 //     console.log("cambiando el nombre");
 // }
 
-// Segunda forma de cambiar el color del texto "sin boton"
-function myFunction2(element,color){
-    console.log("datos de this: ", element);
-element.style.color= color;
-}
+// // Segunda forma de cambiar el color del texto "sin boton"
+// function myFunction2(element,color){
+//     console.log("datos de this: ", element);
+// element.style.color= color;
+// }
 
 // Tercera forma de cambiar el color del Texto con usando clases
-function myFunction3(){
-    const collection= document.getElementsByClassName('color');
-    console.log(collection);
+// function myFunction3(){
+//     const collection= document.getElementsByClassName('color');
+//     console.log(collection);
 
 // // Para cambiar texto a azul con un for: (**ERNESTO ME DIO EL TIP**)
 //     function cambiarParrafos(){
@@ -30,8 +30,8 @@ function myFunction3(){
 //     }   
 // }
 
-//  Para cambiar textos a azul uno por uno   
-collection[0].style.color ='blue';
-collection[1].style.color ='blue';
+// //  Para cambiar textos a azul uno por uno   
+// collection[0].style.color ='blue';
+// collection[1].style.color ='blue';
 
-}
+// }
