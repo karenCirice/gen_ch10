@@ -1,0 +1,9 @@
+p.pre{
+	white-space:pre;
+}
+p.preline{
+	white-space:preline;
+}
+p.prewrap{
+	white-space:pre-wrap;
+}
