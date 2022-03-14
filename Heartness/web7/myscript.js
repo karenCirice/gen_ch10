@@ -10,3 +10,12 @@ function myFunction2(element, color){
     element.style.color = color;
     console.log("Datos de this: ", element);
 }
+
+function myFunction3(){
+    const collection = document.getElementsByClassName("color");
+    
+    for(let i = 0; i < collection.length; i++){
+        collection[i].style.color = "blue";
+    }
+
+}
