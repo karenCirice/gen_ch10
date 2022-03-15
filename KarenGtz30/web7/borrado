@@ -1,8 +1,0 @@
-<h2 class="color" onclick="myFunction2(this,'red')">Click me to change my color</h2>
-
-    <button onclick="myFunction3()">Cambia color</button>
-
-    function myFunction(){
-    document.getElementById("demo").style.color="red";
-    console.log("Cambiando el color");
-}
