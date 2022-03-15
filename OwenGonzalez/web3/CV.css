@@ -1,0 +1,22 @@
+.heading{
+    font-size: 35px;
+    background-color: teal;
+  color: white;
+}
+body{
+    background-color: rgb(3, 3, 3);
+    color: cornsilk;
+}
+div.data{
+    color: powderblue;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+div.icon{
+    color: greenyellow;
+}
+.prof{
+    color: orangered;
+}
+.sumary{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
