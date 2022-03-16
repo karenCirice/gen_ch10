@@ -1,0 +1,32 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.intro{
+    /*background-color: pink;*/
+    background-color: blueviolet(55,114,225;);
+    /*color: #fff;*/
+    text-align:justify;
+    vertical-align: botton;
+
+
+}
+
+.intro .heading{
+    font-weight: 800;
+    color:aquamarine;
+    text-align: center;
+}
+
+.intro .prof{
+    font-size: 28px;
+}
+
+.intro.summary{
+    font-size: 24px;
+
+}

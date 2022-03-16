@@ -1,0 +1,107 @@
+/*The radial gradient is defined by its center.
+The CSS syntax of the radial gradient looks like this:
+background: radial-gradient(position, shape or size, color-stops);
+The first value defines the gradient position. We can use a descriptive keyword, such as top, bottom, 
+center, or left; or we can specify, for example, 50% 50% to set the gradient at the center or 0% 0% to 
+set the gradient to start at top left.
+The second value defines the shape and the gradient size. There are two arguments to shape gradients: 
+The first is the ellipse, which is the default; and the second is the circle.
+
+The Transition Property: allow us to change from one property value to another over a given duration.*/
+div{
+    width: 50px;
+    height: 50px;
+    background: #32CD32;
+    transition:width 3s;
+}
+    
+div:hover {
+    width: 250px;
+}
+
+/*transition-timing-function: property specifies the speed curve of the transition effect.
+It can have the following values:
+ease - the animation starts slowly, then accelerates quickly.
+ease-in - starts slowly, then accelerates, and stops abruptly.
+ease-out - starts quickly, but decelerates to a stop.
+ease-in-out - similar to ease, but with more subtle acceleration and deceleration.*/
+
+
+
+/*transforms: allow you to translate, rotate, scale, and skew elements.*/
+
+div {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+}
+    
+    /*Now let's apply the div element to rotate by 10deg:*/
+div {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(10 deg);
+}
+
+/*Using Negative Values:using a negative value will rotate the element counter-clockwise.*/
+div {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(-10 deg);
+}
+
+/*transform-origin:this property allows you to change the position of transformed elements.
+default value for the property is 50% 50%, which corresponds to the center of the element.
+The origin of the x-axis (horizontal) is set to 25% from the left. 
+The origin for the y-axis (vertical) is set to 75% from above.
+*/
+div.empty-div {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+    
+div.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color:#8bc34a;
+    border: 1px solid white;
+    transform: rotate(15 deg);
+    transform-origin: 25% 75%;
+}
+
+/*The translate() method moves an element from its current position.
+Positive values will push an element down and to the right of its default position, 
+while negative values will pull an element up and to the left of its default position.
+*/
+
+div.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color:#8bc34a;
+    transform:translate(100px, 50px);
+}
+
+/*The skew() method skews an element along the x-axis and the y-axis by the given angles.
+The following example skews the <div> element by 30 degrees along the X-axis:
+transform: skew(30 deg);*/
+
+
+/*The scale() method increases or decreases the size of an element, 
+according to the parameters given for the width and height. 1 stands for the original size, 
+2 for twice the original size, and so on.*/
+div.first {
+    width: 200px;
+    height: 100px;
+    background-color:#8bc34a;
+    transform:scale (0.7, 0.7);
+    color: white;
+}

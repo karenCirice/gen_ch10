@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Js_inner_Document</title>
+</head>
+<body>
+    <h1 id="demo">Hola mundo</h1>
+    <script>
+        document.getElementById("demo").innerHTML = "My frts Javascript";
+    </script>
+    <button onclick="myfunction()">click me</button>
+    
+    <h2 class="color" onclick='myfunction2(this,"red")'>click me to change the color</h2>
+
+    <h2 class="color" onclick="myfunction3" ></h2>
+   
+    <script src="myscript.js"></script>
+</body>
+</html>
