@@ -1,0 +1,21 @@
+body {
+    background: yellow;
+}
+
+.encabezado {
+    text-align: center;
+    color: orange
+}
+
+.ColorBing {
+    color:purple;
+}
+
+.ColorGoogle {
+    color: green;
+    text-decoration: none;
+}
+
+.colorredes {
+    color: red;
+}
