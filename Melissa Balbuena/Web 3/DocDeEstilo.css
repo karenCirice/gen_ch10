@@ -1,0 +1,38 @@
+*{
+    font-family: 'Shadows Into Light', 'cursive';
+}
+.heading{
+    font-size: 40px;
+    color:lightgrey
+}
+
+.intro{
+    background-color: rgb(238, 180, 179);
+    color: green;
+    text-align:  justify;
+    vertical-align: bottom;
+
+}
+
+.intro:hover{
+    background-color: rgba(193, 121, 185, 0.3);
+}
+.intro .heading{
+    font-weight: 900;
+    color:blueviolet;
+    text-align: center;
+}
+
+.intro .prof{
+    font-size: 28px;
+}
+
+.intro .sumary {
+    font-size: 24px;
+}
+
+.heading{
+    color:lightsalmon;
+}
+
+

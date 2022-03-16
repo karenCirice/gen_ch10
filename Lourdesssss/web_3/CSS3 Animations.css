@@ -1,0 +1,24 @@
+/*An animation lets an element gradually change from one style to another.
+You can change as many CSS properties as you want to, as many times you want to.
+Keyframes hold the styles the element will have at certain times
+*/
+@keyframes example {
+    0%  {background-color: red;}
+    50%  {background-color: yellow;}
+    70%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/*The @keyframes Rule.-
+As an alternative to using percentages, you can use from and to keywords, where:
+from is a starting offset of 0%
+to is an ending offset of 100%.*/
+@keyframes colorchange {
+    0% {background-color: red;}
+    100% {background-color: green;}
+ }
+ 
+@keyframes colorchange {
+    from {background-color: red;}
+    to {background-color: green;}
+}

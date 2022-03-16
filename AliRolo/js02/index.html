@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="fondo">
+        <div class="titulo">
+            <h1 class="display-3">Calculadora</h1>
+        </div>
+
+        <div class="botones">
+            <input type="text" id="numA"  placeholder="Escribe un número">
+            <input type="text" id="numB" placeholder="Escribe un número">
+        </div>
+
+        <p id="result">Resultado</p>
+
+        <div class="botones">
+            <button class="suma btn btn-success" onclick="sum()">Suma</button>
+
+            <button class="resta btn btn-success" onclick="subst()">Resta</button>
+
+            <button class="multi btn btn-success" onclick="prod()">Multiplicación</button>
+
+            <button class="divi btn btn-success" onclick="divi()">División</button>
+
+        </div>
+        
+            
+        <button class="clear btn btn-success" onclick="clearFields()">Limpiar</button>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="funciones.js"> </script>
+    </div>
+</body>
+</html>
