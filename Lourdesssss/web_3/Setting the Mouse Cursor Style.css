@@ -1,0 +1,27 @@
+/*the mouse pointer is set to a help icon when we mouse over the span element:
+<span style="cursor:help;">
+do you need help?
+</span>
+The cursor Property Values.
+There are numerous other possible values for the cursor property, such as:
+default - default cursor
+crosshair - cursor displays as crosshair
+pointer - cursor displays hand icon
+The list of possible values is quite long.
+
+The default Value: display: block*/
+
+span {
+	display: block;
+}
+
+/*display: inline
+An inline element only takes up as much width as necessary, and does not force line breaks.*/
+p {
+	display: inline;
+}
+
+/*display:none hides an element, so it does not take up any space. The element will be hidden, and the page will be displayed as if the element is not there.*/
+h1 {
+	display:none;
+}
