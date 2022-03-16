@@ -1,0 +1,10 @@
+/*The most common values are visible and hidden.
+visibility:hidden hides an element, but it will still take up the same space as before.*/
+div.hidden {
+	visibility:hidden;
+}
+
+/*display:none hides an element, without holding a place for that element.*/
+div.hidden {
+	display: none;
+}

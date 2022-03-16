@@ -1,0 +1,34 @@
+*{ 
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(photo-1640622308238-70e5f22fe0be.avif);
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.heading{
+    font-size: 35px;
+}
+
+.intro{
+    background-color: rgb(55, 114, 225);
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.intro .heading{
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.intro .prof{
+    font-size: 28px;
+}
+
+.intro .summary{
+    font-size: 24px;
+    text-align: justify;
+    text-transform: capitalize;;
+}
