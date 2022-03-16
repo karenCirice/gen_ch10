@@ -1,7 +1,7 @@
 //Funcion para modificar los valores ingresados en los input
 function modificarValor(resultado){
     document.getElementById("resultadoFinal").value = resultado;
-}
+} 
 
 //Funcion para sumar los valores ingresados en los input
 let sumar = ()=>{
