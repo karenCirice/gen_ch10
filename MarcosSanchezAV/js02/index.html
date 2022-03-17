@@ -12,39 +12,66 @@
 
 <body>
     <h1 style="text-align: center;">Calculadora</h1>
-<!--Inicio de la calculadora-->
+    <!--Inicio de la calculadora-->
     <div class="container">
 
         <!--Fila con los operandos-->
         <div class="row justify-content-center">
-            <div class="col-4">
-                <input type="number" class="form-control" placeholder="Ingresa un número" aria-label="Operando" id="input1">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        Primer operando:
+                        <input type="number" class="form-control" placeholder="Ingresa un número" aria-label="Operando"
+                            id="input1">
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <input type="number" class="form-control" placeholder="Ingresa un número" aria-label="Operando" id="input2">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        Segundo operando:
+                        <input type="number" class="form-control" placeholder="Ingresa un número" aria-label="Operando"
+                            id="input2">
+                    </div>
+                </div>
             </div>
         </div>
 
         <!--Fila resultado-->
         <div class="row justify-content-center">
-            <div class="col-4">
-                <h4 id="Resultado">Resultado</h4>
+            <div class="col-6">
+
+                <p class="text-center fs-4">Resultado:</p>
+                <p class="text-center fs-4" id="Resultado"></p>
+
             </div>
         </div>
 
         <!--Fila de operadores-->
         <div class="row justify-content-center">
             <div class="col-sm-6 col-md-3">
-                <button type="button" class="btn btn-secondary" onclick="suma()">Suma</button>
+                <p class="text-center fs-4">
+                    +
+                    <button type="button" class="btn btn-outline-secondary btn-lg" onclick="suma()">Suma</button>
+                </p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <button type="button" class="btn btn-secondary" onclick="resta()">Resta</button>
+                <p class="text-center fs-4">
+                    -
+                    <button type="button" class="btn btn-outline-secondary btn-lg" onclick="resta()">Resta</button>
+                </p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <button type="button" class="btn btn-secondary" onclick="multiplicacion()">Multiplicación</button>
+                <p class="text-center fs-4">
+                    x
+                    <button type="button" class="btn btn-outline-secondary btn-lg" onclick="multiplicacion()">Multiplicación</button>
+                </p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <button type="button" class="btn btn-secondary" onclick="division()">División</button>
+                <p class="text-center fs-4">
+                    /
+                    <button type="button" class="btn btn-outline-secondary btn-lg" onclick="division()">División</button>
+                </p>
             </div>
 
         </div>
