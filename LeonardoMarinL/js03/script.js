@@ -8,7 +8,7 @@ function fecha(){
     date.setDate(parseInt(dia.value));
     date.setMonth(parseInt(mes.value)-1);
     date.setFullYear(parseInt(año.value));
-    console.log("Date: ",date)
+    console.log("Date: ",date);
     let diaSemana = date.getDate();
 
     switch (diaSemana){
@@ -38,7 +38,7 @@ function fecha(){
     }
 }
 
-let noFecha =() => {
+let borrar =() => {
     document.getElementById("día").value="";
     document.getElementById("mes").value="";
     document.getElementById("año").value="";
