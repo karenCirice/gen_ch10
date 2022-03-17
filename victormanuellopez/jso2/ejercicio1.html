@@ -11,26 +11,22 @@
 <body>
     <div class="container" id="calculadora">
         <br>
-        <h1 id="nombre">Calculadora.
-        </h1>
+        <div id="titulo">
+            <h1 id="nombre">Calculadora.</h1>
+        </div>
         <br>
-        <div class="mt-4">
+        <div class="" id="inputs">
             <input type="text" id="num1" placeholder="ingrese el primer numero"/>
             <input type="text" id="num2" placeholder="ingrese el segundo numero"/>
-            <br><br>
-        </div>
-        <div>
+            <br><br>        
             <label>El resultado es:</label><br>
             <p id="result"></p>
-            <br><br>
-        </div>
-
-            <button onclick="suma()" class="btn btn-primary"><b>+</b></button>
-            <button onclick="resta()" class="btn btn-success"><b>-</b></button>
-            <button onclick="multiplicacion()" class="btn btn-warning"><b>*</b></button>
-            <button onclick="division()" class="btn btn-danger"><b>/</b></button><br><br>
-        <div>
-            <button onclick="limpiar()" class="btn btn-light">limpiar</button>
+            <br>
+            <button onclick="suma()" class="btn btn-outline-primary"><b>+</b></button>
+            <button onclick="resta()" class="btn btn-outline-success"><b>-</b></button>
+            <button onclick="multiplicacion()" class="btn btn-outline-warning"><b>*</b></button>
+            <button onclick="division()" class="btn btn-outline-danger"><b>/</b></button><br><br>
+            <button onclick="limpiar()" class="btn btn-outline-secondary">limpiar</button>
         </div>
     </div>
 
