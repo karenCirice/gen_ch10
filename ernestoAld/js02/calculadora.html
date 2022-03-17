@@ -11,6 +11,8 @@
     <script src="calculadoraChida.js"></script>
     <title>CALCULADORA</title>
 </head>
+
+
 <body class="m-0 vh-100 row justify-content-center align-items-center">
 
     <form class="formulario-container">
@@ -20,19 +22,25 @@
         </div>
         
         <div class="container-fluid contenedor-inputs">
+
             <input type="number" name="" id="numeroA"  class="numeros numA">
             <input type="number" name="" id="numeroB"  class="numeros numB">
             <input type="text" name="" id="resultadoFinal" class="resultado" disabled>
+
           </div>
 
           <div class="container-fluid contenedor-buttons">
+
             <button type="button" class="btn btn-outline-dark boton-operacion btn-suma" onclick="sumar()">+</button>
             <button type="button" class="btn btn-outline-dark boton-operacion btn-resta" onclick="restar()">-</button>
             <button type="button" class="btn btn-outline-dark boton-operacion btn-multiplicacion" onclick="multiplicar()">x</button>
             <button type="button" class="btn btn-outline-dark boton-operacion btn-division" onclick="dividir()">/</button>
             <button type="button" class="btn btn-outline-dark boton-operacion btn-borrar" onclick="borrar()"><i class="fa-solid fa-delete-left"></i></button>
+            
           </div>
 
     </form>
+
+
 </body>
 </html>

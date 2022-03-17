@@ -5,7 +5,7 @@ function modificarValor(resultado){
 
 //Funcion para sumar los valores ingresados en los input
 let sumar = ()=>{
-    modificarValor((parseInt(document.getElementById("numeroA").value))+(parseInt(document.getElementById("numeroB").value)));
+    modificarValor((parseInt(document.getElementById("numeroA").value))+(parseInt(document.getElementById("numeroB").value))); 
 }
 //Funcion para restar los valores ingresados en los input
 let restar = ()=>{
@@ -28,3 +28,4 @@ let borrar = ()=>{
     document.getElementById("numeroB").value = "";
     document.getElementById("resultadoFinal").value = "";
 }
+
