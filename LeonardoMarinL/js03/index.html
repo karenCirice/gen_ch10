@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendario laboral</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!--Entradas-->
-    <input type="number" id="día" placeholder="dd">
-    <input type="number" id="mes" placeholder="mm">
-    <input type="number" id="año" placeholder="aaaa">
+    <input type="number" id="día" placeholder="dd" />
+    <input type="number" id="mes" placeholder="mm" />
+    <input type="number" id="año" placeholder="aaaa" />
 
     <!--Botones-->
-    <button onclick="fecha()">Calcular</button>
+    <button onclick="calcular()">CALCULAR</button>
     <button onclick="borrar()">BORRAR</button>
 
     <!--Salida-->
-    <input type="text" id="resultado" disabled placeholder="Resultado">
-    
-    <script src="script.js"></script>
-</body>
-</html>
+    <input type="text" id="resultado" disabled placeholder="Resultado" />
 
+    <script src="script.js"></script>
+  </body>
+</html>
 
 <!--let day = document.getElementById("day");
 let month = document.getElementById("month");
