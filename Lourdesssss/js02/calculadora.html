@@ -10,21 +10,22 @@
     <link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
+    <h1>Calculadora</h1>
     <div class="calculadora"><!--para que sea la calculadora en "bloques"-->
-       <div><!--Colocamos los div que contendrán nuestros numeros-->
-           <input id="num1" type="number" class="numeros"> 
-           <input id="num2" type="number" class="numeros">
+       <div class="cal_numeros"><!--Colocamos los div que contendrán nuestros numeros-->
+           <input id="num1" type="number" class="cal_numero_1"> 
+           <input id="num2" type="number" class="cal_numero_2">
        </div>
-       <div>
+       <div class="cal_resultado">
            <input type="text" id="res" placeholder="Resultado" disabled>
        </div>
-       <div><!--div de los botones-->
+       <div class="cal_botones"><!--div de los botones-->
            <button type="button" onclick="sumar()" class="btn btn-outline-danger">sumar</button>
            <button type="button" onclick="restar()" class="btn btn-outline-warning">restar</button>
            <button type="button" onclick="multiplicar()" class="btn btn-outline-info">multiplicar</button>
            <button type="button" onclick="dividir()" class="btn btn-outline-secondary">dividir</button>
        </div>
-       <div><!--div del boton borrar-->
+       <div class="ca_borrar"><!--div del boton borrar-->
            <button type="button" onclick="borrar()" class="btn btn-outline-dark">borrar</button>
        </div>
     </div>
