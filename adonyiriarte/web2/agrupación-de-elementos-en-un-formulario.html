@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de agrupación de elementos en un formulario</title>
+</head>
+<body>
+    <form action="procesar-datos.php" method="post">
+        <fieldset>
+            <legend>Agrupación de varios controles:</legend>
+       Campo de texto:
+       <br>
+       <input type="text" name="campo_de_texto">
+       <br>
+       <select name="lista_de_seleccion">
+           <option value="opcion1">Opción1</option>
+           <option value="opcion2">Opción2</option>
+           <option value="option3">Opción3</option>
+       </select>
+       <br>
+       Área de texto:
+       <br>
+       <textarea name="area_de_texto" rows="3" cols="50">En este control del formulario se pueden escribir varias líneas de texto.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Agrupación de botones:</legend>
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
