@@ -64,6 +64,8 @@ function valorValido(dia, mes, ano){
         case 12:
             if(!(dia<=31)){
                 return false;
+            }else{
+                return true;
             }
         break;
 
@@ -73,6 +75,8 @@ function valorValido(dia, mes, ano){
         case 11:
             if(!(dia<=30)){
                 return false;
+            }else{
+                return true;;
             }
         break;
 
@@ -87,7 +91,6 @@ function valorValido(dia, mes, ano){
                 }
             }
     }
-    return true;
 }
 
 function esBisiesto(ano_V){
