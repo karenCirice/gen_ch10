@@ -48,6 +48,8 @@ function calcular_dia(){
             }
             document.getElementById("resultado_laboral").textContent="día no laboral ";
         }
+    }else{
+        document.getElementById("resultado_dia").textContent="El día no coincide con el mes ";
     }
 }
 
