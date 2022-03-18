@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .btn {
+            @apply font-bold py-2 px-4 rounded;
+        }
+
+        .btn-blue {
+            @apply bg-blue-500 text-white;
+        }
+
+        .btn-blue:hover {
+            @apply bg-blue-700;
+        }
+    </style>
+
+    <title>Tailwind Page</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Button
+        </button>
+
+        <button class="btn btn-blue">Button</button>
+    </div>
+
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="development.jpg" alt="dev" />
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Desarrollo de Software</div>
+            <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+                quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+                nihil.
+            </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+            <span
+                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#software</span>
+            <span
+                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#engineering</span>
+            <span
+                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#development</span>
+        </div>
+    </div>
+
+    <div class="px-4 max-w-md mx-auto">
+        <div
+            class="h-24 my-4 bg-gradient-to-r from-stone-300 to-slate-700 flex justify-center items-center p-3 rounded-xl border-2 border-slate-100 shadow-lg transition-all transform-all hover:scale-105 cursor-pointer relative">
+            <div class="text-slate-200 text-center">
+                <div>50 Shades of Grey</div>
+            </div>
+        </div>
+        <div
+            class="h-24 my-4 bg-gradient-to-r from-slate-700 to-slate-800 flex justify-center items-center p-3 rounded-xl border-2 border-slate-100 shadow-lg transition-all transform-all hover:scale-105 cursor-pointer relative">
+            <div class="text-slate-200 text-center">
+                <div>80's Purple</div>
+            </div>
+        </div>
+        <div
+            class="h-24 my-4 bg-gradient-to-r from-red-400 to-orange-300 flex justify-center items-center p-3 rounded-xl border-2 border-slate-100 shadow-lg transition-all transform-all hover:scale-105 cursor-pointer relative">
+            <div class="text-slate-200 text-center">
+                <div>A Lost Memory</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
