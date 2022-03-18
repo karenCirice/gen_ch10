@@ -7,26 +7,29 @@
     <title>Calculadora</title>
     <!--Link de bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1> Súper calculadora 200</h1>
+    <div class="container">
+   <h1 class="h1" > Súper calculadora 200</h1>
    <!--Números y resultados-->
    <div>
-   <form action="">
-       <input type="number" id="primerNumero" placeholder="Primer número">
-       <input type="number" id="segundoNumero" placeholder="Segundo número">
+   <form action="" class="inputc">
+       <input type="number" id="primerNumero" placeholder="Ingresa número" >
+       <input type="number" id="segundoNumero" placeholder="Ingresa número">
        <input id="res" type="number" placeholder="Resultado" readonly >
    </form>
 </div> 
 <!--Botones-->
-<div>
-    <button type="button" class="btn btn-success" onclick="suma()"> Suma </button>
-    <button type="button" class="btn btn-danger" onclick="resta()" >Resta</button>
-    <button type="button" class="btn btn-warning" onclick="multi()" >Multiplicación</button>
-    <button type="button" class="btn btn-info" onclick="div()" >División</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="clearform()" >Limpiar</button>
+<div class="botones">
+    <button type="button" class="btn btn-info" onclick="suma()"> + </button>
+    <button type="button" class="btn btn-info" onclick="resta()" >-</button>
+    <button type="button" class="btn btn-info" onclick="multi()" >*</button>
+    <button type="button" class="btn btn-info" onclick="div()" >/</button>
+    <button type="button" class="btn btn-dark" onclick="clearform()" >Limpiar</button>
 </div>
-
+</div>
+</body>
 <!--Scrip de JavaScript-->
 <div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
