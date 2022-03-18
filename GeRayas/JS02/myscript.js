@@ -27,6 +27,6 @@ let resultado = valorA*valorB;
 document.getElementById("resultado").value=resultado;
 }
 /*FUNCIÓM LIMPIAR*/
-function limpiar(){
+ limpiar=() => {
    document.getElementById("Formulario").reset();
 }
