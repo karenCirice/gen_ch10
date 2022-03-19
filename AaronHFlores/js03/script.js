@@ -1,3 +1,11 @@
+
+/**
+ * Valida si la fecha introducida es correcta.
+ * @param {number} day Día del año
+ * @param {number} month Mes del año
+ * @param {number} year Año seleccionado
+ * @returns {number} 1: Vacío, 2: Dato válido, 3: Dato no válido
+ */
 function validar(day, month, year) {
 
     console.log(day, month, year);
@@ -11,6 +19,8 @@ function validar(day, month, year) {
         return 3;
     }
 }
+
+
 function printDay() {
     let day = parseInt(document.getElementById("day").value);
     let month = parseInt(document.getElementById("month").value);
