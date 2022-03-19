@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Promo Banner]
 ------------------------------------------------------------------*/
@@ -15,4 +16,23 @@
 		color: $color-white;
 		opacity: .8;
 	}
+=======
+/*------------------------------------------------------------------
+  	[Promo Banner]
+------------------------------------------------------------------*/
+
+.promo-banner {
+	text-align: center;
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+>>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 }
