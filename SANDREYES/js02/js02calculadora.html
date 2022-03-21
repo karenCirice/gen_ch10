@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio suma-resta-multiplicación-división </title>
-<script src="calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="styless.css" />
+    <script src="calculadora.js"></script>
 </head>
 <body>
- 
-    <h1> Calculadora<i class="titulo"></i></h1>
+    
+    <form class="formulario-container">
+
+        <div class="container-fluid contenedor-titulo">
+    
+    <h1><i>Calculadora</i></h1>
+    </div>
+
+    <div class="container-fluid contenedor-inputs">
     <div class="card-body">
         <form>
             <div class="row">
@@ -19,6 +27,7 @@
                 <div class="col">
                     <input class="form-control" name="" type="number" placeholder="Ingresa número 2" id="numero2">  
                 </div>
+            </div>
 
                 <input type="text" name="" id="resultadototal" class="resultado" disabled>
             </div>
