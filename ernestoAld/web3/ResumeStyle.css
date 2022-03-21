@@ -1,0 +1,73 @@
+*{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+body{
+    background-image: url(andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.heading{
+    font-size: 35px;
+    
+}
+
+.intro{
+    background-color: rgb(55, 114, 255);
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+    
+    /*Box model*/
+    
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.intro .heading{
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.intro .prof{
+    font-size: 28px;
+}
+
+.intro .summary{
+    font-size: 24px;
+    text-align: justify;
+    text-transform: capitalize;
+    
+}
+
+
+.contactinfo{
+    border: 10px solid black;
+}
+
+.separador {
+    cursor: progress;
+    background-color: red;
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.enlacePractica{
+    color: orange;
+    text-decoration: none;
+    
+}
+
+.enlacePractica:hover{
+    color: black;
+}
+
+.enlacePractica:active{
+    color: aqua;
+}

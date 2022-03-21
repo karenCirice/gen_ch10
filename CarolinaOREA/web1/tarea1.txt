@@ -1,0 +1,104 @@
+Carolina Stephanie Orea Romero
+
+Ejercicio 1 
+
+let arr = ["This", "is", "a", "sentence."];
+function printOutString() {
+  let word = arr[0];  
+  for (let i = 1 ; i<=3; i++ ){
+       word = word + ' ' +arr[i];
+      
+  }
+  console.log(word);
+}
+
+printOutString();
+
+
+
+Ejercicio 2
+
+
+let array = [7, 8, 10, 2, 4, 3];
+function double (array) {
+    for (let i = 0 ; i<= 5; i++){
+       array[i] = array[i]*2;
+    }
+    console.log(array);
+    
+}
+
+double(array);
+
+
+Ejercico 3
+
+let arr = [5,3,1,2,3];
+function sum(arr) {
+    let x = arr[0];
+    for (i=1; i<=4; i++){
+    x = x + arr[i];
+    }
+     console.log(x);
+}
+sum(arr); 
+let arr = [5,3,1,2,3];
+function prod(arr) {
+    let x = arr[0];
+    for (i=1; i<=4; i++){
+    x = x*arr[i];
+    }
+    console.log(x);
+}
+prod(arr);
+
+
+Ejercicio 4
+
+
+let student1Courses = ['Math', 'English', 'Programming'];
+let student2Courses = ['Geography', 'Spanish', 'Programming'];
+
+function compare(a,b){
+        for (i=0; i<=2; i++){
+             for (j=0; j<=2; j++){
+                 if (a[i] == b[j]){
+                     console.log(a[i]);
+                 }
+             }   
+        }
+    }
+
+compare(student1Courses, student2Courses);
+
+
+Ejercicio 5
+
+
+let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
+function print(c) {
+    console.log(c);
+}
+people.forEach(print);
+
+let eliminarDany = people.splice(1,1);
+console.log(people);
+
+let eliminarJuan = people.splice(2,1);
+console.log(people);
+
+let eliminarLuis = people.splice(1,1);
+console.log(people);
+people.unshift('Luis');
+console.log(people);
+
+people.push('Carolina');
+console.log(people);
+
+for (i=0; i<=3; i++){
+    console.log(people[i]);
+    if (people[i] == 'Maria'){
+    break;   
+    }
+}
+people.indexOf('Maria');
