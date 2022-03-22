@@ -14,32 +14,28 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row justify-content-center bg-dark text-light">
+    <div class="container"> <!-- Creamos un Div de clase "Container" para aplicar estilos de boostrap a todos los elementos -->
+        <div class="row justify-content-center bg-dark text-light"> <!-- Creamos un Div que contendrá el título -->
             <div class="col-auto">
-                <h1>Mini Calculadora</h1>
+                <h1>Mini Calculadora</h1> <!-- Este es el Título -->
             </div>
         </div>
-        <div class="row justify-content-center bg-dark text-light">
-            <div class="col-auto"><input id="a" placeholder="A"></div>
-            <div class="col-auto"><input id="b" placeholder="B"></div>
+        <div class="row justify-content-center bg-dark text-light"> <!-- Cremos un Div para los inputs de los valores con los que vamos a trabajar -->
+            <div class="col-auto"><input id="a" placeholder="A"></div> <!-- Input del primer Valor con el Id "a" -->
+            <div class="col-auto"><input id="b" placeholder="B"></div> <!-- Input del segundo valor con el Id "b" -->
         </div>
-        <div class="row justify-content-center bg-dark text-light">
+        <div class="row justify-content-center bg-dark text-light"> <!-- Creamos un Div para nuestro Output que aquí será un párrafo -->
             <div class="col-auto">
-                <p id="c"></p>
+                <p id="c"></p> <!-- Este es el párrafo con el Id "c" -->
             </div>
         </div>
-        <div class="row justify-content-center bg-dark text-light">
-            <div class="col-auto"><button onclick="suma()">S</button></div>
-            <div class="col-auto"><button onclick="resta()">R</button></div>
-            <div class="col-auto"><button onclick="multi()">M</button></div>
-            <div class="col-auto"><button onclick="divi()">D</button></div>
+        <div class="row justify-content-center bg-dark text-light"> <!-- Creamos un Div para nuestros Botónes, cada botón ejecutara una función distinta al hacer Click sobre ellos -->
+            <div class="col-auto"><button onclick="suma()">S</button></div> <!-- Botón para la suma, que ejecutara la función "suma()" -->
+            <div class="col-auto"><button onclick="resta()">R</button></div> <!-- Botón para la resta, que ejecutara la función "resta()" -->
+            <div class="col-auto"><button onclick="multi()">M</button></div> <!-- Botón para la multiplicación, que ejecutara la función "multi()" -->
+            <div class="col-auto"><button onclick="divi()">D</button></div> <!-- Botón para la divición, que ejecutara la función "divi()" -->
         </div>     
     </div>
 
     <script src="myscript.js"></script>
 </body>
-
-</html>
-
-<!-- Comentario super épico -->

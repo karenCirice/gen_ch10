@@ -14,33 +14,34 @@
 </head>
 
 <body>
+    <!-- Ponemos todo dentro de un Div con la clase Container de Boostrap para los estilos -->
     <div class="container">
-
-        <div class="row justify-content-center align-items-start bg-dark text-light">
+        
+        <div class="row justify-content-center align-items-start bg-dark text-light"> <!-- Aquí ponemos el título de la página con estilos de boostrap -->
             <div class="col-auto align-self-center">
                 <h1>Calculadora de Días</h1>
             </div>
         </div>
 
-        <div class="row justify-content-center align-items-center bg-dark text-light">
+        <div class="row justify-content-center align-items-center bg-dark text-light"> <!-- Aquí ponemos un nuestro Div para los Inputs con estilos de boostrap -->
             <div class="col-auto align-self-center">
-                <input type="text" id="day" placeholder="Día">
+                <input type="text" id="day" placeholder="Día"> <!-- Input para día, de tener el Id "day" para obtener los datos -->
             </div>
             <div class="col-auto align-self-center">
-                <input type="text" id="month" placeholder="Mes">
+                <input type="text" id="month" placeholder="Mes"> <!-- Input para mes, debe tener el Id "month" para obtener los datos -->
             </div>
             <div class="col-auto align-self-center">
-                <input type="text" id="year" placeholder="Año">
+                <input type="text" id="year" placeholder="Año"> <!-- Input para año, de tener el Id "year" para obtener los datos -->
             </div>
         </div>
 
-        <div class="row justify-content-center align-items-center bg-dark text-light">
-            <div class="col-auto align-self-center"><button onclick="dayOfTheweek()">Calcular</button></div>
+        <div class="row justify-content-center align-items-center bg-dark text-light"> <!-- Aquí ponemos nuestro Div para el Botón con los estilos de boostrap -->
+            <div class="col-auto align-self-center"><button onclick="dayOfTheweek()">Calcular</button></div> <!-- Botón con una funcion onclick que ejecute la función para el calculo (dayOfTheweek()) -->
         </div>
 
-        <div class="row justify-content-center align-items-end bg-dark text-light">
+        <div class="row justify-content-center align-items-end bg-dark text-light"> <!-- Aquí ponemos nuestro Div para la salida del programa que en este caso será un párrafo -->
             <div class="col-auto">
-                <h2 id="calculo"></h2>
+                <h2 id="calculo"></h2> <!-- Aquí ponemos el párrafo que debe tener el Id "calculo" para dar salida a los datos -->
             </div>
         </div>
 
