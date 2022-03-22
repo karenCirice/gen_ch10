@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 You are free to use this freebie theme in your commercial or non-commercial projects. 
 All used resources, plugins, stock images are subject to thier own licenses! The only limitation is that you are not permitted to use this theme in a stock items that sold in any theme marketplaces. 
 
 While it's not compulsory, if you enjoyed this freebie theme appreciate if you could support us by crediting our website link http://www.keenthemes.com from your site's footer or spread the word for us from your blog. 
 
+=======
+You are free to use this freebie theme in your commercial or non-commercial projects. 
+All used resources, plugins, stock images are subject to thier own licenses! The only limitation is that you are not permitted to use this theme in a stock items that sold in any theme marketplaces. 
+
+While it's not compulsory, if you enjoyed this freebie theme appreciate if you could support us by crediting our website link http://www.keenthemes.com from your site's footer or spread the word for us from your blog. 
+
+>>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 Enjoy using our freebie themes!
