@@ -1,3 +1,9 @@
+/**
+ * Función encargada de determinar si una fecha dada es laboral o no laboral según una fórmula que la calcula
+ * utilizando tres parámetros que deben ser válidos, día mes y año.
+ * 
+ */
+
 function calcular_dia(){
     let a=0, d=0;
 
@@ -53,6 +59,13 @@ function calcular_dia(){
     }
 }
 
+/**
+ * Valida si una fecha dada es válida correspondiendo al día con el año
+ * @param {number} dia Día ingresado
+ * @param {number} mes Mes ingresado
+ * @param {number} ano Año ingresado
+ * @returns {boolean} Validador de fehca correcta o no
+ */
 function valorValido(dia, mes, ano){
     switch(mes){
         case 1:
@@ -93,6 +106,11 @@ function valorValido(dia, mes, ano){
     }
 }
 
+/**
+ * 
+ * @param {number} ano_V Recibe un numero en año y regresa si es Bisiesto
+ * @returns {boolean} Validador de año bisiesto
+ */
 function esBisiesto(ano_V){
     if(ano_V%4==0){
         if(ano_V%100==0){
@@ -109,6 +127,13 @@ function esBisiesto(ano_V){
     }
 }
 
+/**
+ * Esta función recibe año y mes, en respuesta calcula la constante que se utilizará para 
+ * ingresar en la fórmula del día laboralo o no laboral
+ * @param {number} ano Año ingresado
+ * @param {number} mes mes ingresado
+ * @returns {number} Regresa la constante de mes
+ */
 function constanteMes(ano, mes){
     switch (mes){
         case 1:
@@ -160,6 +185,13 @@ function constanteMes(ano, mes){
     }
 }
 
+/**
+ * Existe una periodicidad de 400 años que oscila entre 0, 2, 4 y 6 que hacen mancuerna con el año que se ingresa, 
+ * detemrinar la constante es importante para hacer un cálculo preciso del día laboral o no laboral
+ * @param {number} ano_evaluar 
+ * @returns {boolean} Regresa la constante de periodicidad que utiliza la fórmula para calcular el día 
+ * que cae una fecha determinada
+ */
 function constanteK(ano_evaluar){
     let ano=0;
     let valor=6;
