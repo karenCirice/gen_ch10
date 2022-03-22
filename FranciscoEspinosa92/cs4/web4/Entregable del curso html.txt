@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Equipo 9
+		</title>
+	</head>
+	<body>
+		<input type="checkbox" name="todo">
+		<label>Do Yoga</label>
+    <h1>My TODO List</h1>
+        <div>
+            <input type="checkbox"name="todo"/>
+        </div>
+        <div>
+            <label>
+            <ul>
+                <li>Do Yoga</li> 
+                <li>Take Bath</li>
+                <li>Go Shopping</li>
+                <li>Water Plants</li>
+                <li>Read Novel</li>
+
+             </label>
+        </div>
+    </body>
+</html>
