@@ -1,0 +1,39 @@
+.btn {
+    width: 100%;
+    background-color: rgba(183, 105, 221, 0.829);
+  }
+
+  .btn-primary:hover, .btn-primary:visited, .btn-primary:active, .btn-primary:link,.btn-primary:focus{
+    background: rgba(183, 105, 221, 0.829);
+  }
+  .row {
+    margin: 2%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .card-header,
+  .col-3,
+  .col-4,
+  .col-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color:rgba(0, 0, 0, 0.445);
+
+  }
+  #result{
+    width: 60%;
+  }
+
+  .card-header{
+      background-color:rgba(183, 105, 221, 0.829);
+      color: white;
+  }
+  body{
+    background-image:url("calendario.jpg");
+  }
