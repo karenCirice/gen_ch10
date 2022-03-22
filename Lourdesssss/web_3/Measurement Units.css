@@ -1,0 +1,6 @@
+p.positive {
+	word-spacing: 20px;
+}
+p.negative{
+	word-spacing: -15px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="j04.css" />
+    <script src="j04.js"></script>
+
+</head>
+
+<body>
+
+    <form class="formulario-container">
+
+        <div class="container-fluid contenedor-titulo">
+            <h1>CALENDARIO</h1>
+        </div>
+        
+        <div class="container-fluid contenedor-inputs">
+            <input type="number" name="" id="dia"  class="fecha " placeholder="DIA">
+            <input type="number" name="" id="mes"  class="fecha " placeholder="MES">
+            <input type="number" name="" id="anio"  class="fecha " placeholder="AÑO">
+            
+          </div>
+
+          <div class="container-fluid contenedor-buttons">
+            <button type="button" class="btn btn-outline-dark boton-operacion btn-calcular" onclick="calcularFecha()">CALCULAR</button>
+          </div>
+
+          <div class="container-fluid contenedor-resultado">
+            <input type="text" name="" id="fechaCalculada" class="resultado" disabled>
+          </div>
+
+    </form>
+</body>
+</html>

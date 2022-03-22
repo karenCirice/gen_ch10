@@ -1,0 +1,10 @@
+
+body{
+    padding: 100px;
+    background-color: seashell;
+}
+
+div.card-header{
+    display: flex;
+    color: darkred;
+}

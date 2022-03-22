@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Webpage
+		</title>
+	</head>
+	<body>
+		<h1> My TODO list </h1>
+	<DIV>
+		<input type="checkbox" name="todo"/>
+		<label>Do Yoga</label>
+
+		<input type="checkbox" name="todo"/>
+		<label>Take Bath</label>
+
+		<input type="checkbox" name="todo"/>
+		<label>Go Shopping</label>
+
+		<input type="checkbox" name="todo"/>
+		<label>Water Novel</label>
+
+		<input type="checkbox" name="todo"/>
+		<label>Read Novel</label>
+	</DIV>
+	</body>
+</html>
