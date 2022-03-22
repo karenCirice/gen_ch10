@@ -1,4 +1,8 @@
 
+/**
+ * Esta función sirve para imprimir los elementos del formulario
+ */
+
 console.log("Sesión js06")
 
 function obtenerFormulario(){
