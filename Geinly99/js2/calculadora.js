@@ -29,9 +29,13 @@ function limpiar(){
     document.getElementById("result").value ="";
     document.getElementById ("numberA") .value ="";
     document.getElementById ("numberB") .value ="";
+<<<<<<< HEAD
 } 
 
 
 
 
  
+=======
+} 
+>>>>>>> d1ecda5 (Arregle)
