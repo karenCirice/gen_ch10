@@ -30,12 +30,16 @@ function limpiar(){
     document.getElementById ("numberA") .value ="";
     document.getElementById ("numberB") .value ="";
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 
 
 
 
  
+=======
+} 
+>>>>>>> d1ecda5 (Arregle)
 =======
 } 
 >>>>>>> d1ecda5 (Arregle)
