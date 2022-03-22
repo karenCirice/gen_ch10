@@ -1,3 +1,4 @@
+/* Funcion para obtener dia, mes y año*/
 function Calcula() {
   console.log("Calcula");
   let a = parseInt(document.getElementById("day").value);
@@ -7,12 +8,13 @@ function Calcula() {
   let c = parseInt(document.getElementById("year").value);
   console.log(c);
 
-
+/* Función para calcular el día de la semana */
 const d = new Date(c,b,a);
 console.log(d);
 let day = d.getDay();
 console.log(day);
 
+/* Switch para arrojar mensaje dependiendo del día de la semana*/
 switch (day) {
   case 0:
     document.getElementById("diaSemana").value = "Sunday, Weekend";
@@ -38,6 +40,7 @@ switch (day) {
 }
 }
 
+/* Función para limpiar todos los campos */
 Clear = () => {
   document.getElementById("day").value = "";
   document.getElementById("month").value = "";
