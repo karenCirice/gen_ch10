@@ -48,7 +48,7 @@ li a {
   font-size: 16px;
   font-weight: 500;
   font-family: Hind, sans-serif;
-  color: #515769;
+  color: #6a8bf0;
 }
 
 a {
@@ -91,13 +91,13 @@ span {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Hind, sans-serif;
-  color: #515769;
+  color: #6787e6;
   line-height: 1.4;
   margin: 0 0 15px;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  color: #515769;
+  color: #7894e7;
 }
 
 h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
@@ -697,7 +697,6 @@ fieldset[disabled] .btn-theme {
   display: block;
   width: 19.99%;
   float: right;
-  vertical-align: top;
   padding: 0 2px;
   margin-bottom: 4px;
 }
