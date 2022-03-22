@@ -37,7 +37,7 @@
       }
     </style>
 
-    <title>Hello, world!</title>
+    <title>Formulario</title>
   </head>
   <body>
     <div class="container">
@@ -55,6 +55,7 @@
             Nombre:
             <input
               type="text"
+              id="nombre"
               name="nombre"
               value="Marco Daniel"
               class="input"
@@ -64,6 +65,7 @@
             Apellido:
             <input
               type="text"
+              id="apellido"
               name="apellido"
               value="Sánchez Lara"
               class="input"
@@ -82,6 +84,14 @@
               class="btn btn-success"
             >
               Obtener datos
+            </button>
+            <button
+              id="recupera"
+              onclick="recuperarFormulario()"
+              type="button"
+              class="btn btn-success"
+            >
+              Recuperar formulario
             </button>
             <button
               id="invisible"
