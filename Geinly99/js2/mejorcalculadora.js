@@ -3,11 +3,12 @@ function sumar(){
     let numberB = parseInt (document.getElementById ("numberB").value) ;
     document.getElementById ("result"). value = (numberA+numberB);
 }
- function restar(){
-    let numberA = parseInt (document.getElementById ("numberA" ).value) ;
+
+
+function restar(){
+    let numberA = parseInt (document.getElementById ("numberA" ).value);
     let numberB = parseInt (document.getElementById ("numberB" ).value);
     document.getElementById("result").value = (numberA-numberB);
-
 }
 function multiplicar(){
     let numberA = parseInt (document.getElementById("numberA").value);
@@ -27,4 +28,3 @@ function limpiar(){
 
 
 
- 
