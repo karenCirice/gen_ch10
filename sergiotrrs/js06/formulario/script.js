@@ -1,6 +1,12 @@
 console.log("Sesión Js06");
 
-function obtenerFormulario(){
+
+/**
+ * Obtiene los datos del formulario.
+ * @param {boolean} colorFondo Determina el color del formulario
+ */
+function obtenerFormulario(colorFondo){
+    colorFondo = "blue";
     let formulario = document.forms["formulario"];
     //console.log(formulario);
     let concatenacion = "";
@@ -9,5 +15,21 @@ function obtenerFormulario(){
         concatenacion = concatenacion + " " + i.value;        
     }
     console.log(concatenacion);
-
 }
+
+/**
+ * Pone invisble al botón principal del formulario
+ */
+function setInvisible(){
+    let botonFormulario= document.getElementById("todos");
+    botonFormulario.style.visibility = "hidden";
+}
+
+/**
+ * Oculta el botón principal del formulario
+ */
+function setOcultar(){
+    let botonFormulario= document.getElementById("todos");
+    botonFormulario.style.display = "none";
+}
+
