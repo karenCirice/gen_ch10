@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url("fondoCalcuChido.jpg");
+    background-color: #B9C9CB;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
