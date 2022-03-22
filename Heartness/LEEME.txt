@@ -1,0 +1,16 @@
+
+20220321
+- JS02
+[»] Realiza correctamente el cálculo.
+[»] La página es web responsive.
+[»] El estilo es agradable, pero se puede mejorar.
+[x] No hay comentarios en html.
+[x] No hay comentarios de las funciones en js.
+
+- JS03
+[»] Realiza correctamente el cálculo.
+[»] La página es web responsive.
+[!] El estilo es agradable, pero no se intenta mejorar respecto al ejercicio anterior.
+[x] No hay comentarios en html.
+[x] No hay comentarios de las funciones en js.
+
