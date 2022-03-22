@@ -1,0 +1,35 @@
+*{
+    font-family: "sans-serif";
+    text-align: center;   
+}
+h1{
+    color: rgb(17, 119, 160);
+    background: rgb(255, 206, 223);
+    
+
+}
+body{
+    background-color: rgb(33, 33, 36);
+    color: rgb(253, 154, 245);
+    padding: 40px;   
+   
+}
+#todos{
+    background-color: rgb(233, 151, 219);
+    align-items: center;  
+    color: black;
+}
+#Ocultar{
+    background-color: rgb(177, 101, 240);
+    align-items: center; 
+    color: black;
+}
+#invisible{
+    background-color: rgb(190, 240, 231);
+    align-items: center; 
+    color: black;
+}
+#recuperar{
+    background-color: rgb(238, 205, 157);
+    align-items: center; 
+    color: rgb(17, 19, 18);
