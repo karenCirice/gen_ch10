@@ -11,18 +11,46 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+<style>
+.h1{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+    background-size: 20rem;
+    animation: sliding 30s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+</style>
+
 </head>
 
-<body>
-    <h1 style="background-color: green ; text-align:center ; color:whitesmoke">Hello, world!</h1>
+<body style="background-color:black">
+    <h1 class= h1 style="background-color: green ; text-align:center ; color:whitesmoke">Hello, world!</h1>
     <hr>
 <!-- FORMULARIO -->
     <form id="formulario" class="container">
         <div class="row">
-            <div style="color:green" class="col-6 text-center">
+            <div style="color:pink" class="col-6 text-center">
                 Nombre: <input type="text" name="nombre" value="Maria">
             </div>
-            <div style="color:green" class="col-6 text-center">
+            <div style="color:pink" class="col-6 text-center">
                 Apellido: <input type="text" name="apellido" value="Salinas">
             </div>
         </div>
@@ -33,6 +61,14 @@
             <div class="col-3">
                 <button onclick="obtenerFormulario()" id="todos" type="button" class="btn btn-success">Obtener
                     Datos</button>
+            </div>
+            <div class="col-3">
+                <button onclick="setInvisible()" id="todos" type="button" class="btn btn-success">Borrar
+                    </button>
+            </div>
+            <div class="col-3">
+                <button onclick="setOcultar()" id="todos" type="button" class="btn btn-success">Ocultar
+                    </button>
             </div>
         </div>
     </form>
