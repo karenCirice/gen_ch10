@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Progress Bar]
 ------------------------------------------------------------------*/
@@ -12,19 +11,4 @@
     .progress-bar {
         @include cubic-transition($delay: 0, $duration: 2000ms, $property: (all));
     }
-=======
-/*------------------------------------------------------------------
-    [Progress Bar]
-------------------------------------------------------------------*/
-
-.progress-box {
-    .progress {
-        box-shadow: none;
-        height: 3px;
-    }
-
-    .progress-bar {
-        @include cubic-transition($delay: 0, $duration: 2000ms, $property: (all));
-    }
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 }

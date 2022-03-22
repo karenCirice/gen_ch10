@@ -1,16 +1,13 @@
-// Variables obtenidas desde el documento HTML
 let day = document.getElementById("day");
 let month = document.getElementById("month");
 let year = document.getElementById("year");
 let result = document.getElementById("result");
 
-/**
- * @function calcular Calcula el día de la semana de la fecha que se ha introducido y 
- * menciona si es un día laborable o no lo es.
- */
-
+let date = new Date();
 function calcular() {
-  let date = new Date(parseInt(year.value), parseInt(month.value)-1, parseInt(day.value));
+  date.setDate(parseInt(day.value));
+  date.setMonth(parseInt(month.value)-1);
+  date.setFullYear(parseInt(year.value));
   console.log("Date: ", date);
   let dayWeek = date.getDay();
 
