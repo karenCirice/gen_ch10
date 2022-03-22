@@ -1,41 +1,82 @@
+<!--Documento destinado a crear una calculadora que, a ingresar tres parámetros (día mes y año) nos regrese 
+si esa fecha corresponde a un día laboral, comprendido de Lunes a viernes, o un día no laboral que son sábado y domingo-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de día laboral</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+    <div id="header" class="container">
+        <h1>Calculadora de día con base a una fecha</h1>
+        <p>¿Te gustaría saber qué día entre semana corresponde una fecha dada? Aquí encontrarás un ejercicio divertido que te ayudará a saber qué día de la semana era según introduzcas el día, mes y año. </p>
+        <p>Puedes buscar la fecha de nacimiento de tu artista favorito o de algún familiar, si te resulta difícil empezar, podemos sugerirte algunas fechas.</p>
+        <!--Fechas de prueba para que el usuario experimente-->
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Charles Darwin: 12 de Febrero de 1809<br>
+                Naturalista, geólogo y biólogo inglés, mejor conocido por sus contribuciones a la biología evolutiva. Su propuesta de que todas las especies de vida han descendido de ancestros comunes es ahora ampliamente aceptada y considerada un concepto fundamental en la ciencia.</p>
+            </div>
+            <div class="col-sm-7">
+                <!--Insertar imagen de prueba 1-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Charles_Darwin_portrait.jpg" class="img-thumbnail" alt="...">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Adam Smith: 5 de Junio de 1723<br>
+                Fue un economista y filósofo escocés, pionero de la economía política y figura clave durante la Ilustración escocesa.</p>
+            </div>
+            <div class="col-sm-7">
+                <!--Insertar imagen de prueba 1-->
+                <img src="https://www.economiasimple.net/wp-content/uploads/2019/01/quien-fue-adam-smith.jpg" class="img-thumbnail" alt="...">
+            </div>
+
+        </div>
+    </div>
+
     <!--Apartado de ingreso de fecha dd/mm/aaaa-->
-    <div>
-        <!--Primeros dos elementos-->
-        <!--elemento dia-->
+    <div class="container">
+        <!--Primeros elementos-->
+        <div class="row">
+            <div class="col-4">
+                <!--elemento dia-->
+                <input type="number" id="d" placeholder="Día" name="v1" min="1" max="31"/>
+            </div>
+            <div class="col-4">
+                <!--elemento mes-->
+                <input type="number" id="m" placeholder="Mes" name="v2" min="1" max="12"/>
+            </div>
+            <div class="col-4">
+                <!--elemento año-->                
+                <input type="number" id="a" placeholder="Año" name="v3" min="1600" max="2199"/>
+            </div>
+        </div>
         <div>
-            <input type="number" id="d" placeholder="Ingrese día" name="v1" min="1" max="31"/>
-        
-        <!--elemento mes-->
-            <input type="number" id="m" placeholder="Ingrese mes" name="v2" min="1" max="12"/>
-
-        <!--elemento año-->
-        <input type="number" id="a" placeholder="Ingrese año" name="v2" min="1600" max="2199"/>
-
     </div>
 
-    </div>
 
 
     <!--Botón que calcula la fecha, funcionalidad con js-->
-    <div>
-        <button type="button" class="btn btn-primary" onclick="calcular_dia()">Calcular</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-md-auto">
+                <button type="button" class="btn btn-primary" onclick="calcular_dia()">Calcular</button>
+            </div>
+            <div class="col-4"></div>
+        </div>
     </div>
     
     <!--Card donde se muestra el resultado-->
     <div class="card-body text-center">
         <div class="card bg-primary">
             <div class="card-body text-center">
-              <p id="resultado_dia">Calcular</p>
+              <p id="resultado_dia">Aquí vera el día</p>
               <p id="resultado_laboral"></p>
             </div>
           </div>
