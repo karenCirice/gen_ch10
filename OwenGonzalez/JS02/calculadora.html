@@ -9,14 +9,14 @@
     <script src="calculadora.js"></script>
     <link rel="stylesheet" href="calculadora.css">
 </head>
-<body>
+<body class="m-0 vh-100 row justify-content-center align-items-center">
+
     <div class="container">
         <h1 class="titulo" >Calculadora </h1>
-        
         <input type="number" name="" id="numeroA" class="numeros">
-        <input type="number" name="" id="numeroB" class="numeros"><br>
-        <input type="text" name="" id="resultadof" class="resultado" disabled><br>
-
+        <input type="number" name="" id="numeroB" class="numeros">
+        <input type="text" name="" id="resultadof" class="resultado" disabled>
+        <center>
         <div class="btn-group grupoBotones" role="group" aria-label="Basic outlined example">
             <button type="button" class="btn btn-outline-primary boton-operacion" onclick="sumar()">+</button>
             <button type="button" class="btn btn-outline-primary boton-operacion" onclick="restar()">-</button>
@@ -26,6 +26,7 @@
         <div class="btn-group grupoBotones" role="group" aria-label="Basic outlined example">
             <button type="button" class="btn btn-outline-primary boton-operacioBorrar" onclick="borrar()">CLEAN</button>
         </div>
+        </center>
     </div>
 </body>
 </html>
