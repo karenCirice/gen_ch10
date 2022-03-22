@@ -1,0 +1,59 @@
+.titulo {
+    text-align: center;  
+    font-weight: 900;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.button-borrar {
+    border: 1px solid black;
+    height: 60px;
+    width: 240px;
+    background: rgba(119, 18, 250, 0.651);
+}
+
+.resultado{
+    background-color: #ffff;
+    border: 1px solid #000;
+    width: 240px;
+}
+
+.grupoBotones{
+    width: 46.2%;
+    display:flex;
+    border: 1px solid #000;
+}
+  
+.input{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    height: 30%;
+    width: 108.4%;
+}
+
+.form{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(34, 21, 221, 0.4);
+    border-radius: 10px;
+    padding: 20px 30px;   
+               
+} 
+
+.centrarForm{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo{
+  background-image: url(paisaje.jpg);
+}
+ 

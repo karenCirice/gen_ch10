@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Swiper Slider]
 ------------------------------------------------------------------*/
@@ -20,4 +21,28 @@
 		opacity: .8;
 		@include cubic-transition($delay: 0, $duration: 200ms, $property: (all));
 	}
+=======
+/*------------------------------------------------------------------
+    [Swiper Slider]
+------------------------------------------------------------------*/
+
+.swiper-slider {
+	@include position(relative);
+	@include size(100%);
+	overflow: hidden;
+}
+
+.swiper-clients-img {
+	display: block;
+	@include size(130px, auto);
+	margin: 0 auto;
+	opacity: 1;
+	cursor: pointer;
+	@include cubic-transition($delay: 0, $duration: 200ms, $property: (all));
+
+	&:hover {
+		opacity: .8;
+		@include cubic-transition($delay: 0, $duration: 200ms, $property: (all));
+	}
+>>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 }

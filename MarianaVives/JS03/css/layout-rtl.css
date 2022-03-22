@@ -238,14 +238,14 @@ fieldset[disabled] .btn-theme {
 
 .btn-base-bg {
   color: #fff;
-  background: #17bed2;
+  background: palevioletred;
   border-color: transparent;
   border-width: 0;
 }
 
 .btn-base-bg:hover, .btn-base-bg:focus, .btn-base-bg.focus {
   color: #fff;
-  background: #63cbd7;
+  background: palevioletred;
   border-color: transparent;
 }
 
