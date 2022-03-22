@@ -1,0 +1,67 @@
+/* Fondo */
+body{
+    background-color:black;
+    color:white;
+}
+/* Estilo H1 */
+  h1{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+    background-size: 20rem;
+    animation: sliding 30s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Estilos inputs*/
+  #nombre{
+    border-color: #f32876;
+    background-color: #FFD1DC;
+    border-width: 2px;
+    text-align: center;
+  }
+  #apellido{
+    border-color: #46e0f5;
+    background-color: #c3f9ea;
+    border-width: 2px;
+    text-align: center;
+  }
+  
+  /* Estilos botones*/
+  #todos{
+    background-color: rgb(131, 30, 134);
+    color: white;
+    border-color: indigo;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  #invisible{
+    background-color: rgb(202, 23, 38);
+    color: white;
+    border-color: rgb(138, 1, 1);
+    border-width: 2px;
+    cursor: pointer;
+  }
+  #ocultar{
+    background-color: rgb(229, 243, 26);
+    color: black;
+    border-color: #efb810;
+    border-width: 2px;
+    cursor: pointer;
+  }
