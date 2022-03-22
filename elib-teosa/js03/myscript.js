@@ -5,7 +5,8 @@ let year = document.getElementById("year");
 let result = document.getElementById("result");
 
 /**
- * @function calcular Calcula el día de la semana de la fecha que se ha introducido y menciona si es un día laborable o no
+ * @function calcular Calcula el día de la semana de la fecha que se ha introducido y 
+ * menciona si es un día laborable o no lo es.
  */
 
 function calcular() {
