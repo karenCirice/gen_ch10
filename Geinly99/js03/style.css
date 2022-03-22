@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(cal.jpg);
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.contenedor-padre{
+     background-color: #bea2c2;
+    width: 400px;
+    height: 400px;
+   margin-top: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+h1{
+    /* background-color: antiquewhite; */
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    color: #F8F5F1;
+}
+.contenedor-inputs{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-flow: row wrap;
+   margin-top: 30px;
+    padding: 0;
+    
+
+   
+}
+
+#day{
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+#month{
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+}
+#year{
+    border-radius:10px 10px 10px 10px ;
+    width: 100%;
+    text-align: center;
+}
+.contenedor-boton{
+    /* background-color: brown; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+.contenedor-boton .operacion{
+    width: 25%;
+    height: 50px;
+    border-radius: 0;
+
+}
+
+#btn-calcular{
+    border-radius: 10px 10px 10px 10px;
+
+}
+#result{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-color: black;
+}
+
+.contenedor-header{
+    text-align: center;
+    height: 70px;
+    padding: 0px;
+    color: black;
+    text-size-adjust: 49px;
+    background-color: azure;
+    border-image: round; 
+    
+}
+#logo{
+    width: 70px;
+    height:70px;
+    position: left;
+   
+}
+#header{
+    text-align: center;
+}

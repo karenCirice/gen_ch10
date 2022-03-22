@@ -1,0 +1,14 @@
+
+20220320
+- JS02
+[»] Realiza correctamente el cálculo.
+[»] Buenos comentarios en HTML
+[x] Se solicitó usar bootstrap para hacer web responsive, solo lo usas para botones.
+[x] La página no es web responsive.
+
+- JS03
+[»] Realiza correctamente el cálculo.
+[»] Uso del CSS bien, pero no suficiente para hacer web responsive.
+[»] Buenos comentarios en HTML
+[x] Se solicitó usar bootstrap para hacer web responsive, solo lo usas para botones.
+[x] La página no es web responsive.
