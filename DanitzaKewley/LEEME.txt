@@ -1,0 +1,15 @@
+
+20220321
+- JS02
+[»] Realiza correctamente el cálculo.
+[»] La página es web responsive, pero se puede mejorar la apariencia respecto a los botones.
+[»] El estilo es agradable.
+[x] No hay comentarios en html.
+[x] No hay comentarios de las funciones en js.
+
+- JS03
+[»] Se realiza correctamente los cálculos.
+[»] La página es web responsive, pero se puede mejorar la apariencia en general.
+[x] No hay comentarios en html.
+[x] No hay comentarios de las funciones en js.
+

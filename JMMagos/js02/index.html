@@ -9,34 +9,56 @@
 </head>
 <body>
     <!--Primeros dos elementos-->
-    <div>
-        <!--Primeros dos elementos-->
-        <!--elemento A-->
-        <div>
-            <input type="number" id="v1" placeholder="Ingrese valor A" name="v1"/>
-        
-        <!--elemento B-->
-            <input type="number" id="v2" placeholder="Ingrese valor B" name="v2"/>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--Primeros dos elementos-->
+            <!--elemento A-->
+            <div class="col-sm-4 aligne-self-center" >
+                <input type="number" id="v1" placeholder="Ingrese valor A" name="v1"/>
+            </div>
+            <!--elemento B-->
+            <div class="col-sm-4">
+                <input type="number" id="v2" placeholder="Ingrese valor B" name="v2"/>
+            </div>
+    
         </div>
-
     </div>
+
 
     <!--resultado C para mostrar-->
-    <div class="card-body text-center">
-        <div class="card bg-primary">
-            <div class="card-body text-center">
-              <p id="resultado">Resultado</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <div class="card-body text-center">
+                    <div class="card bg-primary">
+                        <div class="card-body text-center">
+                          <p id="resultado">Resultado</p>
+                        </div>
+                      </div>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
 
+
     <!--Operaciones disponibles-->
-    <div>
-        <button type="button" class="btn btn-primary" onclick="sum()" >Suma</button>
-        <button type="button" class="btn btn-primary" onclick="res()">Resta</button>
-        <button type="button" class="btn btn-primary" onclick="mult()">Multiplicación</button>
-        <button type="button" class="btn btn-primary" onclick="div()">División</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-3">
+                <button type="button"  class="btn btn-primary" onclick="sum()" >Suma</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary" onclick="res()">Resta</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary" onclick="mult()">Multiplicación</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary" onclick="div()">División</button>
+            </div>
+        </div>
     </div>
+
     
     
     
