@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es-Mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="color" id="demo">Hola mundo</h1>
+    <button onclick="myFunction()">Click me </button>
+<!-- Estructura recomendada y posición para poner el script.Si pusieramos el script dentro de head tal vez no leería el id demo-->
+<!--En caso de que pongamos el script en el head es para la estrategia de cargar inmediatamente imagenes y colores para atraer al usuario y ademas para recabar su infimación de donde viene -->
+    
+
+
+<h2 class="color" onclick="myFunction2(this,'pink')">Click me to change my color </h2>
+<!--OJOOOOO, NO SE USAN COMILLAS DOBLES EN 'red' porque lo toma como una concatenación o no sabe donde empieza y termina la instrucción, se tienen que usar comillas cimples en una y en otra dobles-->
+<!--Usamos la palabra reservada  this para que vaya sobre el objeto directamente en en archivo.js-->
+<button onclick ="myFunction3()">Cambia color</button>
+
+
+    <script src="myscript.js"></script> 
+      
+       
+    
+</body>
+</html>
