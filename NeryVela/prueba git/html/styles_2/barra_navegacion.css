@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: black;
+    
+    padding: 20 px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color:yellow;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#a1{
+    color: red
+}
+
+#li1{
+    background: yellow;
+}

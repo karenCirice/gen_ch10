@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#q_1{
+    font-size: 21px;
+    color: rgb(83, 19, 19);
+    background-color: darkgrey;
+    border-radius: 50px;
+    padding:20px;
+    margin: 40px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
+#a_24{
+    font-size: 30;
+    color: rgb(230, 205, 205);
+    background-color: rgb(29, 32, 216);
+    border-radius: 50px;
+    padding:20px;
+    margin: 40px;
+    font-family: 'Henny Penny', cursive;
+    text-align: justify;
+}
