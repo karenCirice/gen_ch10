@@ -19,16 +19,16 @@
         <h1 style="color: white;">Formulario</h1>
     
     <!-- Inputs -->
-        <form id="formularios" class="container">
+        <form id="formulario" class="container">
             <div class="row">
-                <div class="col col-md-6 justify-content-md-center">
-                    Nombre: <input " type="text" name="nombre" value="Marco Daniel">
+                <!-- Nombre a introducir -->
+                <div class="col col-md-6 justify-content-md-center text-center">
+                    Nombre: <input id="nombre" type="text" name="nombre" value="Marco Daniel">
                 </div>
-
-                <div class="col col-md-6 justify-content-md-center">
-                    Nombre: <input type="text" name="nombre" value="Sanchez Lara">
+                <!-- Apellido a introducir -->
+                <div class="col col-md-6 justify-content-md-center text-center">
+                    Nombre: <input id="apellido" type="text" name="nombre" value="Sanchez Lara">
                 </div>
-
             </div>
 
         </form>
@@ -36,10 +36,28 @@
         <!-- Container 2 para incluirle los parámetros -->
         <div class="container">
             <div class="row mt-3">
-                <div class="col text-center">
+                <div class="col-12 col-sm-3 text-center">
                     <button id="todos" onclick="obtenerFormulario()" type="button" class="btn btn-primary row justify-content-md-center">Obtener
                         formulario</button>
-                </div>
+                    </div>
+                        <br>
+                        <br>
+                        <div class="col-12 col-sm-3 text-center">
+                            <button id="invisible" onclick="setInvisible()" type="button" class="btn btn-primary row justify-content-md-center">Obtener
+                                Invisible</button>
+                        </div>
+                        <br>
+                        <br>
+                            <div class="col-12 col-sm-3 text-center">
+                                <button id="ocultar" onclick="setOcultar()" type="button" class="btn btn-primary row justify-content-md-center">Obtener
+                                    Ocultar</button>
+                            </div>
+                        <br>
+                        <br>
+                            <div class="col-12 col-sm-3 text-center">
+                                <button id="recupera" onclick="recuperarFormulario()" type="button" class="btn btn-primary row justify-content-md-center">Recuperar
+                                    Valor</button>
+                            </div>
             </div>
         </div>
     </div>  

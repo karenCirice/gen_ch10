@@ -1,19 +1,45 @@
-.all {
+.calculatorContainer {
     text-align: center;
+    background-color: #E0AC9D;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .titulo {
     font-weight: bolder;
-    color:;
-    background-color: ;
+    color: #484A47;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-icon {
+    height: 100px;
+    height: 100px;
 }
 
 .botones {
     margin: 20px;
 }
 
+.calculateButton {
+    background-color: #5C6D70;
+    color: white;
+    border-radius: 50px;
+}
+
 #result {
     margin: 20px;
     font-size: 30px;
     font-family: monospace;
+}
+
+input {
+    background-color: #E88873;
+    color: white;
+    border-radius: 50px;
 }
