@@ -1,0 +1,35 @@
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" type="text/css" href="calculadora.css" />
+ <script src="calcular.js"></script>
+
+</head>
+
+<body>
+    
+ <form class="formulario-container">
+     <img src="calendario.jpg" height="100px" width="150px"/>
+
+     <div class="container-fluid contenedor-titulo">
+         <h1> <i>Calendario Días Laborales</i> </h1>
+     </div>
+
+     <div class="container-fluid contenedor-inputs">
+         <input type="number" name="" id="dia"  class="fecha " placeholder="Día">
+         <input type="number" name="" id="mes"  class="fecha " placeholder="Mes">
+         <input type="number" name="" id="anio"  class="fecha " placeholder="Año">
+
+       </div>
+
+       <div class="container-fluid contenedor-buttons">
+         <button type="button" class="btn btn-outline-dark boton-operacion btn-calcular" onclick="calcularFecha()"><i>CALCULAR</i></button>
+       </div>
+
+       <div class="container-fluid contenedor-resultado">
+         <input type="text" name="" id="calculofecha" class="resultado" disabled>
+       </div>
+
+ </form>
+</body>
+</html>

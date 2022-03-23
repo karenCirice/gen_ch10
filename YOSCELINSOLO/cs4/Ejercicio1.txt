@@ -1,0 +1,28 @@
+
+
+let arr = ["This", "is", "a", "sentence."];
+let a="     ";
+function printOutString(arr) {
+    for(i=0; i<arr.length; i=i+1){
+        a=a+ "     " + arr[i];
+        
+    }
+  // your code here
+
+// My code start here
+}
+
+printOutString(arr);
+console.log(a);
+<<<<<<< HEAD
+
+
+// Ejercicio 1 usando la función join
+
+let arreglo= ["This", "is", "a", "sentence."];
+
+let arreglo2 = arreglo.join("    "); /* OJO, para que te de la oraión espaciada, 
+    se le tienen que dar los espacios manuales dentro de las comillas*/
+console.log (arreglo2);
+=======
+>>>>>>> YoscelinRS
