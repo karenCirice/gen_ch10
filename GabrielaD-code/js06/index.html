@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <!-- Link de bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Form -->
+    <form id="formulario" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1>Hello, world!</h1>
+            </div>
+        </div>
+        <!-- Input: myName and lastName -->
+        <div class="row justify-content-center">
+            <div class="myCol col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <label>Nombre:<input type="text" name="nombre" id="myName" class="inputs" value="Gabriela" /></label>
+            </div>
+            <div class="myCol col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <label>Apellido:<input type="text" name="apellido" id="lastName" class="inputs" value="Díaz Reyes" /></label>
+                
+            </div>
+            <div class="myCol"></div>
+        </div>
+        <!-- Buttons: Obtener datos, recuperar datos de localStorage y Reset Campos-->
+        <div class="row justify-content-center">
+            <div class="myCol col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <button type="button" id="todos" class="btn btn-outline-primary obtener" onclick="obtenerFormulario()">
+                    Obtener Datos
+                </button>
+            </div>
+            <div class="myCol col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <button type="button" class="btn btn-outline-primary obtener" onclick="recoverForm()">
+                    Recuperar Datos
+                </button>
+            </div>
+            <div class="myCol col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <button type="button" class="btn btn-outline-primary" onclick="borrar()">
+                    Reset Campos
+                </button>
+            </div>
+        </div>
+        <!-- Button: Ocultar Botón y Botón Invisible -->
+        <div class="row justify-content-center">
+            <div class="myCol col-sm-12 col-md-4 col-lg-6 col-xl-4">
+                <button type="button" class="btn btn-outline-primary" onclick="setOcultar()">
+                    Ocultar Botón
+                </button>
+            </div>
+            <div class="myCol col-sm-12 col-md-4 col-lg-6 col-xl-4">
+                <button type="button" class="btn btn-outline-primary" onclick="setInvisible()">
+                    Botón Invisible
+                </button>
+            </div>
+        </div>
+    </form>
+
+    
+
+    <!-- Link de bootstrap script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
