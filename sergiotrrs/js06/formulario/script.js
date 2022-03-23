@@ -60,7 +60,11 @@ function setOcultar() {
 }
 
 function recordatorio() {
-  let array = ["dato1", "dato2", "dato3"];
+  let array = ["dato1", "dato2", ["dato3","dato4"]];
+  let obtenerdato1 = array[0];
+
+  let nuevoObjeto = {clave1: ["dato3","dato4"], clave2: true, clave3: 45}
+
   let objeto = { 
       clave1: true, 
       clave2: ["dato1", "dato2", "dato3"] , 
@@ -68,6 +72,6 @@ function recordatorio() {
           claveinterna1:16, 
           claveinterna2:"datoobj2"} 
         };
-
-  
+        
+        
 }
