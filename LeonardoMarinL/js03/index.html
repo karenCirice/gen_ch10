@@ -5,60 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendario laboral</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      .container{
+        padding: 30px;
+        margin: 100 px;
+        border: solid #44633F 1px;
+        background-color: #B4CC89;
+        width:fit-content;
+        height: fit-content;
+      }
+      .row{
+        padding: 5px;
+        border: none;
+        background-color: #E8FCC2;
+      }
+      #resultado{
+        text-align: center;
+      }
+      #día{
+        text-align: center;
+      }
+      #mes{
+        text-align: center;
+      }
+      #año{
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <!--Entradas-->
-    <input type="number" id="día" placeholder="dd" />
-    <input type="number" id="mes" placeholder="mm" />
-    <input type="number" id="año" placeholder="aaaa" />
+    <div class="container">
+      <!--CABECERA-->
+      <div class="row justify-content-center">
+        <div class="col-2">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="60"
+                  fill="#44633F"
+                  class="bi bi-calendar-event"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="col-10 justify-content-around">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <h1>CALCULA EL DÍA SEGÚN LA FECHA</h1>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--ENTRADAS-->
+      <div class="row justify-content-around">
+        <div class="col-4">
+          <input type="number" id="día" placeholder="dd" class="w-100" />
+        </div>
+        <div class="col-4">
+          <input type="number" id="mes" placeholder="mm" class="w-100" />
+        </div>
+        <div class="col-4">
+          <input type="number" id="año" placeholder="aaaa" class="w-100" />
+        </div>
+      </div>
+      <!--BOTONES-->
+      <div class="row justify-content-end">
+        <div class="col-6"><button onclick="calcular()" class="btn btn-outline-success w-100">CALCULAR</button></div>
+        <div class="col-6"><button onclick="borrar()" class="btn btn-outline-danger w-100">BORRAR</button></div>
+      </div>
+      <!--SALIDA-->
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <input type="text" id="resultado" class="w-100" placeholder="Resultado" disabled/>
+        </div>
+      </div>
+    </div>
 
-    <!--Botones-->
-    <button onclick="calcular()">CALCULAR</button>
-    <button onclick="borrar()">BORRAR</button>
-
-    <!--Salida-->
-    <input type="text" id="resultado" disabled placeholder="Resultado" />
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
-
-<!--let day = document.getElementById("day");
-let month = document.getElementById("month");
-let year = document.getElementById("year");
-let result = document.getElementById("result");
-
-let date = new Date();
-function calcular() {
-  date.setDate(parseInt(day.value));
-  date.setMonth(parseInt(month.value)-1);
-  date.setFullYear(parseInt(year.value));
-  console.log("Date: ", date);
-  let dayWeek = date.getDay();
-
-  switch (dayWeek) {
-    case 0:
-      result.value = "Domingo, día no laboral";
-      break;
-    case 1:
-      result.value = "Lunes, día laboral";
-      break;
-    case 2:
-      result.value = "Martes, día laboral";
-      break;
-    case 3:
-      result.value = "Miércoles, día laboral";
-      break;
-    case 4:
-      result.value = "Jueves, día laboral";
-      break;
-    case 5:
-      result.value = "Viernes, día laboral";
-      break;
-    case 6:
-      result.value = "Sábado, día no laboral";
-      break;
-    default:
-      break;
-  }
-}-->
