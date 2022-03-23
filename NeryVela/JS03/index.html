@@ -6,59 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="JS03.css">
     <title>Document</title>
 </head>
-<body>
-    
-    
-   
-
-
-    <div class="container">
+<style>
+    body{
+     background-color:#f7e017;
+    }
+    </style>                   
+    <div class="container"> <!--Contenedor principal-->
         
-        <div class="row">
+        <div class="row"> <!--Fila que contiene al titulo-->
             <div class="col-sm">
-                <h1>JavaScript Dates</h1>
+                <br>
+                <h1  class="t_1">Día en que cayó una fecha</h1>
             </div>
          </div>
-        
+        <br>
         <div class="row">
+            <form id="form_1"> <!--Se crea un formulario-->
             <div class="col-sm">
-              <input type="number" id="dia" name="dia">
+              <input type="number" id="dia" name="dia"> <!--Campo de entrada para el día-->
               <label for="dia">DÍA</label>
             </div>
+            <br>
             <div class="col-sm">
-                <input type="number" id="mes" name="mes">
+                <input type="number" id="mes" name="mes"> <!--Campo de entrada para el mes-->
                 <label for="mes">MES</label>
             </div>
+            <br>
             <div class="col-sm">
-                <input type="number" id="year" name="year">
+                <input type="number" id="year" name="year"> <!--Campo de entrada para el año-->
                 <label for="year">AÑO</label>
             </div>
+            <br>
+            <div class="submit">
+                <button type="button" id="mi_boton" class="btn btn-warning"  onclick="fun()">Borrar</button><!--Botón para borrar campos de entrada-->
+            </div>
+            <br>
+            <div class="col-sm">
+                <textarea type="number"  rows=2 id="demo_1" name="resultado" placeholder="Resultado"></textarea><!--Campo de salida para dar el día de la semana con base en "demo1" creado en js-->
+             </div>
+         </form>
         </div>
-     
+        <br>
         <div class="row">
             <div class="col-sm">
-            <button type="button" id="mi_boton" class="btn btn-warning"  onclick="myfunction_03()">Calcular</button>
+            <button type="button" id="mi_boton" class="btn btn-warning"  onclick="myfunction_03()">Calcular</button><!--Botón que contiene a la función en js para calcular el día de la semana-->
         </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-                <p id="demo_1"></p>
-        </div>
-
-        <div class="col-sm">
-            <p id="demo"></p>
+        </div> 
+        <br>
+        <br>    
     </div>
-
-
-
-        </div>
-        
-    </div>
-
 
     <script src="script_03.js"></script>
     

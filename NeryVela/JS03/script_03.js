@@ -1,21 +1,19 @@
 
     
     function myfunction_03(){
-    let i= parseInt(document.getElementById("dia").value);
-    let j= parseInt(document.getElementById("mes").value);
-    let k= parseInt(document.getElementById("year").value);
+    let i= parseInt(document.getElementById("dia").value); /*Se asgina el valor del campo de entrada del día a la variable i */
+    let j= parseInt(document.getElementById("mes").value);  /*Se asgina el valor del campo de entrada del día a la variable j */
+    let k= parseInt(document.getElementById("year").value);  /*Se asgina el valor del campo de entrada del día a la variable k */
+     
+    const d = new Date("2022/03/17"); /* Se asigna la funcion especial de js para fechas a la constante d */
+    d.setFullYear(k, j-1, i); /* Se elige la fecha acorde a las variables (k, j-1, i) introducidas desde los campos de entrada, "j-1" se debe a que la funcion cuenta de 0 a 11 */
+    let day = d.getDay(); /* El dia elegido almacenado en la variable "d" se asigna a la variable "day" */
     
-    const d = new Date("2022/03/17");
-    d.setFullYear(k, j-1, i);
-    let day = d.getDay();
     
-    document.getElementById("demo").innerHTML = day;
-    
-    switch (day)
-    
+    switch (day) /* Switch elige  un valor númerico de 0 a 6 almacenado en day acorde a los valores de la  función setFullYear */
     {
     
-    case 0: document.getElementById("demo_1").innerHTML = "Domingo, Fin de Semana";
+    case 0: document.getElementById("demo_1").innerHTML = "Domingo, Fin de Semana"; /* Se asigna un mensaje en la función especial para mostrar texto en html con identificador "demo_1" */
     break;
     case 1: document.getElementById("demo_1").innerHTML = "Lunes, día Laborable";
     break;
@@ -32,5 +30,10 @@
     }
     log.console("day");
     }
+    
+    function fun(){ /*Función para resetear los campos del formulario */
+        document.getElementById("form_1").reset(); 
+    }
+
     
     
