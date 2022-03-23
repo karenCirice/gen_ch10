@@ -1,0 +1,17 @@
+
+20220321
+- JS02
+[»] Realiza correctamente el cálculo.
+[»] La página es web responsive.
+[»] El estilo es agradable.
+[!] En dimensiones de Iphone 12 pro, los botones se muestran muy pegados.
+[»] Comentarios en html.
+[»] Comentarios de las funciones en js, se pueden agregar más comentarios a las funciones
+
+- JS03
+[»] Realiza correctamente el cálculo.
+[»] La página es web responsive.
+[!] El estilo es agradable, pero no se intenta mejorar respecto al ejercicio anterior.
+[»] Comentarios en html.
+[x] No hay comentarios de las funciones en js.
+

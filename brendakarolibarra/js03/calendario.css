@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;  
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+    font-size: 12px;
+    text-align: center;
+
+      }
+
+      .resultado{
+        color: rgb(0, 102, 255);
+        font-size: 25px;
+      }
+
+
+      input {
+        text-align: center;
+        }
+
+        @font-face {
+            font-family: 'things';
+            src: url('StrangerThings-Regular.ttf');
+        }
+
+
+
+        h1{
+            font-family: things;
+            text-align: center;
+
+
+        }
