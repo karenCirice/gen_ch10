@@ -1,5 +1,0 @@
-
-20220319_0019 
-Julieta, le cambié el nombre al folder por que en el repositorio estaba duplicado
-uno aparece como WEB-6 y otro como Web-6, git marca un warning por esto.
-=]
