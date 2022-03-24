@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>api FETCH</title>
+    <style id="estilo">
+      h1 {
+        text-align: center;
+      }
+      body {
+        background-color: #ffcdb2;
+      }
+      .thead {
+        color: #f28482;
+        font: bold;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+      }
+      .container {
+        border: solid 2px #e5989b;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #f7ede2;
+        word-wrap: break-word;
+      }
+      #boton {
+        border: none;
+        background-color: transparent;
+      }
+      #boton1 {
+        background-color: #e5989b;
+        border: #e5989b;
+      }
+      #encabezado {
+        color: #f28482;
+        border: none;
+        background-color: transparent;
+      }
+      .imagen {
+        border-radius: 50%;
+        border: solid #f28482 3px;
+        border-style:dotted;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Encabezado-->
+    <div class="container" id="encabezado">
+      <div class="row">
+        <div class="col">
+          <h1 class="m-3"><u>api FETCH</u></h1>
+        </div>
+      </div>
+    </div>
+
+    <!--Botón de búsqueda de usuarios-->
+    <div class="container" id="boton">
+      <div class="row">
+        <div class="col-6 mb-2 mt-2 sm-col-12 md-col-6">
+          <button
+            onclick="busquedaUsuarios()"
+            type="button"
+            class="btn btn-success"
+            id="boton1"
+          >
+            Get Users
+          </button>
+        </div>
+        <!--Botón de limpieza de datos-->
+        <div class="col-6 mb-2 mt-2">
+          <button
+            onclick="limpiarUsuarios()"
+            type="button"
+            class="btn btn-success"
+            id="boton1"
+          >
+            Clean Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--Tabla-->
+    <div class="container mb-3" style="font-family: 'Times New Roman', Times, serif;">
+      <table class="table">
+        <thead>
+          <tr class="row thead">
+            <th scope="col" class="col sm-col-12">ID</th>
+            <th scope="col" class="col sm-col-12">First Name</th>
+            <th scope="col" class="col sm-col-12">Last Name</th>
+            <th scope="col" class="col sm-col-12">email</th>
+            <th scope="col" class="col sm-col-12">Image</th>
+          </tr>
+        </thead>
+        <tbody id="contenido"></tbody>
+      </table>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
