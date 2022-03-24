@@ -38,9 +38,20 @@
         border: none;
         background-color: transparent;
       }
-      #boton1 {
-        background-color: #e5989b;
-        border: #e5989b;
+      .boton1 {
+        background-color: #ffcdb2;
+        border:#f28482;
+        color:#f28482;
+        font: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+      }
+      .boton1:hover{
+        background-color: #f28482;
+      }
+      .boton1:focus{
+        background-color: #f28482;
+        box-shadow: 2px 2px 2px 1px #f4978e;
       }
       #encabezado {
         color: #f28482;
@@ -71,8 +82,7 @@
           <button
             onclick="busquedaUsuarios()"
             type="button"
-            class="btn btn-success"
-            id="boton1"
+            class="btn btn-success boton1"
           >
             Get Users
           </button>
@@ -82,8 +92,7 @@
           <button
             onclick="limpiarUsuarios()"
             type="button"
-            class="btn btn-success"
-            id="boton1"
+            class="btn btn-success boton1"
           >
             Clean Search
           </button>
@@ -91,7 +100,7 @@
       </div>
     </div>
     <!--Tabla-->
-    <div class="container mb-3" style="font-family: 'Times New Roman', Times, serif;">
+    <div class="container mb-3 mt-1" style="font-family: 'Times New Roman', Times, serif;">
       <table class="table">
         <thead>
           <tr class="row thead">
