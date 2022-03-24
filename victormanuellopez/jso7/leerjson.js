@@ -1,5 +1,14 @@
 fetch("colors.json")
 .then((response) => response.json())
+/*
+.then(respuesta =>{
+  console.log(respuesta);
+  console.log("Mi proceso de fetch termino");
+  return "datos para el sig. .then";
+})
+.then(mensaje => console.log(mensaje))
+*/
+
 .then((data) =>{
     console.log(data);
     console.log(Array.isArray(data.colors));
