@@ -20,5 +20,3 @@ fetch("colors.json")
       </tr> `;
     }
 } );
-
-
