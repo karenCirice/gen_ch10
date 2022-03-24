@@ -19,3 +19,12 @@ fetch("colors.json")
         </tr>`;
     }
 });
+
+fetch("colors.json")
+.then(respuesta => respuesta.json)
+.then(respuestaConv =>{
+    console.log(respuestaConv);
+    console.log("Mi proceso Terminó");
+    return "Datos para el siguiente .then"
+})
+.then(mensaje => console.log(mensaje));

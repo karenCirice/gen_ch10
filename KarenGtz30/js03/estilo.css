@@ -1,0 +1,22 @@
+.container{
+    background-color: rgb(72, 0, 189);
+    width:max-content;
+    border-radius: 15%;
+    padding: 5%;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.fecha{
+    width: 65px;
+}
+
+.resultados{
+    height: 50px;
+    width: 50%;
+    font-size: medium;
+    margin-left: 25%;
+    margin-right: 25%;
+}
