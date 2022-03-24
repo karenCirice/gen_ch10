@@ -1,7 +1,7 @@
 console.log("JS Funcionando.")
 
-fetch("colors.json")
-.then ((response) => response.json())
+fetch("colores.json")
+.then ((response) => response.son())
 .then ((data) => {
     console.log(data);
     console.log(Array.isArray(data.colors));
