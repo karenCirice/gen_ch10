@@ -1,7 +1,5 @@
 # Ignora archivos del sistema Mac 
 .DS_store
-.DS_Store
-.DS_STORE
 
 #Ignorando la carpeta .vscode
 /.vscode

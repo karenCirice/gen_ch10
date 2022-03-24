@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9dbd52;
+    display: flex;
+    flex-flow:column wrap ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 40%;
+    background-color: #a5b5bf;
+    border-radius: 2%;
+    padding: 5.2%;
+}
+
+.titulo{
+font-size: 50px;
+color:#1172b3c2 ;
+font-weight: bold;
+}
+
+
+.row{
+    color: #801949;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.btn{
+padding: 20px;
+background-color: #BFF0D4;
+border-radius: 12%;
+justify-content: center;
+margin: 1%;
+}
+
+.nombre{
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+}
+
+.apellido{
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+}

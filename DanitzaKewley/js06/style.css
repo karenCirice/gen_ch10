@@ -51,6 +51,13 @@ body{
     border-width: 3px;
     cursor: pointer;
   }
+  #recuperar{
+    background-color: #ff8000;
+    color: black;
+    border-color: #E65100;
+    border-width: 3px;
+    cursor: pointer;
+  }
   #invisible{
     background-color: rgb(202, 23, 38);
     color: white;

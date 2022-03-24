@@ -1,0 +1,30 @@
+.container{
+    margin-top: 1cm;
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.t_1{
+    color: white;
+    text-align: center;
+}
+
+#form_1{
+    align-items: center;
+    align-content: center;
+}
+
+#form_1 > div{
+    color:white;
+    } 
+
+#form_1 > div > input{
+    border-radius: 12%;
+    align-content: space-around;
+    align-content: center;
+    }
+
