@@ -9,6 +9,11 @@
 function validar(day, month, year) {
 
     console.log(day, month, year);
+    /**
+     * @param return 1 Devuelve en caso de no estar Definida la fecha
+     * @param return 2 Devuelve fecha correcta
+     * @param return 3 Devuelve fecha incorrecta
+     */
     if ((day == undefined || month == undefined || year == undefined) || (isNaN(day) || isNaN(month) || isNaN(year)) || (day == null || month == null || year == null)) {
         return 1;
     }
@@ -40,26 +45,26 @@ function printDay() {
     const d = new Date(month + "," + day + "," + year);
     console.log(d);
     switch (d.getDay()) {
-        case 1:
+        case 1: //Lunes
             document.getElementById("res").value = "Lunes, Dia Laborable";
             break;
-        case 2:
+        case 2: //Martes
             document.getElementById("res").value = "Martes, Dia Laborable";
             break;
-        case 3:
+        case 3: //Miercoles
             document.getElementById("res").value = "Miercoles, Dia Laborable";
             break;
-        case 4:
+        case 4: //Jueves
             document.getElementById("res").value = "Jueves, Dia Laborable";
             break;
-        case 5:
+        case 5: //Viernes
             document.getElementById("res").value = "Viernes, Dia Laborable";
             break;
-        case 6:
-            document.getElementById("res").value = "Sabado, Dia Laborable";
+        case 6: //Sabado
+            document.getElementById("res").value = "Sabado, Dia no Laborable";
             break;
-        case 0:
-            document.getElementById("res").value = "Domingo, Dia Laborable";
+        case 0: //Domingo
+            document.getElementById("res").value = "Domingo, Dia no Laborable";
             break;
     }
 }
