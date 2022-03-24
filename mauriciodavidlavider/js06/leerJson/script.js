@@ -1,4 +1,8 @@
 
+/**
+ * En este programa imprimimos elementos en una tabla dinamica
+ */
+
 console.log("JS06 Leer JSON");
 
 fetch ("colors.json")

@@ -1,6 +1,10 @@
 
 console.log("js07");
 
+/**
+ * Funcion que sirve como API y a su vez imprime los datos.
+ */
+
 function busquedaUsuarios(){
     console.log("Se activo boton de busqueda");
 
@@ -9,7 +13,7 @@ function busquedaUsuarios(){
     fetch(`https://reqres.in/api/users?page=2`)  //Regresa a los empleados de la pagina seleccionada
     .then( response => response.json())
     .then( users => {
-        console.log(users.data); 
+        console.log(users.data); //imprimimos base de datos
 /*      console.log(users.data.id); 
         console.log(users.data.first_name); 
         console.log(users.data.last_name); 
@@ -18,6 +22,7 @@ function busquedaUsuarios(){
     
         let tBody = document.getElementById("tBody");
 
+        //Agregamos a los empleados en la lista al DOM
         for(let element of users.data){
             console.log(element);
 
