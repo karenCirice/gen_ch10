@@ -28,11 +28,11 @@ function busquedaUsuarios(){
 
             tBody.innerHTML += `
                 <tr>
-                <td>${element.id}</td>
-                <td>${element.first_name}</td>
-                <td>${element.last_name}</td>
-                <td>${element.email}</td>
-                <td><img style="border-radius: 50%; width: 30%" src="${element.avatar}"</td>
+                <td class="table-secondary">${element.id}</td>
+                <td class="table-light">${element.first_name}</td>
+                <td class="table-light">${element.last_name}</td>
+                <td class="table-light">${element.email}</td>
+                <td class="table-secondary"><img src="${element.avatar}" class="img-fluid rounded-circle" style="width:40%"</td>
                 </tr>
             `;
         }
