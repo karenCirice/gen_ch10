@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <!--Apartado de ingreso de fecha dd/mm/aaaa-->
+    <div>
+        <!--Primeros dos elementos-->
+        <!--elemento dia-->
+        <div>
+            <input type="number" id="d" placeholder="Ingrese día" name="v1" min="1" max="31"/>
+        
+        <!--elemento mes-->
+            <input type="number" id="m" placeholder="Ingrese mes" name="v2" min="1" max="12"/>
+
+        <!--elemento año-->
+        <input type="number" id="a" placeholder="Ingrese año" name="v2" min="1600" max="2199"/>
+
+    </div>
+
+    </div>
+
+
+    <!--Botón que calcula la fecha, funcionalidad con js-->
+    <div>
+        <button type="button" class="btn btn-primary" onclick="calcular_dia()">Calcular</button>
+    </div>
+    
+    <!--Card donde se muestra el resultado-->
+    <div class="card-body text-center">
+        <div class="card bg-primary">
+            <div class="card-body text-center">
+              <p id="resultado_dia">Calcular</p>
+              <p id="resultado_laboral"></p>
+            </div>
+          </div>
+    </div>    
+    
+    <script src ="calcularDia.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

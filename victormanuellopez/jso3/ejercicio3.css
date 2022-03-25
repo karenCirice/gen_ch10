@@ -1,0 +1,26 @@
+#calculadora {
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgba(203, 209, 241, 0.219);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#res {
+    text-align: center;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    font-size:2em;
+}
+
+#inputs {
+    text-align: center;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    font-style:italic;
+}
+
+#nombre{
+    text-align: center;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    
+}
