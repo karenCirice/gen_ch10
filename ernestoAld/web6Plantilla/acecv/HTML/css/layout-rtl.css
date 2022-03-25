@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*----------------------------------------------------------------------
 
 	MASTER STYLESHEET
@@ -13,36 +12,14 @@
 	Website:		http://www.keenthemes.com
 	Premium:		Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 
-=======
-/*----------------------------------------------------------------------
-
-	MASTER STYLESHEET
-
-	Project:        Metronic "Acidus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-	Version:        1.0
-	Author:         KeenThemes
-	Primary use:    Corporate, Business Themes.
-	Email:			support@keenthemes.com
-	Follow: 		http://www.twitter.com/keenthemes
-	Like: 			http://www.facebook.com/keenthemes
-	Website:		http://www.keenthemes.com
-	Premium:		Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 -----------------------------------------------------------------------*/
 /* eg: @include user-select(none); */
 /* eg: @include rotate(45deg); */
 /* eg: @include translate3d(0,0,0); */
 /* eg: @include border-radius(3px); */
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[The "base.scss" contains basic default element styles
   		(colors, typography, margins & padding).]
-=======
-/*------------------------------------------------------------------
-  	[The "base.scss" contains basic default element styles
-  		(colors, typography, margins & padding).]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 html {
   overflow-x: hidden;
@@ -188,13 +165,8 @@ h4 {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Blockquote]
-=======
-/*------------------------------------------------------------------
-  	[Blockquote]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .blockquote {
   position: relative;
@@ -216,13 +188,8 @@ h4 {
   content: open-quote;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Button]
-=======
-/*------------------------------------------------------------------
-  	[Button]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .btn-theme {
   position: relative;
@@ -288,13 +255,8 @@ fieldset[disabled] .btn-theme {
   padding: 15px 40px;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Work]
-=======
-/*------------------------------------------------------------------
-  	[Work]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .work .work-overlay {
   position: relative;
@@ -344,13 +306,8 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Footer]
-=======
-/*------------------------------------------------------------------
-  	[Footer]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .footer .footer-logo {
   width: 85px;
@@ -370,13 +327,8 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Header]
-=======
-/*------------------------------------------------------------------
-  	[Header]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 /* Navbar */
 .header .navbar {
@@ -525,11 +477,7 @@ fieldset[disabled] .btn-theme {
 
 /* Media Queries below 991px */
 @media (max-width: 991px) {
-<<<<<<< HEAD
   /* Bootstrap collapse of navigation with a maximum width: 991px
-=======
-  /* Bootstrap collapse of navigation with a maximum width: 991px
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
     (Change it to any breakpoint you want to be collapsed) */
   .header .navbar-toggle {
     display: block;
@@ -603,13 +551,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Contact]
-=======
-/*------------------------------------------------------------------
-  	[Contact]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .contact-list > li {
   font-size: 13px;
@@ -617,13 +560,8 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 /*--------------------------------------------------
     [Back To Top Theme Button]
-=======
-/*--------------------------------------------------
-    [Back To Top Theme Button]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ----------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -695,13 +633,8 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Form Control]
-=======
-/*------------------------------------------------------------------
-  	[Form Control]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .form-control {
   height: 50px;
@@ -744,13 +677,8 @@ fieldset[disabled] .btn-theme {
   color: #515769;
 }
 
-<<<<<<< HEAD
 /*--------------------------------------------------
     [Masonry Grid]
-=======
-/*--------------------------------------------------
-    [Masonry Grid]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ----------------------------------------------------*/
 .masonry-grid {
   margin: 0 -2px;
@@ -842,13 +770,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Swiper Slider]
-=======
-/*------------------------------------------------------------------
-    [Swiper Slider]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .swiper-slider {
   position: relative;
@@ -876,13 +799,8 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Text Colors]
-=======
-/*------------------------------------------------------------------
-  	[Text Colors]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .color-base {
   color: #17bed2;
@@ -912,13 +830,8 @@ fieldset[disabled] .btn-theme {
   color: #fafafa;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Background Colors]
-=======
-/*------------------------------------------------------------------
-  	[Background Colors]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .bg-color-base {
   background: #17bed2;
@@ -948,13 +861,8 @@ fieldset[disabled] .btn-theme {
   background: #fafafa;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
   	[Content]
-=======
-/*------------------------------------------------------------------
-  	[Content]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .content {
   padding-top: 40px;
@@ -976,25 +884,15 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 100px;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Overflow]
-=======
-/*------------------------------------------------------------------
-    [Overflow]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .overflow-h {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 /*--------------------------------------------------
     [Font Weight]
-=======
-/*--------------------------------------------------
-    [Font Weight]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ----------------------------------------------------*/
 .fweight-300 {
   font-weight: 300 !important;
@@ -1016,13 +914,8 @@ fieldset[disabled] .btn-theme {
   font-weight: 700 !important;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Left margin]
-=======
-/*------------------------------------------------------------------
-    [Left margin]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .margin-l-0 {
   margin-right: 0 !important;
@@ -1040,13 +933,8 @@ fieldset[disabled] .btn-theme {
   margin-right: 20px !important;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Right margin]
-=======
-/*------------------------------------------------------------------
-    [Right margin]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .margin-r-0 {
   margin-left: 0 !important;
@@ -1064,13 +952,8 @@ fieldset[disabled] .btn-theme {
   margin-left: 20px !important;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Bottom margin]
-=======
-/*------------------------------------------------------------------
-    [Bottom margin]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 .margin-b-0 {
   margin-bottom: 0 !important;
@@ -1120,13 +1003,8 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 100px !important;
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Top margin below 992px]
-=======
-/*------------------------------------------------------------------
-    [Top margin below 992px]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 @media (max-width: 992px) {
   .md-margin-b-0 {
@@ -1167,13 +1045,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Top margin below 768px]
-=======
-/*------------------------------------------------------------------
-    [Top margin below 768px]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 @media (max-width: 768px) {
   .sm-margin-b-0 {
@@ -1214,13 +1087,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-<<<<<<< HEAD
 /*------------------------------------------------------------------
     [Top margin below 480px]
-=======
-/*------------------------------------------------------------------
-    [Top margin below 480px]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ------------------------------------------------------------------*/
 @media (max-width: 480px) {
   .xs-margin-b-0 {
@@ -1261,13 +1129,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-<<<<<<< HEAD
 /*--------------------------------------------------
     [Height]
-=======
-/*--------------------------------------------------
-    [Height]
->>>>>>> 27c570dba6e7cb488f6c21813cccc0a92fb98942
 ----------------------------------------------------*/
 .height-100 {
   height: 100px !important;
