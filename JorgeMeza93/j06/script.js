@@ -17,12 +17,17 @@ function recuperarDatos(){
     resultado.textContent = `${localStorage.getItem("nombreUser")} ${localStorage.getItem("apellidoUser")}`;
     body.appendChild(resultado);
 }
+function esconderFormulario(){
+    document.getElementById("formulario").style.visibility = "hidden";
+}
 
+function invisibleFormulario(){
+    document.getElementById("formulario").style.display = "none";
+}
 
-// function recuperarDatos(){
-//     let nombre = document.getElementById("nombre-input");
-//     let apellido = document.getElementById("apellido-input");
-//     document.getElementById("resultado").value = `${localStorage.getItem(nombre.name)} ${localStorage.getItem(apellido.name)}`;
-    
-// }
+function mostrarFormulario(){
+    document.getElementById("formulario").style.visibility = "visible";
+    document.getElementById("formulario").style.display = "";
+}
+
 
