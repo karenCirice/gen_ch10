@@ -3,7 +3,7 @@ console.log("js07 apiFETCH");
 /**
  * this function allows to recover the array from de api and asign them to the function tabla(data)
  */
-let page;
+let page = 1;
 function busquedaUsuarios(page) {
   fetch(`https://reqres.in/api/users?page=${page}`)
     .then((response) => response.json())
@@ -15,8 +15,8 @@ function busquedaUsuarios(page) {
 }
 
 /**
- * this function allows to print the values from the array data on a table and deploy back and forward buttons
- * @param {*} data 
+ * this function allows to print the values from the array data on a table and deploy the Next button
+ * @param {*json} data
  */
 function tabla(data) {
   let contenido = document.getElementById("contenido");
@@ -31,17 +31,8 @@ function tabla(data) {
     </tr>`;
   }
 
-  /**this is the creation of the Back button */
-  document.getElementById("adelante").innerHTML = `
-          <button
-            onclick="atras()"
-            type="button"
-            class="btn btn-success boton1"
-          >
-            <= Back
-          </button>`;
   /**this is the creation of the Next button */
-  document.getElementById("atrás").innerHTML = `
+  document.getElementById("adelante").innerHTML = `
           <button
             onclick="adelante()"
             type="button"
@@ -49,23 +40,54 @@ function tabla(data) {
           >
             Next =>
           </button>`;
+  document.getElementById("search").disabled = true;
 }
 
-function atras(){
-  document.page.innerHTML = -1;
-};
+/**
+ * This function cleans the table and deploys the previous page of the json
+ */
+function atras() {
+  document.getElementById("contenido").innerHTML = "";
+  fetch(`https://reqres.in/api/users?page=${(page -= 1)}`)
+    .then((response) => response.json())
+    .then((data) => tabla(data))
 
-function adelante(){
-  document.page.innerHTML = +1;
-};
+    .catch((error) => {
+      console.log("La solicitud causó error: ", error);
+    });
+}
 
 /**
- * this function allows to clean the table and remove the back and forward buttons 
+ * This function cleans the table, deploys the next page and creates the Back button
+ */
+function adelante() {
+  document.getElementById("contenido").innerHTML = "";
+  fetch(`https://reqres.in/api/users?page=${(page += 1)}`)
+    .then((response) => response.json())
+    .then((data) => tabla(data))
+
+    .catch((error) => {
+      console.log("La solicitud causó error: ", error);
+    });
+
+  /**this is the creation of the Back button */
+  document.getElementById("atrás").innerHTML = `
+          <button
+            onclick="atras()"
+            type="button"
+            class="btn btn-success boton1"
+          >
+            <= Back
+          </button>`;
+}
+
+/**
+ * this function allows to clean the table, remove the back and forward buttons, rehabilitate the search button and set back page value to 1
  */
 function limpiarUsuarios() {
   contenido.innerHTML = "";
-  let botonA =document.getElementById("adelante");
-  botonA.innerHTML ="";
-  let botonB = document.getElementById("atrás");
-  botonB.innerHTML ="";
+  document.getElementById("adelante").innerHTML = "";
+  document.getElementById("atrás").innerHTML = "";
+  document.getElementById("search").disabled = false;
+  page = 1;
 }
