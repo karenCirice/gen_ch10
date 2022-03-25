@@ -5,6 +5,9 @@ let calculateDay = () => {
     let month = document.getElementById("month").value;
     let year = document.getElementById("year").value;
 
+    let isWorkday = "";
+    let dayOfTheWeek = "";
+
 
     const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
     console.log(date);
@@ -13,11 +16,34 @@ let calculateDay = () => {
 
     switch (dayNumber) {
         case 0:
-        case 6:
-            document.getElementById("result").innerHTML = "Día no laborable";
+            dayOfTheWeek = "Domingo";
+            isWorkday = "día no laborable";
         break;
-        default:
-            document.getElementById("result").innerHTML = "Día laborable";
+        case 1:
+            dayOfTheWeek = "Lunes";
+            isWorkday = "día laborable";
+        break;
+        case 2:
+            dayOfTheWeek = "Martes";
+            isWorkday = "día laborable";
+        break;
+        case 3:
+            dayOfTheWeek = "Miércoles";
+            isWorkday = "día laborable";
+        break;
+        case 4:
+            dayOfTheWeek = "Jueves";
+            isWorkday = "día laborable";
+        break;
+        case 5:
+            dayOfTheWeek = "Viernes";
+            isWorkday = "día laborable";
+        break;
+        case 6:
+            dayOfTheWeek = "Sábado";
+            isWorkday = "día no laborable";
         break;
     }
+
+    document.getElementById("result").innerHTML = dayOfTheWeek + ", " + isWorkday;
 }
