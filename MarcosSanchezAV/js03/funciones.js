@@ -6,8 +6,8 @@ function calculate() {
         año = parseInt(document.getElementById("year").value);
     const fecha = new Date(año, mes, día);
     let resultado = fecha.getDay();
-    console.log(resultado);
-
+    console.log(resultado); 
+   
     switch (resultado) {
         case 0:
             document.getElementById("resultado").innerHTML = 'Domingo, fin de semana';
