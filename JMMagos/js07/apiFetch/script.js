@@ -24,13 +24,27 @@ function busquedaUsuarios(page=1){
     })
     */
 
-    fetch("https://reqres.in/api/users?page=2")
-    .then(Response => Response.json())
-    .then((data) => {
-        console.log(data);
-        console.log(Array.isArray(data.colors));
+    fetch(`https://reqres.in/api/users?page=${page}`)
+    .then(response => response.json())
+    .then((users) => {
+        console.log(users);
+        console.log(Array.isArray(users.data));
     
         let tBody = document.getElementById("tBody");
         tBody.innerHTML=""
+        for(let i of users.data){
+        tBody.innerHTML += `
+        <tr>
+        <td>${i.id} </td>
+        <td>${i.first_name}</td>
+        <td>${i.last_name}</td>
+        <td>${i.email}</td>
+        <td><img src="${i.avatar}" class="rounded-circle" alt="avatar" style="width: 60px"</td>
+        </tr>
+        `;
+        }
+    })
+    .catch((error)=>{
+        console.error("Error: ", error);
     })
 }

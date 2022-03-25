@@ -6,6 +6,11 @@ console.log("JS06 Leer JSON");
  * Fetch API provee una interfaz para acceder y manipular partes del HTTP pipeline, como puede ser peticiones (request)
  * y respuestas. En este ejemmplo de extrae el contenido del archivo json interno del equipo
  */
+
+/**===========Parte de ejercicios==========no es funcional */
+fetch("colors.json").then(a=>a.json()).then(b =>console.log(b)).then(c=>console.log("mi proceso de fetch terminó"));
+
+/**=============Esta parte es la funcional del ejercicios =============
 fetch("colors.json")
   .then((response) => response.json())
   .then((data) => {
@@ -26,4 +31,5 @@ fetch("colors.json")
     `;
     }
   })
+  */
 
