@@ -7,3 +7,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox=
     padding: 30px;
     background-color: rgb(215, 241, 241,0.8);
 }
+
+.bg-an {
+    background-color: rgb(103, 66, 138);
+}
