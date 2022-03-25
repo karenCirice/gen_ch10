@@ -14,16 +14,17 @@
         <form id="formulario" class="container">
             <div class="row">
                 <div class="col-6">
-                    Nombre <input type="text" name="nombre">
+                    Nombre <input id="nombre" type="text" name="nombre">
                 </div>
                 <div class="col-6">
-                    Apellido <input type="text" name="apellido">
+                    Apellido <input id="apellido" type="text" name="apellido">
                 </div>
             </div>
         </form>
         <div class="container">
             <div class="row mt-3 justify-content-center">
                 <div class="col-6 text-center">
+                    <button id="" onclick="recuperarFormulario()" type="button" class="btn btn-success">Recuperar datos</button>
                     <button id="todos" onclick="obtenerFormulario()" type="button" class="btn btn-success">Obtener datos</button>
                 </div>
             </div>
