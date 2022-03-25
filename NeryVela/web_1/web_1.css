@@ -1,0 +1,12 @@
+* {
+    padding: :0;
+    margin: 0;
+
+}
+
+h1{
+    padding: 20 px;
+    text-align: center;
+    background: black;
+    color:bisque;
+}
