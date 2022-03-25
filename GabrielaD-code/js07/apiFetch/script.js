@@ -41,14 +41,23 @@ function buscaUsuario(page= 1){
     ;
 }
 
-
+/**
+ * Función para hacer un nuevo registro de usuario en https://reqres.in/api/users, pasa lo datos del usuario nuevo desde el documento index2.html 
+ * @param {string} first_name le pasamos el valor de myName en el documento 
+ * @param {string} last_name le pasamos el valor de myName en el documento
+ * @param {string} email le pasamos el valor de myName en el documento
+ */
 function postUser(){
     // let formulario = document.forms["formulario"];
     console.log(`Datos a enviar:
         ${document.getElementById("myName").value} - 
         ${document.getElementById("lastName").value} - 
         ${document.getElementById("email").value}`);
-    
+    /**
+     * Función fetch que agrega un nuevo usuario
+     * @param {asinc} response es la respuesta de la página y lo transformamos a formato JSON para consumir los datos
+     * @param {asinc} data datos de la respuesta en formato JSON
+     */
     fetch("https://reqres.in/api/users",{
         method: "POST",
         body:{
