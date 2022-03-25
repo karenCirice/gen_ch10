@@ -37,7 +37,7 @@ function  userList(page=1){
         .catch((error) => {
             console.error("Error: ", error);
             alerta(error);
-        });
+        })
 }
 
 function postUser(){
