@@ -1,0 +1,70 @@
+:root{
+    --fuentePrincipal: 'Yanone Kaffeesatz', sans-serif;
+    --funeteSecundaria: 'Alegreya Sans SC', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--funeteSecundaria);
+    background: #000;
+}
+h1{
+    font-family: var(--fuentePrincipal);
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+.degradadoVerde{
+    color: transparent;
+    background: linear-gradient(to right, rgba(55,179,86,1) 0%, rgba(70,140,191,1) 49%, rgba(70,140,191,1) 51%, rgba(55,179,86,1) 100%);
+    background-clip: text;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.formulario{
+    max-width: 65rem;
+}
+.campo{
+    max-width: 45rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.campo input[type="text"]{
+    padding: .5rem;
+    border:none
+}
+.campo-botones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.campo-botones button{
+    margin: 0 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #059445;
+    border: none;
+    
+}
+.campo-botones button:hover{
+  color: #fff;
+}
+.resultado{
+    color: #fff;
+    padding: 1rem;
+    font-size: 2.4rem;
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+}
