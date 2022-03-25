@@ -1,0 +1,26 @@
+*{
+   padding: 0%; 
+   margin: 0%;
+   box-sizing: border-box;
+}
+body{
+    background-color: #DBD3D8;
+}
+.container{
+    background-color: #773344;
+    width: 40%;
+    height: 300px;
+    margin-top: 15%;
+    padding: 0%;
+    border-radius: 10px;
+    
+}
+.row-inputs{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+input[type=text]{
+    width: 100%;
+    text-align: center;
+}

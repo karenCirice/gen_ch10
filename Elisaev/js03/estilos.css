@@ -1,0 +1,43 @@
+
+body {
+    background: #f2f2f2;
+    padding: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+form {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.formulario input[type="button"] {
+    margin: 20px;
+    background: #a8aed3;
+    border-radius: 10px;
+    border:none;
+    padding:5px 10px;
+}
+
+
+.formulario input[type="button"]:hover {
+    background: #9A7AA0;
+}
+
+.formulario input[type="text"] {
+    margin: 2px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+
+.row {
+    justify-content: center;
+}
