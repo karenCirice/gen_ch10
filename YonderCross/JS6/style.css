@@ -1,0 +1,47 @@
+#tod{
+    background-color: #7E8772;
+    border: 3px;
+    border-radius: 15px; 
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4F443E;
+    font-weight: bolder;
+}
+
+#todos{
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px;
+    background-color: #9AD0CF;
+    border-color: #030303;
+    color: #4F443E;
+    border-radius: 5px;
+}
+
+#recupera{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px;
+    background-color: #9AD0CF;
+    border-color: #4B8078;
+    color: #4F443E;
+    border-radius: 5px;
+}
+
+#invisible{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px;
+    background-color: #9AD0CF;
+    border-color: #4B8078;
+    color: #4F443E;
+    border-radius: 5px;
+}
+
+#ocultar{
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px;
+    background-color: #9AD0CF;
+    border-color: #8BAC9B;
+    color: #4F443E;
+    border-radius: 5px;
+}
+

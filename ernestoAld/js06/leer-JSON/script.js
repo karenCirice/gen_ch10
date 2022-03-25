@@ -1,3 +1,6 @@
+
+//FUNCION PARA TRAER DESDE UN OBJETO JSON
+
 function traer(){
     
     fetch("colors.json")
@@ -12,7 +15,7 @@ function traer(){
 
 /**
  * 
- * @param {Object} data dato Object que contiene un JSON para iterar sobre su contenido
+ * @param {Object} data dato Object que contiene un objeto JSON para iterar sobre su contenido
  *  
  */
 
@@ -33,4 +36,15 @@ function tabla(data){
         </tr>
         `
     }
-}            
+}
+
+//Script ejemplificando el funcionamiento del fetch
+
+fetch("colors.json")
+.then(respuesta => respuesta.json())
+.then(datos =>{
+    console.log(datos);
+    console.log(`proceso fetch termino`);
+    return "finalizando con exito";
+})
+.then(mensaje => console.log(mensaje))

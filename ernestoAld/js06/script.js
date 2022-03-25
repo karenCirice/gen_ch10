@@ -20,13 +20,14 @@ function obtenerFormulario(){
 
     
 }
-
+//FUNCION PARA RECUPERAR LOS DATOS ALMACENADOS EN EL LOCAL STORAGE
 function recuperarDatos(){
     let nombre = document.getElementById("nombre-input");
     let apellido = document.getElementById("apellido-input");
     document.getElementById("resultado").value = `${localStorage.getItem(nombre.name)} ${localStorage.getItem(apellido.name)}`;
     
 }
+
 
 
 /**
