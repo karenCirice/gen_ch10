@@ -8,7 +8,7 @@ function obtenerFormulario() {
         //console.log(i.value);
         concatenacion = concatenacion = +' ' + i.value;
     }
-    console.log(concatencaion);
+    console.log(concatenacion);
     console.log(formulario["nombre"]["name"]);
     console.log(formulario["nombre"]["value"]);
     localStorage.setItem(formulario["nombre"]["name"],formulario["nombre"]["value"]);
@@ -19,4 +19,4 @@ function recuperarFormulario(){
     let formulario = document.forms["formulario"];
     console.log("datos en memoria: ", localStorage.etItem(formulario["nombre"["name"]]));
     formulario["nombre"]["value"] = lacalStorage.getItem(formulario["nombre"]["name"]);
-}
+}   formulario["apellido"]["value"] = localStorage.getItem(formulario["apellido"]["name"]);
