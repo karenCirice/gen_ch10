@@ -1,0 +1,51 @@
+h1{
+    font-size: 50px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+    background-size: 20rem;
+  }
+
+body{
+    background-color: black;
+}
+
+#formulario{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#paraNombre{
+    color: aliceblue; 
+    display: flex;                
+    justify-content: right;
+}
+
+#paraApellido{
+    color: aliceblue;
+}
+
+#todos{
+    background-color: aqua;
+}
+
+#invisible{
+    background-color: pink;
+}
+
+#ocultar{
+    background-color: purple;
+}
