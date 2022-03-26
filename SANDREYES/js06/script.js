@@ -33,3 +33,8 @@ function serInvisible(){
     let botonFormulario=document.getElementById("todos");
     botonFormulario.style.visibility="hidden";
 }
+
+function recordatorio(){
+    let array=["dato1","dato2","dato3"];
+    let objeto={clave1:"dato2",clave2:"dato2", clave3:{claveinterna1:"datoobje1", clave}};
+}
