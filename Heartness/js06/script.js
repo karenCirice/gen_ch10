@@ -10,3 +10,11 @@ function obtenerFormulario(){
     }
     console.log(concatenacion);
 }
+
+function setInvisible(){
+
+}
+
+function setOculto(){
+    
+}

@@ -1,0 +1,36 @@
+* {
+ font-family: 'Fraunces', 'serif';
+ color: white;
+}
+
+body {
+    margin: 0;
+    background-color: lightcoral;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color:mediumvioletred;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px lightpink;
+}
+
+button{
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size:  15.em;
+    border: none;
+    background-color: lightpink;
+}
