@@ -1,0 +1,20 @@
+
+#api {
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, rgb(227, 227, 227) 0%, rgb(160, 198, 238) 100%);
+}
+
+#tbody{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+    text-align: center;
+}
+
+

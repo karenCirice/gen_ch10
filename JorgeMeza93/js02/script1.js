@@ -33,7 +33,30 @@ function calcular(num1, num2, oper){
 }
 
 function imprimirHTML(rest){
-        const parrafo = document.createElement("p");
-        parrafo.innerText = rest;
-        calculadoraHTML.appendChild(parrafo);
+    const overlay = document.createElement('div');
+    const resultado = document.createElement('p');
+    resultado.textContent = rest;
+    resultado.classList.add('resultado');
+    overlay.appendChild(resultado);
+    overlay.classList.add('overlay');
+    //Añadir boton cerrar
+    const botonCerrar = document.createElement('p');
+    botonCerrar.textContent = "X"
+    botonCerrar.classList.add('btn-cerrar');
+    botonCerrar.onclick = function(){
+        const body = document.querySelector('body');
+        body.classList.remove('fijar-body');
+        overlay.remove();
+    };
+    document.addEventListener("keydown", (e)=>{
+        const key = e.key;
+        if(key==="Escape"){
+            const body = document.querySelector('body');
+            body.classList.remove('fijar-body');
+            overlay.remove();
+        }
+    });
+    //Añadir el elelemnto a body
+    const body = document.querySelector('body');
+    body.appendChild(overlay);
 }

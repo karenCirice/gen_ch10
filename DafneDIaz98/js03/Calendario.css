@@ -1,0 +1,36 @@
+/*Selector universasl*/
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+body{
+    background-color: rgb(240, 253, 255);
+}
+/*Selector de etiqueta*/
+/*fecha*/
+form{
+    color: rgb(228, 131, 163);
+    padding: 130px;
+    
+}
+div{
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+    padding: 40px;   
+}
+input{
+    width: 50px;
+
+}
+label{
+    padding-left: 19px;
+    padding-right: 9px;
+}
+/*Selector de id*/
+/*dia de la semana*/
+#descripcion{
+    width: 120px;
+}
