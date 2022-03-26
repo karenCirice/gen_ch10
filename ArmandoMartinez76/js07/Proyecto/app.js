@@ -22,6 +22,8 @@ function searchUsers() {
             console.log("La solicitud causo error", error);
         })
 }
+/* 
+Funcion para mostrar la otra mitad del json */
 function searchUsers2() {
     fetch("https://reqres.in/api/users?page=2")
         .then(response => response.json())
