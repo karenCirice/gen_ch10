@@ -1,25 +1,30 @@
 
+/**
+ * la funcion regresa el resultado de switch, cuando el usuario
+ * da click al boton calcular.
+ */
 function calcular() {
-    let dia = document.getElementById('dia').value;
-    let mes = document.getElementById('mes').value;
-    let año = document.getElementById('año').value;
+    // regresa el string que el usuario escribe y lo devuelve a numero entero.
+    let dia = parseInt(document.getElementById('dia').value);
+    let mes = parseInt(document.getElementById('mes').value);
+    let año = parseInt(document.getElementById('año').value);
 
     // los meses comienzan desde 0.
-    const d = new Date(año,mes-1,dia);
+    const d = new Date(año, mes - 1, dia);
     let day = d.getDay();
-    
-    console.log(day);
 
+    //envalua que el valor de la variable day, coincida con el valor de case
+    // y ejecuta la declaracion asociada a el.
 
     switch (day) {
         case 1:
             day = "Lunes,  día laborable :(";
             break;
         case 2:
-            day = "Marte,  día laborable :(";
+            day = "Martes,  día laborable :(";
             break;
         case 3:
-            day= "Miercoles,  día laborable :(";
+            day = "Miercoles,  día laborable :(";
             break;
         case 4:
             day = "Jueves,  día laborable :(";
@@ -35,6 +40,7 @@ function calcular() {
             break;
     }
 
-    document.getElementById("resultado").value =  day;
+    //la respuesta de switch se mostrara el input text de resultado.
+    document.getElementById("resultado").value = day;
 
 }

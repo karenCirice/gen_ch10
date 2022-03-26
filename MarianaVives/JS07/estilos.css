@@ -1,6 +1,14 @@
+/* /* body{
+    background-color: rosybrown;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     background-color: palevioletred; /* Green */
-    border: none;
+    /* border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -8,3 +16,11 @@
     display: inline-block;
     font-size: 16px;
 }
+.tabla-container{
+    width: 600 px;
+    height: 600 px;
+    background-color: royalblue;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+} */
