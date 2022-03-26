@@ -1,12 +1,16 @@
-const num = [1,5,8,9,6,45];
-let sum = num[0];
-let product = num[0];
+let Suma = 0;
+let Producto = 1; 
 
-for (i = 1; i < num.length; i++)
-{
-    sum += num[i];
-    product *= num[i];
+let array= [1,2,3,4]
+ 
+for (let i = 0; i < array.length; i++) {
+    Suma += array[i];
 }
-
-console.log("La suma es:" , sum);
-console.log("La multiplicacion es:" , product);
+ 
+for (let j = 0; j < array.length; j++) {
+    Producto *= array[j];
+}
+ 
+console.log("La Suma total es "+ Suma);
+console.log("El Producto total es "+ Producto);
+ 

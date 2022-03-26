@@ -1,7 +1,7 @@
-let arr = ["This", "is", "a", "sentence."];
+let arr12 = ["This", "is", "a", "sentence."];
 function printOutString() 
-{     
-        console.log(arr.join(" "));
+{
+    console.log(arr12.join("  "));
     }
 
-    printOutString();
+printOutString();

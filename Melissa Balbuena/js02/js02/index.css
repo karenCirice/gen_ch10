@@ -1,0 +1,11 @@
+.intro{
+    background-color: rgb(238, 180, 179);
+    color: green;
+    text-align:  justify;
+    vertical-align: bottom;
+
+}
+
+.intro:hover{
+    background-color: rgba(193, 121, 185, 0.3);
+}
