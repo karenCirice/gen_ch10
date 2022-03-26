@@ -5,11 +5,12 @@ function busquedaUsuarios(page=1){
 
     fetch(`https://reqres.in/api/users?page=${page}`)
     .then( response => response.json())
+    //.then( response => JSON.parse(response))
     .then( users => {
         console.log(users);
     })
     .catch ( error => {
-        console.log("La solicitud causo error: ", error);
+        console.log("La solicitud causo error: ", error.message);
     })
 
 }
