@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.contenedor-principal{
+    margin-top: 5%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    
+}
+
+.contenedor-principal .fila-botones{
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.contenedor-principal .fila-botones .col-boton{
+    width: 30%;
+  
+}
+
+.contenedor-principal .fila-botones .col-boton .boton{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+   
+}
+
+.encabezado-tabla{
+    text-align: center;
+}
+
+#contenido .fila-tabla .elemento-tabla .elemento-imagen{
+    /* border-radius: 50%; */
+    max-width: 80%;
+}
+
+#contenido .fila-tabla .elemento-tabla{
+    text-align: center;
+}
+
+#elemento-id,
+#encabezado-id{
+    width: 10%;
+    
+}
+
+#elemento-email,
+#encabezado-email{
+    width: 30%;
+}
+
+#encabezado-name,
+#elemento-name{
+    width: 25%;
+}
+
+#encabezado-lastName,
+#elemento-lastName{
+    width: 25%;
+}
+
+.fila-tabla{
+    border-bottom: none;
+}
+
+.fila-tabla .elemento-tabla{
+    color: #fff;
+    border-bottom: none;
+}
+
+.table .encabezado-tabla{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
