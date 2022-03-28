@@ -3,6 +3,7 @@ function Calcular() {
     let dia = parseInt(document.getElementById("day").value);
     let mes = parseInt(document.getElementById("mt").value);
     let an = parseInt(document.getElementById("yr").value);
+    
     const d = new Date(mes + " " + dia + " " + an);
     let day = d.getDay();
     switch (day) {

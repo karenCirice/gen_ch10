@@ -1,0 +1,55 @@
+
+/* body */
+  html {
+    font-family: arial, sans-serif;
+    text-align: center;
+  }
+  
+  thead th, tfoot th {
+
+    font-family: 'ans-serif';
+    text-align: center;
+  }
+  
+  tr {
+    background-color: rgba(129, 38, 38, 0.397);
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  thead, tfoot {
+    color: rgb(228, 15, 15);
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid rgba(247, 5, 5, 0.274);
+    text-align: center;
+  }
+
+
+  tbody tr:nth-child(odd) {
+    background-color: #f39200;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f0ebf0;
+  }
+  
+ 
+  table {
+    background-color: #02020200;
+  }
+  
