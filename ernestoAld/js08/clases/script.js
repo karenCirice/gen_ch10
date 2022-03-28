@@ -6,21 +6,21 @@ class Persona{
     edad;
 
     constructor(nombre,apellido,edad){
-        this.nombre = nombre;
+        this._nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
     }
     
     getInfo(){
         return `
-            NOMBRE:\t\t${this.nombre}
+            NOMBRE:\t\t${this._nombre}
             APELLIDO:\t${this.apellido}
             EDAD:\t\t${this.edad}
         `
     }
 
     get nombre(){
-        return this.nombre;
+        return this._nombre;
     }
 
     get apellido(){
