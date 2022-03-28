@@ -20,6 +20,8 @@ function busquedaUsuarios(page) {
  */
 function tabla(data) {
   let contenido = document.getElementById("contenido");
+  console.log("Página en curso: ",data.page); 
+  console.log("Total de páginas: ",data.total_pages);
   for (let cont of data.data) {
     contenido.innerHTML += `
     <tr class="row">
