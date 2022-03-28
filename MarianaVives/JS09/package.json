@@ -1,0 +1,21 @@
+{
+  "name": "js09",
+  "version": "1.0.1",
+  "description": "Mi prueba con NPM",
+  "comentarios": "No se puede comentar en JSON usando (//)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type": "git",
+    "url": "git+ssh://git@github.com/sergiotrrs/gen_ch10.git"
+  },
+  "keywords": [
+    "npm",
+    "generation",
+    "ch10"
+  ],
+  "author": "Mariana Vives",
+  "license": "ISC"
+}
