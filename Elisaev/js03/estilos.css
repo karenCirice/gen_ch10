@@ -1,6 +1,5 @@
 
 body {
-    display: 1000px;
     background: #f2f2f2;
     padding: 25px;
     font-family: 'Raleway', sans-serif;
@@ -9,10 +8,8 @@ body {
 
 form {
     background: #fff;
-    width: 35%;
     padding: 20px;
     text-align: center;
-    margin: 20px auto;
     border-radius: 15px;
 }
 
@@ -31,14 +28,16 @@ form {
 }
 
 .formulario input[type="text"] {
-    width: 100px;
+    margin: 2px;
+    text-align: center;
 }
 
 h1 {
     font-size: 20px;
 }
 
-.formulario .resultado input[type="text"] {
-    width: 185px;
-}
 
+
+.row {
+    justify-content: center;
+}
