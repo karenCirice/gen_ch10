@@ -5,23 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, world!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    
-    <form id="formulario" class="container">
-        <div class="row">
-             <div class="col-6">
-                Nombre: <input type="text" name="nombre" value="Jose Guillermo">
-             </div>
-             <div class="col-6">
-                Apellido: <input type="text" name="apellido" value="Sandoval Huerta">
-             </div>
-        </div>
-    </form>
+    <br>
+    <!-- Botones para desplegar ejercicios -->
+    <div class="container">
+        <div class="row header">
 
-    <button type="button" class="btn btn-success">Success</button>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Ejercicio1 -->
+            <div class="col-4 visible">
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Ejercicio 1</h4>
+                        <label for="">Ingresa tú nombre y observa que pasa.</label>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- container -->
+                        <div class="container">
+                            <form id="formulario" autocomplete="off">
+                                <div class="row justify-content-center">
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Ingresa Tú Nombre" id="name">
+                                    </div>
+                                    <br><br>
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Ingresa Tú Apellido" id="lname">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-3">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-success" type="button" onclick="datosForm()">Traer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <div id="data" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ejercicio 2 -->
+            <div class="col-4 visible">
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Ejercicio 2</h4>
+                        <label for="">Click en los siguientes botones.</label>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- container -->
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-danger" id="btnRM"
+                                            onclick="quitButton()">Quitar</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-danger" id="btnHD"
+                                            onclick="visibleText()">Ocultar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row text-center">
+                                <div class="col">
+                                    <h4 id="textoRM">Texto interactivo.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ejercicio 3 -->
+            <div class="col-4 visible">
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Ejercicio 3</h4>
+                        <label for="">Guardar datos temporalmente.</label>
+                    </div>
+                    <div class="card-body">
+                        
+                        <!-- container -->
+                        <div class="container">
+                            <form id="formulario2" autocomplete="off">
+                                <div class="row justify-content-center">
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Ingresa Tú Nombre" id="nombre"name="nombre">
+                                    </div>
+                                    <br><br>
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Ingresa Tú Apellido" id="apellido" name="apellido">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row justify-content-center">
+                                    
+                                    <div class="col-md-6">
+                                        <div class="d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-success" id="btnRM"
+                                                onclick="dataStorage()">Guardar</button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <div class="d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-success" id="btnHD"
+                                                onclick="showStorage()">Obtener</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
