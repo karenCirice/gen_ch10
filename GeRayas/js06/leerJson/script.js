@@ -1,6 +1,17 @@
 console.log("JS06 Leer JSON");
 
 fetch("color.json")
+.then( respuestaFetch => respuestaFetch.json())
+.then( respuestaConversionJson => {
+    console.log(respuestaConversionJson);
+    console.log("Mi proceso fetch terminó");
+    return "datos para el sig. .then";
+})
+.then (mensaje => console.log(mensaje));
+
+console.log("Fin de mi js");
+/* 
+fetch("color.json")
     .then((response) => response.json())
     .then((data) => {
         console.log(data);
@@ -22,4 +33,4 @@ fetch("color.json")
         }
 
     });
-
+ */
