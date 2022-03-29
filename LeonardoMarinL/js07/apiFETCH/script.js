@@ -83,5 +83,6 @@ function limpiarUsuarios() {
   document.getElementById("search").style.visibility = "visible";
   document.getElementById("adelante").style.visibility="hidden";
   document.getElementById("clear").style.visibility="hidden";
+  document.getElementById("atrás").style.visibility="hidden";
   page = 1;
 }
