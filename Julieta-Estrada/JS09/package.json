@@ -1,0 +1,28 @@
+{
+  "name": "js09",
+  "version": "1.0.1",
+  "description": "Mi prueba con MPM",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sergiotrrs/gen_ch10.git"
+  },
+  "keywords": [
+    "npm",
+    "generation",
+    "ch10"
+  ],
+  "author": "Julieta Estrada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiotrrs/gen_ch10/issues"
+  },
+  "homepage": "https://github.com/sergiotrrs/gen_ch10#readme"
+}
