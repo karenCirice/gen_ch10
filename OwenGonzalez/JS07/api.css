@@ -1,0 +1,18 @@
+h1{
+    font-family:fantasy;
+    font-size: 50px;
+    text-align: center;
+    color: #dda3f8;
+}
+body{
+    background-color:#1d181e;
+    font-family:Cambria, Cochin, Georgia, Times, 'fantasy', serif;
+    font-size: 20px;
+}
+.table{
+    color: #D9FFF5;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
