@@ -11,5 +11,8 @@
     "ch10"
   ],
   "author": "Geinly Gisel Sepúlveda Zavala",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
