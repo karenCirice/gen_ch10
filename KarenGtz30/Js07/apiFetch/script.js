@@ -17,28 +17,8 @@ function busquedaUsuarios(page = 1) {
                     <td>${user.first_name}</td>
                     <td>${user.last_name}</td>
                     <td>${user.email}</td>
-                    <td>
-                        <div 
-                            style = "
-                                width: 100px;
-                                height: 100px;
-                                position: relative;
-                                overflow: hidden;
-                                border-radius: 50%;
-                            ">
-
-                            <img 
-                                style = "
-                                    display: inline;
-                                    margin: 0 auto;
-                                    margin-left: -25%; //centers the image
-                                    height: 100%;
-                                    width: auto;"
-                                src = "${user.avatar}">
-                        </div>
-                    </td>
-                <tr>
-            `;
+                    <td> <img src = "${user.avatar}" class="rounded-circle" alt="avatar"> </td>
+                <tr> `;
             }
         })
 
@@ -46,3 +26,4 @@ function busquedaUsuarios(page = 1) {
             console.log("La solicitud causo error: ", error);
         })
 }
+

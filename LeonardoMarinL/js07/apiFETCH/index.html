@@ -70,17 +70,19 @@
     <div class="container" id="encabezado">
       <div class="row">
         <div class="col">
-          <h1 class="m-3"><u>api FETCH</u></h1>
+          <h1 class="m-3"><u>Users List</u></h1>
         </div>
       </div>
     </div>
 
-    <!--Botón de búsqueda de usuarios-->
+    
     <div class="container" id="boton">
       <div class="row">
-        <div class="col-6 mb-2 mt-2 sm-col-12 md-col-6">
+        <!--Botón de búsqueda de usuarios-->
+        <div class="col-3 mb-2 mt-2 sm-col-12 md-col-6 justify-content-center">
           <button
-            onclick="busquedaUsuarios()"
+            id="search"
+            onclick="busquedaUsuarios(page)"
             type="button"
             class="btn btn-success boton1"
           >
@@ -88,14 +90,22 @@
           </button>
         </div>
         <!--Botón de limpieza de datos-->
-        <div class="col-6 mb-2 mt-2">
+        <div class="col-3 mb-2 mt-2 justify-content-center">
           <button
             onclick="limpiarUsuarios()"
             type="button"
             class="btn btn-success boton1"
           >
-            Clean Search
+            Clear Search
           </button>
+        </div>
+        <!--Botón de atrás-->
+        <div class="col-3 mb-2 mt-2 justify-content-center" id="atrás">
+
+        </div>
+        <!--Botón de adelante-->
+        <div class="col-3 mb-2 mt-2 justify-content-center" id="adelante">
+
         </div>
       </div>
     </div>
