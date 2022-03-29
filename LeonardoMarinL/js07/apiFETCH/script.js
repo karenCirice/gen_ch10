@@ -3,7 +3,11 @@ console.log("js07 apiFETCH");
 /**
  * this function allows to recover the array from de api and asign them to the function tabla(data)
  */
-let page = 1;
+let page=1;
+document.getElementById("atrás").style.visibility="hidden";
+document.getElementById("adelante").style.visibility="hidden";
+document.getElementById("clear").style.visibility="hidden";
+
 function busquedaUsuarios(page) {
   fetch(`https://reqres.in/api/users?page=${page}`)
     .then((response) => response.json())
@@ -32,21 +36,13 @@ function tabla(data) {
         <td class="col sm-col-12"><img class="imagen" src="${cont.avatar}"></td>
     </tr>`;
   }
-
-  /**this is the creation of the Next button */
-  document.getElementById("adelante").innerHTML = `
-          <button
-            onclick="adelante()"
-            type="button"
-            class="btn btn-success boton1"
-          >
-            Next =>
-          </button>`;
-  document.getElementById("search").disabled = true;
+  document.getElementById("search").style.visibility = "hidden";
+  document.getElementById("adelante").style.visibility="visible";
+  document.getElementById("clear").style.visibility="visible";
 }
 
 /**
- * This function cleans the table and deploys the previous page of the json
+ * This function cleans the table and deploys the previous page
  */
 function atras() {
   document.getElementById("contenido").innerHTML = "";
@@ -57,10 +53,13 @@ function atras() {
     .catch((error) => {
       console.log("La solicitud causó error: ", error);
     });
+    if (page==1){
+      document.getElementById("atrás").style.visibility="hidden";
+    }
 }
 
 /**
- * This function cleans the table, deploys the next page and creates the Back button
+ * This function cleans the table and deploys the next page
  */
 function adelante() {
   document.getElementById("contenido").innerHTML = "";
@@ -71,25 +70,19 @@ function adelante() {
     .catch((error) => {
       console.log("La solicitud causó error: ", error);
     });
-
-  /**this is the creation of the Back button */
-  document.getElementById("atrás").innerHTML = `
-          <button
-            onclick="atras()"
-            type="button"
-            class="btn btn-success boton1"
-          >
-            <= Back
-          </button>`;
+    if (page>1){
+      document.getElementById("atrás").style.visibility="visible";
+    }
 }
 
 /**
- * this function allows to clean the table, remove the back and forward buttons, rehabilitate the search button and set back page value to 1
+ * this function allows to clean the table and rehabilitate the search button
  */
 function limpiarUsuarios() {
   contenido.innerHTML = "";
-  document.getElementById("adelante").innerHTML = "";
-  document.getElementById("atrás").innerHTML = "";
-  document.getElementById("search").disabled = false;
+  document.getElementById("search").style.visibility = "visible";
+  document.getElementById("adelante").style.visibility="hidden";
+  document.getElementById("clear").style.visibility="hidden";
+  document.getElementById("atrás").style.visibility="hidden";
   page = 1;
 }

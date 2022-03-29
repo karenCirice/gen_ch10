@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thead, Tbody y Tfoot</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid lightcoral;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td,
+        th {
+            padding: 15px;
+        }
+
+        thead {
+            color: black;
+        }
+
+        tbody {
+            color: purple;
+        }
+
+        tfoot {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption> <i> Numeros </i> </caption>
+        <thead>
+            <tr>
+                <th>1 - 10</th>
+                <th>2 - 11</th>
+                <th>3 - 12</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Total = 22</td>
+                <td>Total = 26</td>
+                <td>Total = 30</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>uno</td>
+                <td>dos</td>
+                <td>tres</td>
+            </tr>
+            <tr>
+                <td>cuatro</td>
+                <td>cinco</td>
+                <td>seis</td>
+            </tr>
+            <tr>
+                <td>siete</td>
+                <td>ocho</td>
+                <td>nueve</td>
+            </tr>
+            <tr>
+                <td>diez</td>
+                <td>once</td>
+                <td>doce</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
