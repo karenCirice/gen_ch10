@@ -10,6 +10,9 @@ let persona = { //esto es un objeto
     },
     get nombreYEdad(){
         return `${this.nombre} tiene ${this.edad} años`;
+    },
+    set cambiarNombre(nombre){
+        this.nombre = nombre;
     }
 };
 
@@ -19,6 +22,8 @@ persona.nombre = "Karen"; //Con esto podemos cambiar el "nombre"
 console.log(persona['nombre']); 
 console.log(persona.nombreCompleto());
 console.log(persona.nombreYEdad);
+persona.cambiarNombre = "Meredith"; //se cambia el nombre usando set
+console.log(persona.nombreYEdad); //se lee el nombre usando get
 
 /* array = [1,2,3,4];
 console.log(array.length);
