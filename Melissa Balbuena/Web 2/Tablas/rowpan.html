@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan</title>
+    <style>
+        table,
+        td {
+            border: 2px solid palevioletred;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Uno al diez</caption>
+        <tr>
+            <td rowspan="2">uno y cuatro</td>
+            <td>dos</td>
+            <td>tres</td>
+        </tr>
+        <tr>
+            <td>cinco</td>
+            <td>seis</td>
+        </tr>
+        <tr>
+            <td>siete</td>
+            <td>ocho</td>
+            <td>nueve</td>
+        </tr>
+        <tr>
+            <td>diez</td>
+            <td>*</td>
+            <td>*</td>
+        </tr>
+    </table>
+</body>
+
+</html>
