@@ -1,0 +1,25 @@
+/* Estilo H1 */
+h1{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan,
+        dodgerblue,
+        mediumpurple,
+        hotpink,
+        orangered);
+    background-size: 20rem;
+    animation: sliding 30s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

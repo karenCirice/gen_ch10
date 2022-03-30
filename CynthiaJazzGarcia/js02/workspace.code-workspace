@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\gen_ch10"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CynthiaJazzGarcia"
+	}
+}

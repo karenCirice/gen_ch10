@@ -2,9 +2,11 @@ console.log('Inicia mi script');
 
 //Podemos inicializar los parametros para aplicarlo en caso de que el usuario 
 // no ingrese algo en ese mismo parametro, este será el valor por default
+/**
+ * @function busquedaUsuarios Implementa apiFetch para leer datos de una api externa y luego listar esta en una tabla dentro de index.thml
+ * @param {numeric} page 
+ */
 function busquedaUsuarios(page=1) {
-    //console.log('Se activó el botón búsqueda de usuarios');
-
     let tbody = document.getElementById("tbody");
     tbody.innerHTML = "";
 
@@ -19,13 +21,13 @@ function busquedaUsuarios(page=1) {
                 <td>${user.first_name}</td>
                 <td>${user.last_name}</td>
                 <td>${user.email}</td>
-                <td><img class="img-fluid rounded-circle shadow" src="${user.avatar}" /></td>
+                <td><img class="img-fluid rounded-circle" width="50rem" src="${user.avatar}" /></td>
             </tr>`
             ;
         }
     })
     .catch(error => {
-        console.log('La solicitud causó error: ', error);
+        console.error('Error: ', error);
     })
 
 }

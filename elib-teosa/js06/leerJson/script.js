@@ -5,7 +5,22 @@ console.log("Script JS06 Leer Json");
 // let respuestaFinal = respuestaConversion.then(response => response);
 // console.log(respuestaFinal);
 
+let timeout;
 
+function imprimirMsj() {
+  console.log('mensaje imprimir');
+}
+
+function myFunction() {
+  console.log('inicio de myFunction');
+  // imprimirMsj sin parentesis solo se hace referencia a la función
+  // si se invocara con () no esperaría los 3 seg indicados en setTime
+  timeout = setTimeout(imprimirMsj, 3000);
+  console.log('fin de myFunction');
+}
+
+// con parentesis se invoca la función a que se implemente
+myFunction();
 // cada then trabaja con el retorno de la función anterior
 // es decir, en el sig ejemplo el primer then trabaja en el
 // retorno directo de fetch, el segundo then trabaja con lo

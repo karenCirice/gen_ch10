@@ -13,16 +13,22 @@
       crossorigin="anonymous"
     />
 
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <title>ApiFetch</title>
   </head>
   <body>
-    <h1>apiFetch</h1>
+    <h1 class="mt-3 text-center">apiFetch</h1>
 
-    <!-- Botón de búqueda de usuarios -->
-    <button type="button" class="btn btn-success" onclick="busquedaUsuarios()">Leer usuarios</button>
+    <!-- Botón de lectura de usuarios -->
+    <div class="container text-center mt-5">
+      <button type="button" class="btn btn-outline-light " onclick="busquedaUsuarios()">Leer usuarios</button>
+    </div>
+    
 
     <!-- Tabla de usuarios traídos con apiFetch -->
-    <table class="table">
+      <table class="table contable container mt-3">
         <thead>
           <tr>
             <th scope="col">ID</th>
