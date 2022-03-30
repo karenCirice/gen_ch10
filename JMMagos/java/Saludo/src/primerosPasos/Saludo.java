@@ -3,8 +3,10 @@ package primerosPasos;
 public class Saludo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Auto-generated method stub
 		System.out.println("Hola mundo marcos");
+		int varOct=032;
+		System.out.println(varOct);
 	}
 
 }
