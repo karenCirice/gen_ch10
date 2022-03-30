@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Henny', cursive;
+    
+
+}
+
+header{
+    align-items: center;
+    margin-right: auto;
+     margin-left: auto;
+     background-color: black;
+     color: silver;
+     
+}
+
+
+    main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 10px;
+    border:teal 2px solid;
+ 
+}
+
+#piramide{
+    border:brown 2px solid;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+}
+  
+
+
+#piramide > img{ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+   width: 80%;
+   height: 80%;
+}
+
+
+#ficha_general{
+    border:brown 2px solid;
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+    margin: 0;
+    background-color: goldenrod;
+   
+}
+

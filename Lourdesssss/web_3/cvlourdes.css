@@ -1,40 +1,57 @@
-body {
+@import url(`https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Short+Stack&display=swap`);
+
+* {
     margin: 0;
     padding: 0;
-    background: #fff8f0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
+body {
+    background:#F0DCCA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .intro {
+    position: relative;
     width: 100%;
-    height: 300px;
-    background: #efb0a1;
-    transform: skewY(30 deg);
+    max-width: 100px;
+    min-width: 100px;
+    background:#fff ;
 }
-.intro .heading {
-    color: #fff8f0;
-    width: 50%;
-    height: 10%;
-    position: adsolute;
-    left: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: 35px;
+.container {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+/* 
+.intro {
+width: 100%;
+height: 200px;
+background: #8D9F87;
 }
 
+.intro .heading {
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 25px;
+}
 .intro .prof {
-    color: #fff8f0;
-    width: 50%;
-    height: 10%;
-    position: adsolute;
-    left: 25%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: 35px;
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 17px;
 }
 
 .intro .summary {
-    color: #fff8f0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: 35px;
+    color: #F0DCCA;
+    text-align: center;
+    font-size: 17px;
 }
+
+.contactinfo {
+width: 100%;
+height: 200px;
+background: #8D9F87;
+} */

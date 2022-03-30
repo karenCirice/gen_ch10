@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#012726;">
+    <h1 style="text-align: center; background-color:#CAD8DE;">¿Día Laboral?</h1>
+
+    <form id="Formulario" name="" method="post" style="background-color:#CAD8DE ;">
+        <div class="container;" style="padding: 150px; justify-content: right;">
+            <div class="row row-cols-3">
+                <div class="col-md-4;" style="text-align: center;"><label>Día(dd)</label>
+                    <input type="number" name="" id="día" autofocus placeholder="Ingresa el día">
+                </div>
+                <div class="col-md-4" style="text-align: center;"><label>Mes(mm)</label>
+                    <input type="number" name="" id="mes" placeholder="Ingresa el mes">
+
+                </div>
+                <div class="col-md-4" style="text-align: center;"><label>Año(aaaa)</label>
+                    <input type="number" class="" id="año" placeholder="Ingresa el año">
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+
+    <div class="container" style="padding-top: 10px; background-color: #CAD8DE;">
+        <div class="row row-cols-1">
+            <div class="col" style="text-align: center;"><button onclick="calcular()"
+                    class="btn btn-dark">CALCULAR</button></div><br><br><br>
+            <div class="col" style="text-align: center;"><input type="text" name="" id="resultado"
+                    placeholder="Resultado" class="btn btn-light"></div>
+            <div class="col" style="text-align: center; padding-bottom: 10px;"><br><br><button onclick="limpiar();"
+                    class="btn btn-success">Limpiar</button> </div>
+        </div>
+    </div>
+
+    <script src="myscript.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

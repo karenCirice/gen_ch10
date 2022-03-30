@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../js07/fondoCard.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor-principal{
+    background-color: rgba(135, 49, 63,0.9);
+    border-radius: 5px;
+}
+
+.container .row-botones{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.container .row-botones .boton-contenedor{
+    
+    background-color: red;
+    width: 40%;
+    height: 6vh;
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.container .row-botones .boton-contenedor .boton{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
