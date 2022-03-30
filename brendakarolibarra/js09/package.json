@@ -1,0 +1,19 @@
+
+{
+"name":"js09",
+"version": "1.0.0",
+"description":"Mi prueba con NPM",
+"main": "main.js",
+"scripts": {
+"test": "echo"
+},
+"keywords": [
+    "npm",
+    "ch10"
+],
+"author": "Karol Ibarra",
+"license": "ISC",
+"bugs": {
+    "url":"https://github.com/sergiotrres/gen_ch10/issues"
+},
+"homepage": "https://github.com/"
