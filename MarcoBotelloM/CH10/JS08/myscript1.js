@@ -14,7 +14,7 @@ class Heroes{ //Para declarar las clases se coloca CLASS.
     ciudad;
     poderes;
     ocupacion;
-    ayudante;
+    ayudante; //No es necesario DECLARAR AQUI EN JS 
 
     //En nuestro contructor colocamos nuestros valores iniciales del objeto.
     constructor(nombre,villano,ciudad,poderes,ocupacion,ayudante){//Sirve inicializar un objeto con estas funsion.
@@ -71,9 +71,9 @@ class Heroes{ //Para declarar las clases se coloca CLASS.
     }
 
 }
-
+//Objeto = Batman o Peronsa 1.
 let Batman = new Heroes("Bruce Wayne","Joker","Gotham","Ninguno", "Millonario","Robin");
-
+//Esto para distanciar una clase = reservar la palabra "NEW" y el nombre de la CLASE.
 let Spiderman = new Heroes("Peter Parket","Duende Verde","New york","Poderes de Araña", "Fotografo");
 
 let Flash = new Heroes("Barry Allen", "ReversFlash","City Central","Fuerza de la velocidad","Forence","Kid Flash")
