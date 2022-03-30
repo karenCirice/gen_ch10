@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Asus\Desktop\Repo\gen_ch10\gallardoali97\java\.metadata\.plugins\org.eclipse.jdt.core
+4261234402.index
+1865797976.index
+760091825.index
