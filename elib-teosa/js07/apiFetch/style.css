@@ -1,0 +1,15 @@
+.contable{
+    background: linear-gradient(to bottom, rgb(102, 102, 104), rgb(0, 0, 0));
+    border-radius: 10px;
+  }
+
+  .table{
+    color: white;
+  }
+
+  body{
+    background-image: url('https://i.pinimg.com/originals/7d/09/19/7d09191f7d41dd30ddeb98f5293cc5ac.jpg');
+  }
+  h1{
+    color: white;
+  }

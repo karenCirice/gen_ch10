@@ -27,7 +27,7 @@ function tabla(data){
     for(let valor of data.colors){
         
         contenido.innerHTML += `
-        <tr>
+        <tr style="background-color: ${valor.code.hex};">
             <th scope="row">${valor.color}</th>
             <td>${valor.category}</td>
             <td>${valor.type ? valor.type : "Sin tipo"}</td>
@@ -48,3 +48,6 @@ fetch("colors.json")
     return "finalizando con exito";
 })
 .then(mensaje => console.log(mensaje))
+
+
+let limpiarPantalla = () => document.getElementById("contenido").innerHTML = "";

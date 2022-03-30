@@ -5,7 +5,7 @@ console.log("JS08 estamos en sesión de clases");
 class PersonaChola{
     _nombre; //atributo 1 (por convención se comienzan con guión bajo pero puede que no se use)
     _apellido;
-    _edad;
+    _edad; //En JS no es necesario declarar los atributos aquí, pues el this. en el constructor sirve como declaración
     _arma;
     _banda;
 
@@ -103,3 +103,8 @@ console.log("Mi cholo ", persona1.tieneArmaStr());
 
 persona1.arma = "cuchillo";
 console.log(persona1);
+
+/**
+ * En JS no existe el concepto de constructor sobrecargado; el constructor puede tener el número de atributos deseados. 
+ * Así mismo, si un atributo no ha sido declarado, al ser llamado (ej. persona1.armA), el atributo se crea y asigna a la clase
+ */

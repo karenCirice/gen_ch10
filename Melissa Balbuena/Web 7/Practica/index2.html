@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1"/>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .btn{
+            @apply font-bold py-2 px-4 rounded;
+        }
+
+        .btn-blue{
+            @apply bg-blue-500 text-white;
+        }
+
+        .btn-blue:hover{
+            @apply bg-blue-700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="text-3x1 font-bold underline">
+        Hello World!
+    </h1>
+
+    <!-- Using utilities: -->
+
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Button
+    </button>
+
+    <!-- Exxtracting component classes-->
+
+    <button class="btn btn-blue">
+        Button
+    </button>
+
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> 
+        Button
+    </button> 
+
+    
+    <br> <br>
+    <button class="bg-sky-500/100"> Boton 1</button>
+
+    <br> <br>
+    <button class="bg-sky-500/75"> Boton 2</button>
+
+    <br> <br>
+    <button class="bg-sky-500/50"> Boton 3</button>
+
+</body>
+</html>
