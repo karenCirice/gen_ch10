@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sergiotrrs/gen_ch10.git"
   },
@@ -17,5 +17,8 @@
     "ch10"
   ],
   "author": "Mariana Vives",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
