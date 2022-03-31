@@ -1,0 +1,16 @@
+.container {
+    height: fit-content;
+    width: fit-content;
+    border-style: outset;
+    background-color: #D7F0FD;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 250px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    display: flex;
+    background-color: ghostwhite ;
+}
