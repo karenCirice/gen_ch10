@@ -1,0 +1,13 @@
+/*You can also use numerical values in pixels or ems to manipulate font size.
+Setting the font size in pixel values (px) is a good choice when you need pixel accuracy, and it gives you full control over the text size.
+The em size unit is another way to set the font size (em is a relative size unit). It allows all major browsers to resize the text. If you haven't set the font size anywhere on the page, then it is the browser default size, which is 16px.
+
+To calculate the em size, just use the following formula: em = pixels / 16*/
+
+h1 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 1.25em;
+}
