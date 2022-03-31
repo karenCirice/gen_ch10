@@ -1,6 +1,6 @@
 //const {default:axios} = require("axios");
 
-const { default : axios}= require("axios");
+//const { default : axios}= require("axios");
 
 console.log("Estoy en JS09 con MPM")
 
