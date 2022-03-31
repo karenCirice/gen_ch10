@@ -1,4 +1,6 @@
 package principal;
+import java.util.Scanner;
+
 
 public class Main {
 
@@ -20,8 +22,17 @@ public class Main {
 		int binVal = 0b11010;
 		//Definimos una variable de tipo int, representación octal
 		int octVal = 032;
+		
+		int variableBinSeparada= 0b1011_10_11;
+		int variableHexSeparada=10_20;
 		System.out.println("holo");
-
+		System.out.println(Integer.toBinaryString(intVal));
+		System.out.println(Integer.toHexString(hexVal));
+		System.out.println("Valor máximo de un long: "+Long.MAX_VALUE);
+		System.out.println("Valor mínimo de un long: "+Long.MIN_VALUE);
+		System.out.println("Valor en bytes que tiene un long: "+Long.BYTES);
+		System.out.println("Valor máximo de un short: "+Short.MAX_VALUE);
+		var unicodigo='\u006D';
 	}
 
 }
