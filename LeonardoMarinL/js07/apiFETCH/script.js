@@ -3,7 +3,11 @@ console.log("js07 apiFETCH");
 /**
  * this function allows to recover the array from de api and asign them to the function tabla(data)
  */
-let page;
+let page=1;
+document.getElementById("atrás").style.visibility="hidden";
+document.getElementById("adelante").style.visibility="hidden";
+document.getElementById("clear").style.visibility="hidden";
+
 function busquedaUsuarios(page) {
   fetch(`https://reqres.in/api/users?page=${page}`)
     .then((response) => response.json())
@@ -15,11 +19,13 @@ function busquedaUsuarios(page) {
 }
 
 /**
- * this function allows to print the values from the array data on a table and deploy back and forward buttons
- * @param {*} data 
+ * this function allows to print the values from the array data on a table and deploy the Next button
+ * @param {*json} data
  */
 function tabla(data) {
   let contenido = document.getElementById("contenido");
+  console.log("Página en curso: ",data.page); 
+  console.log("Total de páginas: ",data.total_pages);
   for (let cont of data.data) {
     contenido.innerHTML += `
     <tr class="row">
@@ -30,42 +36,53 @@ function tabla(data) {
         <td class="col sm-col-12"><img class="imagen" src="${cont.avatar}"></td>
     </tr>`;
   }
-
-  /**this is the creation of the Back button */
-  document.getElementById("adelante").innerHTML = `
-          <button
-            onclick="atras()"
-            type="button"
-            class="btn btn-success boton1"
-          >
-            <= Back
-          </button>`;
-  /**this is the creation of the Next button */
-  document.getElementById("atrás").innerHTML = `
-          <button
-            onclick="adelante()"
-            type="button"
-            class="btn btn-success boton1"
-          >
-            Next =>
-          </button>`;
+  document.getElementById("search").style.visibility = "hidden";
+  document.getElementById("adelante").style.visibility="visible";
+  document.getElementById("clear").style.visibility="visible";
 }
 
-function atras(){
-  document.page.innerHTML = -1;
-};
+/**
+ * This function cleans the table and deploys the previous page
+ */
+function atras() {
+  document.getElementById("contenido").innerHTML = "";
+  fetch(`https://reqres.in/api/users?page=${(page -= 1)}`)
+    .then((response) => response.json())
+    .then((data) => tabla(data))
 
-function adelante(){
-  document.page.innerHTML = +1;
-};
+    .catch((error) => {
+      console.log("La solicitud causó error: ", error);
+    });
+    if (page==1){
+      document.getElementById("atrás").style.visibility="hidden";
+    }
+}
 
 /**
- * this function allows to clean the table and remove the back and forward buttons 
+ * This function cleans the table and deploys the next page
+ */
+function adelante() {
+  document.getElementById("contenido").innerHTML = "";
+  fetch(`https://reqres.in/api/users?page=${(page += 1)}`)
+    .then((response) => response.json())
+    .then((data) => tabla(data))
+
+    .catch((error) => {
+      console.log("La solicitud causó error: ", error);
+    });
+    if (page>1){
+      document.getElementById("atrás").style.visibility="visible";
+    }
+}
+
+/**
+ * this function allows to clean the table and rehabilitate the search button
  */
 function limpiarUsuarios() {
   contenido.innerHTML = "";
-  let botonA =document.getElementById("adelante");
-  botonA.innerHTML ="";
-  let botonB = document.getElementById("atrás");
-  botonB.innerHTML ="";
+  document.getElementById("search").style.visibility = "visible";
+  document.getElementById("adelante").style.visibility="hidden";
+  document.getElementById("clear").style.visibility="hidden";
+  document.getElementById("atrás").style.visibility="hidden";
+  page = 1;
 }
