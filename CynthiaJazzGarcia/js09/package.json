@@ -1,0 +1,26 @@
+{
+  "name": "js09",
+  "version": "1.0.0",
+  "description": "Mi prueba con NPM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CynthiaJazzGarcia/gen_10.git\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C.git"
+  },
+  "keywords": [
+    "npm",
+    "ch10"
+  ],
+  "author": "Cynthia Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynthiaJazzGarcia/gen_10.git\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C/issues"
+  },
+  "homepage": "https://github.com/CynthiaJazzGarcia/gen_10.git\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
