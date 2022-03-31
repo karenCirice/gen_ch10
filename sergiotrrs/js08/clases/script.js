@@ -8,14 +8,14 @@ nuevoArray.pop();
 
 //El nombre de las clases debe comenzar en mayúsculas
 class Persona{
-    _nombre; //atributos de la clases
+    /*_nombre; //atributos de la clases
     _apellido;
     _edad;
     _arma;
-    _banda;
+    _banda; */
 
     constructor(nombre, apellido, edad){
-        this._nombre = nombre; //this hará referencia a los atributos de la clases
+        this.nombre = nombre; //this hará referencia a los atributos de la clases
         this._apellido = apellido;
         this._edad = edad;
         this._arma = "piedra";
@@ -109,5 +109,6 @@ else{
 
 persona1.arma = "piedra"
 //persona1.#valorDelArma("cuchillo");
-console.log (persona1);
- 
+
+ persona1.nombrE = "Alberto";
+ console.log (persona1);
