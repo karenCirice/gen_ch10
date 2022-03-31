@@ -1,0 +1,19 @@
+{
+  "name": "mipruebaconnodejs",
+  "version": "1.0.0",
+  "description": "Mi primer prueba con NPM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "ch10",
+    "generation"
+  ],
+  "author": "Eli Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

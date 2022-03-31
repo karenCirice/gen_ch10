@@ -1,0 +1,17 @@
+p.serif{
+    font-family: 'Times New Roman', Times, serif;
+}
+p.sansserif{
+    font-family: Helvetica, Arial, sans-serif;
+}
+p.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+p.cursive{
+    font-family: Florance, cursive;
+}
+p.fantasy{
+    font-family: Blippo, fantasy;
+}
+
+/*Si el nombre de la fuente tiene más de una palabra se debe de poner entre comillas*/

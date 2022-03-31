@@ -1,0 +1,3 @@
+module Principal {
+	exports principal;
+}
