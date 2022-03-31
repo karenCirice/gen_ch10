@@ -24,6 +24,9 @@ public class Main {
 		
 		int binValSeparado = 0b1011_10_11;
 		int intValSeparado = 123_345;
+		long vallong = 9223372036854775807L;
+		float floatVar = 3.4028234663852886E38f;
+		double doubleVar = 1.7976931348623157E308;
 		
 		System.out.println(intValSeparado);
 		System.out.println(hexVal);
@@ -31,9 +34,9 @@ public class Main {
 		System.out.println( Integer.toBinaryString(intVal));
 		System.out.println( Integer.toHexString(intVal));
 		System.out.println("Max Long " + Long.MAX_VALUE);
-		System.out.println("Max Long " + Long.BYTES);
-		System.out.println("Max Long " + Long.MIN_VALUE);
-		System.out.println("Max Long " + Long.SIZE);
+		System.out.println("Bytes Long " + Long.BYTES);
+		System.out.println("Min Long " + Long.MIN_VALUE);
+		System.out.println("Size Long " + Long.SIZE);
 	}
 
 }
