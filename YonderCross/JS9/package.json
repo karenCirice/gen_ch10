@@ -1,0 +1,21 @@
+{
+  "name": "miprueba",
+  "version": "1.0.1",
+  "description": "Mi prueba con NPM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergiotrrs/gen_ch10.git"
+  },
+  "keywords": [
+    "mvs"
+  ],
+  "author": "Miguel Vera",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
