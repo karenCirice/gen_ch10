@@ -1,0 +1,28 @@
+{
+  "name": "js09",
+  "version": "1.0.1",
+  "description": "mi prueba de npm",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiotrrs/gen_ch10.git"
+  },
+  "keywords": [
+    "npm",
+    "generation",
+    "prueba",
+    "cohorte 10"
+  ],
+  "author": "Jose Marcos M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiotrrs/gen_ch10/issues"
+  },
+  "homepage": "https://github.com/sergiotrrs/gen_ch10#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
