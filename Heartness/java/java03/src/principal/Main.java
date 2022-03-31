@@ -27,7 +27,12 @@ public class Main {
 		long vallong = 9223372036854775807L;
 		float floatVar = 3.4028234663852886E38f;
 		double doubleVar = 1.7976931348623157E308;
+		var variableUnicode = '\u006D';
+		char variableUnicodeN = 109;
+		var variableChar = 'm';
 		
+		System.out.println("Byte: " + b);
+		System.out.println("Short: " + s);
 		System.out.println(intValSeparado);
 		System.out.println(hexVal);
 		System.out.println(binVal);
@@ -37,6 +42,8 @@ public class Main {
 		System.out.println("Bytes Long " + Long.BYTES);
 		System.out.println("Min Long " + Long.MIN_VALUE);
 		System.out.println("Size Long " + Long.SIZE);
+		System.out.println("String con unicode: " + variableUnicode);
+		System.out.println(variableChar + " " + variableUnicode + " " + variableUnicodeN);
 	}
 
 }
