@@ -22,6 +22,13 @@ public class Main {
 		//Definimos una variable de tipo int, representación octal
 		int octVal = 032;
 		
+		var saludo = "Hola humano";
+		
+		int edad =Integer.parseInt("20");
+		var valorPI = Double.parseDouble("3.1416");
+		String edadTexto = String.valueOf(21);
+		char caracter = "hola".charAt(0);
+		
 		int binValSeparado = 0b1011_10_11;
 		int intValSeparado = 123_345;
 		long vallong = 9223372036854775807L;
@@ -30,6 +37,7 @@ public class Main {
 		var variableUnicode = '\u006D';
 		char variableUnicodeN = 109;
 		var variableChar = 'm';
+		byte bVarTruncada = (byte) 2660;
 		
 		System.out.println("Byte: " + b);
 		System.out.println("Short: " + s);
@@ -44,6 +52,14 @@ public class Main {
 		System.out.println("Size Long " + Long.SIZE);
 		System.out.println("String con unicode: " + variableUnicode);
 		System.out.println(variableChar + " " + variableUnicode + " " + variableUnicodeN);
+		System.out.println(saludo + " " + "siempre es un placer saludarte");
+		System.out.println("Mi numero " + 7 + 8);
+		System.out.println(7 + 8 + " Mi numero");
+		System.out.println("Este texto tiene \ndos lineas de texto \n");
+		System.out.println("Este texto \ntiene \ntres lineas de texto \n");
+		System.out.println(bVarTruncada);
+		System.out.println(edad);
+		System.out.println(caracter);
 	}
 
 }
