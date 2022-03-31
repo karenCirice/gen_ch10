@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\generation\Sergio\gen_ch10\JMMagos\java\.metadata\.plugins\org.eclipse.jdt.core
-2367783050.index
-1865797976.index
