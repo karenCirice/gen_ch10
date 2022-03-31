@@ -1,0 +1,14 @@
+{
+  "name": "js09",
+  "version": "1.0.0",
+  "description": "Mi prueba con NPM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alma Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
