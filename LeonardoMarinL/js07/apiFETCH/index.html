@@ -40,16 +40,16 @@
       }
       .boton1 {
         background-color: #ffcdb2;
-        border:#f28482;
-        color:#f28482;
+        border: #f28482;
+        color: #f28482;
         font: bold;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "Times New Roman", Times, serif;
         font-size: 17px;
       }
-      .boton1:hover{
+      .boton1:hover {
         background-color: #f28482;
       }
-      .boton1:focus{
+      .boton1:focus {
         background-color: #f28482;
         box-shadow: 2px 2px 2px 1px #f4978e;
       }
@@ -61,7 +61,7 @@
       .imagen {
         border-radius: 50%;
         border: solid #f28482 3px;
-        border-style:dotted;
+        border-style: dotted;
       }
     </style>
   </head>
@@ -75,17 +75,28 @@
       </div>
     </div>
 
-    
     <div class="container" id="boton">
       <div class="row">
         <!--Botón de búsqueda de usuarios-->
         <div class="col-3 mb-2 mt-2 sm-col-12 md-col-6 justify-content-center">
           <button
             id="search"
-            onclick="busquedaUsuarios(page=1)"
+            onclick="busquedaUsuarios(page)"
             type="button"
             class="btn btn-success boton1"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
             Get Users
           </button>
         </div>
@@ -95,22 +106,74 @@
             onclick="limpiarUsuarios()"
             type="button"
             class="btn btn-success boton1"
+            id="clear"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-eraser-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828l6.879-6.879zm.66 11.34L3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293l.16-.16z"
+              />
+            </svg>
             Clear Search
+          </button>
+        </div>
+        <!--Botón de atrás-->
+        <div class="col-3 mb-2 mt-2 justify-content-center" id="atrás">
+          <button
+            onclick="atras()"
+            type="button"
+            class="btn btn-success boton1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-left-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+              />
+            </svg>
+            Back
           </button>
         </div>
         <!--Botón de adelante-->
         <div class="col-3 mb-2 mt-2 justify-content-center" id="adelante">
-
-        </div>
-        <!--Botón de atrás-->
-        <div class="col-3 mb-2 mt-2 justify-content-center" id="atrás">
-
+          <button
+            onclick="adelante()"
+            type="button"
+            class="btn btn-success boton1"
+          >
+            Next
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
     <!--Tabla-->
-    <div class="container mb-3 mt-1" style="font-family: 'Times New Roman', Times, serif;">
+    <div
+      class="container mb-3 mt-1"
+      style="font-family: 'Times New Roman', Times, serif"
+    >
       <table class="table">
         <thead>
           <tr class="row thead">

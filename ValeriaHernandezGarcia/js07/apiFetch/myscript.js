@@ -5,6 +5,8 @@ function busquedaUsuarios(page=1){
 
     //https://reqres.in/api/users?page=2 DIRECCIÓN USUARIOS
 
+    //Lo que es el GET
+
     fetch (`https://reqres.in/api/users?page=${page}`)
     //fetch ("https://reqresMALITO.in/api/users/23")
     .then( response => response.json())
@@ -33,3 +35,27 @@ function busquedaUsuarios(page=1){
         
  //.catch (error => {
         //console.log("La solicitud causo error: ", error);
+
+        //Lo que es el POST
+
+        /*
+         let datosJson =JSON.stringify({name: "John", job: "leader", email: "john@email.com"});
+  console.log(datosJson);
+
+  fetch("https://reqres.in/api/users", {
+    method: "POST",
+    body: datosJson,
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("Success: ", data);
+      console.log("Fecha de creación: ", data.createdAt);
+    })
+    .catch((error) => {
+      console.error("Error: ", error);
+      //alerta(error);
+    });
+}
+
+         */
+          

@@ -1,9 +1,13 @@
 console.log("JS Listo !!");
 
+function direccionHTTPS(pagina=1){
+    return`https://reqres.in/api/users?page=${pagina}`
+}
+
 function busquedaUsuarios(){
     console.log("Botón Funcionando");
-
-    fetch("https://reqres.in/api/users?page=2")
+    fetch(direccionHTTPS())
+    //fetch("https://reqres.in/api/users?page=1")
     .then(response => response.json())
     .then( users => {
         console.log(users);
