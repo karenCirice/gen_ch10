@@ -1,0 +1,19 @@
+{
+  "name": "miprueba",
+  "version": "1.0.0",
+  "description": "Mi prueba con NPM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "generation",
+    "ch10"
+  ],
+  "author": "Armando Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

@@ -2,12 +2,11 @@
     box-sizing: border-box;
 }
 
-body{
-    
+body{ 
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-image: url(fondoCalcuChido.jpg);
+    background-color: #B9C9CB;
 }
 
 .formulario-container{

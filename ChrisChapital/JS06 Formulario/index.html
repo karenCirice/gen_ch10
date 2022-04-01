@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, People!</title>
+  </head>
+  <body>
+    <h1>Hello chupapi muñeño</h1>
+    <!--Formulario-->
+    <form id="formulario" class="conteiner">
+      <div class="row">
+        <div class="col-6">
+          Nombre:
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            value="Christian Alberto"
+          />
+        </div>
+        <div class="col-6">
+          Apellido:<input
+            type="text"
+            id="apellido"
+            name="apellido"
+            value="Chapital Zapata"
+          />
+        </div>
+      </div>
+    </form>
+    <!-- botones para mostrar y ocultar -->
+    <div class="contanier">
+      <div class="row mt-3 justify-content-center">
+        <div class="col-6 text-center">
+          <button
+            id="todos"
+            onclick="obtenerFormulario()"
+            type="button"
+            class="btn btn-success"
+          >
+            Obtener datos
+          </button>
+          <button
+            id="recuperar"
+            onclick="recuperarFormulario()"
+            type="button"
+            class="btn btn-success"
+          >
+            Recuperar Formulario
+          </button>
+          <button
+            id="invisible"
+            onclick="setInvisible()"
+            type="button"
+            class="btn btn-success"
+          >
+            Invisible
+          </button>
+          <button
+            id="ocultar"
+            onclick="setOcultar()"
+            type="button"
+            class="btn btn-success"
+          >
+            Ocultar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

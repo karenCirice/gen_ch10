@@ -1,0 +1,26 @@
+#a_1{
+    background-color: rgb(143, 201, 143);
+}
+
+#h1_a{
+    color: rgb(42, 100, 42);
+   text-align: center;
+}
+
+#tBody{
+    color:white;
+    background-color: rgb(116, 155, 116);
+    border-radius: 20px;
+}
+
+
+#a_3{
+    color: white;
+    
+}
+
+.container{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}

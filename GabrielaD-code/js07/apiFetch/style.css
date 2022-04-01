@@ -1,0 +1,66 @@
+*{
+    justify-content: center;
+    align-content: center;
+}
+body{
+    display:flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url("https://www.nationalgeographic.com.es/medio/2021/07/01/glory-of-damavand-and-milky-way_710ab66c_1348x890.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 120% auto;
+}
+.container{
+    /* margin: auto; */
+    margin-top: 12%;
+    /* max-width: 300px;
+    max-height: 700px; */
+    max-width: 300px;
+    /* width:95%; */
+    /* height: 10%; */
+    border: 2px solid rgb(64, 135, 206);
+    border-radius: 5px;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(166, 215, 240,0.4);
+}
+.myCol{
+    /* display:flex; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 10px;
+    border-color: rgb(77, 77, 216);
+    font-size: 14px;
+    text-align: center;
+    color: rgb(103, 103, 150);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'poppins', sans-serif;
+    color:rgb(235, 235, 235);
+    text-shadow: 2px 2px #11395f;
+}
+.btn-outline-primary{
+    text-align: center; 
+    font-size: 12px;
+    display:flex;
+    align-self: center;
+}
+.navbar{
+    font-size: 12px; 
+}
+.input-group-text{
+    width: 90px;
+    margin-top: 10%;
+}
+.form-control{
+    margin-top: 10%;
+}
