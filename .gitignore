@@ -3,6 +3,10 @@
 .DS_Store
 .DS_STORE
 
+##Ignora los archivos .meta de Java
+.metadata
+
+
 #Ignorando la carpeta .vscode
 /.vscode
 
