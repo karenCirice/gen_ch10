@@ -1,0 +1,37 @@
+package java03;
+/**
+ * 
+ * @author GABRI
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Variable boolean
+		boolean result = true;
+		//Variable caracter
+		//char capitalC = "C";
+		//Variable byte
+		byte b = 100;
+		//Variable int
+		int i = 26;
+		//Variable int, representación hexadecimal
+		int hexVal = 0x1a;
+		//Variable in, representación binaria
+		int binVal = 0b11010;
+		//Variable int, representación octal
+		int octVal = 032;
+		
+		//Es posible separar por miles un número con _
+		int binValSepearado = 0b1011_10_11;
+		int intValSeparado =123_345;
+				
+		System.out.println(i);
+		System.out.println(hexVal);
+		System.out.println(binVal);
+		System.out.println(octVal);
+		System.out.println(intValSeparado);
+	}
+
+}
