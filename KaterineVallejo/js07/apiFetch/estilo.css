@@ -1,0 +1,26 @@
+html {
+  background-color: white;
+  background: linear-gradient(70deg, rgb(48, 2, 54), black);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  padding-top: 5%;
+  background: linear-gradient(to bottom, purple, black);
+}
+
+[type="button"] {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 36%;
+}
+
+.lostd {
+  color: white;
+  background-color: black;
+  line-height: 800%;
+}
