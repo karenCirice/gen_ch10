@@ -5,6 +5,7 @@
 
 ##Ignora los archivos .meta de Java
 .metadata
+/bin/
 
 
 #Ignorando la carpeta .vscode
