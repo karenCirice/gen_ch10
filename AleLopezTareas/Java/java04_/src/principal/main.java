@@ -37,7 +37,7 @@ public class main {
 		System.out.println("Oprandor and lógico " + ( 7>3 && 3<5) );  //   ( true && true  ) -> true
 
 		
-		
+		System.out.println("LO LOGRE ");
 		
 		
 		
