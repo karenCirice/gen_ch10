@@ -1,0 +1,74 @@
+body{
+    background-color: #FFF;    
+}
+
+.promo-block{
+    background-color: #212529;
+}
+
+.tituloNombre{
+    color: #fff;
+}
+
+.btn-theme{
+    background-color: #212529;
+    color: #FFF;
+}
+
+.btn-theme:hover{
+    background-color: #E9ECEF;
+    color: #212529;
+}
+
+.bg-color-base {
+    /* background: #17bed2!important; */
+    background: #212529!important;
+}
+
+.experiencia{
+    background-color: #212529;
+}
+
+
+.iconoFacebook:hover{
+    background-color: #1877f2;
+}
+
+.iconoTwitter:hover{
+    background-color: #1da1f2;
+}
+
+.iconoDribble:hover{
+    background-color: #ea4c89;
+}
+
+.iconoBehance:hover{
+    background-color: #bd081c;
+}
+
+.iconoLinkedin:hover{
+    background-color: #0a66c2;
+}
+
+.discord{
+    transition: all 0.7s ease;
+    border-radius: 20px;
+}
+
+.discord:hover{
+    background-color: rgba(88, 101, 242,0.7);
+}
+
+.col-sm-4{
+    text-align: center;
+}
+
+.contacto{
+    transition: all 0.4s ease;
+    padding: 20px;
+    color: #fff;
+}
+
+.contenedor-imagen{
+    background-color: rgba(33, 37, 41,0.4);
+}

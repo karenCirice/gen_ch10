@@ -1,0 +1,18 @@
+p.small {
+    font-size: small;
+}
+p.medium {
+    font-size: medium;
+}
+p.large {
+    font-size: large;
+}
+p.xlarge {
+    font-size: x-large;
+}
+h1 {
+    font-size: 20px;
+}
+h1 {
+    font-size: 1.25em;
+}

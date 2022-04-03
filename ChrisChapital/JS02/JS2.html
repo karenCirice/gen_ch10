@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="titulo">
+            <h1 class="display-3">Calculadora</h1>
+        </div>
+
+        <div class="botones">
+            <input type="text" id="num1"  placeholder="Escribe primer número">
+            <input type="text" id="num2" placeholder="Escribe segundo número">
+        </div>
+
+        <p id="result">Resultado</p>
+
+        <div class="botones">
+            <button class="suma btn btn-success" onclick="sumar()">Suma</button>
+        
+            <button class="resta btn btn-success" onclick="restar()">Resta</button>
+
+            <button class="multi btn btn-success" onclick="multiplicar()">Multiplicación</button>
+
+            <button class="divi btn btn-success" onclick="dividir()">División</button>
+
+        </div>
+        
+        <br>  
+        <button class="clear btn btn-success" onclick="Limpiar()">Limpiar</button>
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="js2.js"> </script>
+    </div>
+</body>
+</html>
