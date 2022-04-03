@@ -1,0 +1,27 @@
+{
+  "name": "miprueba",
+  "version": "1.0.0",
+  "description": "Mi prueba con NPM",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiotrrs/gen_ch10.git#main"
+  },
+  "keywords": [
+    "Repository",
+    "practic",
+    "NPM"
+  ],
+  "author": "ernestoAld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiotrrs/gen_ch10/issues"
+  },
+  "homepage": "https://github.com/sergiotrrs/gen_ch10/tree/main#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

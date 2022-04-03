@@ -1,13 +1,10 @@
 package principal;
-/**
- * Sesión Java 03, variables y asignación de datos. Datos primitivos en Java
- * 
- * @author TuX3 31 mar. 2022
- */
+
 
 public class main {
 
 	public static void main(String[] args) {
+
 	
 				// Definimos una variable booleana
 				boolean result = true;
@@ -98,6 +95,7 @@ public class main {
 				char caracter = "hola".charAt(2);
 
 				System.out.println(caracter);
+
 
 	}
 

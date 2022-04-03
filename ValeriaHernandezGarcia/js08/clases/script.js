@@ -103,7 +103,7 @@ class Persona{
 }
 
 let persona1 = new Persona("El Dedotes", "Bardan", 50);
-let persona2 = new Persona("El Billetes", "Rayas");
+let persona2 = new Persona("El Billetes", "Rayas"); // new ers para instanciar una clase
 
 //console.log(persona1);
 //console.log(persona1);
