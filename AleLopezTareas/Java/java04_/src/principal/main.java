@@ -35,6 +35,15 @@ int emoFeliz = 5;
                                                            //     |  ->  0b0111 ->7  
 		
 		System.out.println("Oprandor and lógico " + ( 7>3 && 3<5) );  //   ( true && true  ) -> true
+<<<<<<< Updated upstream
+=======
+		
+		
+		
+		
+		
+
+>>>>>>> Stashed changes
 
 	}
 
