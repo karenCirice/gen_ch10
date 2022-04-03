@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int emoFeliz = 5;
+		int emoFeliz = 5;
 		
 		//System.out.println(emoFeliz++); //5 primero se lee y luego se incrementa
 		//System.out.println(emoFeliz); //6 acá, se lee el valor actual
@@ -35,15 +35,14 @@ int emoFeliz = 5;
                                                            //     |  ->  0b0111 ->7  
 		
 		System.out.println("Oprandor and lógico " + ( 7>3 && 3<5) );  //   ( true && true  ) -> true
-<<<<<<< Updated upstream
-=======
+
 		
 		
 		
 		
 		
 
->>>>>>> Stashed changes
+
 
 	}
 

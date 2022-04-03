@@ -1,16 +1,14 @@
 package principal;
 
-<<<<<<< Updated upstream
+
 public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-=======
 
 
 
-	public class main {
-		public static void main(String[] args) {
+	
 
 	
 				// Definimos una variable booleana
@@ -103,7 +101,7 @@ public class main {
 
 				System.out.println(caracter);
 
->>>>>>> Stashed changes
+
 
 	    }
   }
