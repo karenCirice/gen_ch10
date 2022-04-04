@@ -5,6 +5,8 @@
 
 ##Ignora los archivos .meta de Java
 .metadata
+/.metadata/
+bin
 /bin/
 
 
