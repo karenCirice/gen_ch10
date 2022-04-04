@@ -16,6 +16,7 @@ class Persona{
         this._poder = poder;
         this._banda = banda;
         this._arma = "cuchillo"; //este no esta definido en los parametros, pero como lo tenemos anotado y pusimos entre comillas el valor que queremos, este atributo se aplicará a todas las personas que cree
+        //NOTOTA: no es necesario declarar los atributos al momento de dar de alta la clase, mientras lo hagamos en el constructor uando el this y lo ponemos delcarar en cualqier función dentro de la clase
     }
     get edadPersona(){
         return this._edad;
@@ -65,7 +66,7 @@ class Persona{
         this.valorDelArma(nuevaArma);
     }
 }
-let personaDedotes = new Persona("El Dedotes", "Bardan",50);
+let personaDedotes = new Persona("El Dedotes", "Bardan",50); //Para instanciar una clase lo hacemos con el 
 let personaBig = new Persona ("Big Gaby", "Navajas",18);
 let personaChola = new Persona ("El mijis","Sanchez",24,"navajasos","los altos");
 let persona2 = new Persona ("El Billetes","Rayas");
@@ -98,3 +99,5 @@ console.log (persona1);
 //La función # protege la función de que no sea cambiada solo dentro de la clase, hay un atajo para que este se ponga en 
 // todas las funciones dentro de la clase, con click derecho y change all osccurances y la reescribo como quiero que quede
 //hicimos un ejemplo poniendo en la función ValorDelArma un #
+//Por ejemplo, si ponemos en la linea 98= nombrE, como no existe
+// SOLID: acrónimo de 5 principios de diseño destinados a hacer que los diseños de sofware sean más felxibles

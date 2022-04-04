@@ -36,9 +36,6 @@ public class main {
 		System.out.println(Integer.toHexString(50));
 		System.out.println(hexVal);
 		System.out.println(binVal);
-		
-		//Verificamos el maximo valor de un tipo Long
-		System.out.println("Max Long " + Long.MAX_VALUE);
 	}
 
 }
