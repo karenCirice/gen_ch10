@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+ssh://github.com/sergiotrrs/gen_ch10.git"
   },
-  "keywords": ["npm","ch10"],
+  "keywords": [
+    "npm",
+    "ch10"
+  ],
   "author": "Guillermo Sandoval",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sergiotrrs/gen_ch10/issues"
   },
-  "homepage": "https://github.com/sergiotrrs/gen_ch10#readme"
+  "homepage": "https://github.com/sergiotrrs/gen_ch10#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
