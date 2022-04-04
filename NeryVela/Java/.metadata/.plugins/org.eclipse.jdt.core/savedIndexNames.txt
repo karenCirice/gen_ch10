@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\generation\repositorio_1\gen_ch10\NeryVela\Java\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-334702542.index
-2375529069.index
