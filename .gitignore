@@ -2,6 +2,7 @@
 .DS_store
 .DS_Store
 .DS_STORE
+<<<<<<< HEAD
 
 ##Ignora los archivos .meta de Java
 .metadata
@@ -9,6 +10,8 @@
 bin
 /bin/
 
+=======
+>>>>>>> jguillermo19
 
 #Ignorando la carpeta .vscode
 /.vscode
@@ -116,4 +119,8 @@ dist
 .dynamodb/
 
 # TernJS port file
+<<<<<<< HEAD
 .tern-port
+=======
+.tern-port
+>>>>>>> jguillermo19
