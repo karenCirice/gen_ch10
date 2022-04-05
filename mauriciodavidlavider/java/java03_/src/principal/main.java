@@ -76,13 +76,24 @@ public class main {
 		System.out.println("Este texto \n tiene 2 líneas");
 		System.out.println("Este texto \'tiene apostrofes\'");
 		
+		//Convertir tipos de datos
 		byte bVarTruncada = (byte)129; //Lo trunca
 		System.out.println(bVarTruncada);
 		
+		//Convertir tipo string a tipo int
 		int edad = Integer.parseInt("20");
+		System.out.println(edad);
+		//Convertir tipo string a tipo float
 		var valorPI = Double.parseDouble("3.14159");
+		System.out.println(valorPI);
+		
+		//Convertir a string
 		String edadTexto = String.valueOf(21);
+		System.out.println(edadTexto);
+		
+		//Imprimir caracter de una cadena de texto 
 		char caracter = "hola".charAt(1);
+		System.out.println(caracter);
 	}
 
 }
