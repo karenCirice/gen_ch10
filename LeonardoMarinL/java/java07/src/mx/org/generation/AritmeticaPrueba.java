@@ -25,7 +25,9 @@ public class AritmeticaPrueba {
 		System.out.println("Introduce tu nombre: ");
 		String name = sc.nextLine();
 		System.out.println("Introduce tu sexo: ");
-		char sexo = sc.next().charAt(0);
+		//char sexo = sc.next().charAt(0);
+		String sexoString = sc.next();
+		char sexo = sexoString.charAt(0);
 		
 		System.out.println("Tu edad es: "+i);
 		System.out.println("Tu nombre es: "+name);
