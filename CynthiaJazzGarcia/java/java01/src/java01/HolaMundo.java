@@ -18,11 +18,13 @@ public class HolaMundo {
 		int hexaVal = 0x1a;
 		//Definimos una variable de tipo int, representacion binaria (0b)
 		int binVal = 0b110110;
+		//Definimos una variable de tipo int, 
+		int octVal = 032;
 		
 		
 		
 		//para llamarlo rapido se usa syso ctrl + espacio
-		System.out.println(result);
+		System.out.println("hola mundo");
 		System.out.println(capitalC);
 		System.out.println(b);
 	}
