@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    background-color: #07020D;
+    min-width: 250px;
+    background-image: url(fondo.png);
+}
+
+.container{
+    border: 1px solid #000;
+    padding: 10px 10px;
+    background-color: #F5DF8E;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.container-formulario{
+    margin-top: 10%;
+}
+
+
+input[type=text],
+#obtenerDatos{
+    width: 100%;
+    height: 60px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    margin-top: 10px;
+}
+
+#obtenerDatos{
+    background-color: #fff;
+    transition: all 0.6s ease;
+}
+
+#obtenerDatos:hover,
+.boton-accion:hover{
+    background-color: #41868B;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.boton-accion{
+    
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.6s ease;
+    height: 60px;
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    padding: 10px;
+  
+}
+.contenedor-header{
+    margin-top: 0%;
+    background-color: #A1BAB3;
+    width: 100%;
+    height: 50%;
+    padding: 0%;
+    text-align: center;
+    text-size-adjust: 49px;
+}
+.contenedor-logo{
+    background-color: #A1BAB3;
+    border-color: black;
+    width: 100%;
+    height: 50%;
+    padding: 0%;
+    text-align: center;
+}
+#logo{
+    width: 100px;
+    height:100px;
+    position:left; 
+}
+#resultado{
+    background-color: white;
+}
