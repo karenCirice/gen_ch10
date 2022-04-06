@@ -39,6 +39,12 @@ public class Factorial {
 
 
 	}
+	
+	int x = 12;
+	
+	while (x > 10) {
+		
+	}
 
 }
 
