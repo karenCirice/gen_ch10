@@ -35,12 +35,13 @@ public class Main {
 				break;
 			}
 		}*/
-		for (int gera = 1; gera <=5; gera++) {
+		/*for (int gera = 1; gera <=5; gera++) {
 			if (gera != 3) {
 				System.out.println("Gera pirata : " + gera);
 				continue;
 			}
 			System.out.println("El Gera original es n. : " + gera);
-		}
+		}*/
+		
 }
 }
