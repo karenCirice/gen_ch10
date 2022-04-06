@@ -1,0 +1,108 @@
+<!DOCTYPE html> <!--para que el código sea interpretado correctamente por la web-->
+<html lang="en">
+<head>
+
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+    <title>Mi primera web</title> <!--le muestra a los usuarios los resultados del motor de búsqueda-->
+    <style>
+        table,th,td {
+            border: 1px solid  black;
+
+        }
+    </style>
+ 
+</head>
+<body>
+    <table style="width: 550px;">
+       <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+
+        </tr>
+       </thead>
+
+       <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Hola chanchito</td>
+            <td>19.90$</td>
+        </tr>
+        <tr>
+            <td>Hola chanchito super feliz</td>
+            <td>20.90$</td>
+        </tr>
+        
+       </tbody>
+       <tfoot>
+           <td></td>
+           <td>Total: 49.80$</td>
+
+       </tfoot>
+    </table>
+        
+
+
+<ul> <!--lista no ordenada -->
+    <li> Elemento 1</li>
+    <li> Elemento 2</li> 
+    <li> Elemento 3</li>
+
+</ul>
+<ol>
+    <li value="50"> Elemento 0</li>
+    <li> Elemento 1</li>
+    <li> Elemento 2</li>
+    <li> Elemento 3</li>
+    <li> Elemento 4</li>
+    
+
+</ol>
+<ol>
+    <li style="list-style-type :lower-alpha;"> Elemento 1</li>
+</ol>
+
+
+
+
+
+
+    <form action="/formulario" method="GET">
+        <label for="nombre">Nombre</label>
+        <input type="apellido"id="nombre" name="nombreusuario" placeholder="Nombre"/>
+        <br>
+        <label id="comentario">Comentario</label>
+        <textarea cols="50" rows="10"id="comentario" name="comentario" placeholelder="Ingrese comentario">Este es un valor por defecto></textarea>
+        <br>
+        <input type="submit"/>
+        <button type="reset">Enviar</button> <!-- podemos incuir mas etiquetas dentro de esta a diferencia del tipo input y es mucho más personalizable-->
+    </form>
+    <h1>Mi primer heading</h1> <!-- para indicar títulos  y subtítulos dentro de la web únicamente, no ultilizarlos para iindicar texto-->
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito Felíz</h6> <!-- Solo llega hasta h6-->
+    <p> Chanchito Feliz esta muy feliz </p>
+    <p>Chanchito triste</p>
+    <hr>
+
+    <h2>Chanchote</h2>
+    <p>Hola a todos  <span style="color:blueviolet">cómo estan</span>, quieren<br> <br>juagr siiii
+        holi holi
+        <a href="https://www.google.com"> Ir a google</a>
+        <br>
+        <a taregt="_blank" href="https://www.google.com"> Ir a google</a>
+        <br>
+        <img src="https://es.pngtree.com/freepng/coffee_2651902.html" width="200px" height="200px"/> 
+      
+    </p>
+</body>
+</html>
+
