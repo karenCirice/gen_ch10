@@ -1,0 +1,25 @@
+package principal;
+
+public class MainCiclos {
+
+	public static void main(String[] args) {
+		
+		int contador = 0;
+		
+		//uso del ciclo while
+		/*while (contador <=5) {
+			System.out.println("Valor de contador es while; " + contador);
+			contador++;
+		}
+		*/
+
+		//reinicio mi variable
+		contador = 0;
+		//Uso del ciclo do-While
+		do {
+			System.out.println("Valor de contador en do: " + contador);
+			contador++;
+		}while (contador <= 5);
+	}
+
+}

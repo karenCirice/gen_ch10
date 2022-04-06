@@ -1,0 +1,30 @@
+package java01;
+
+public class HolaMundo {
+
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo de nuevo");
+		// Definimos una variable de tipo caracter
+		boolean result = true;
+		//Definimos una variable de tipo caracter, se DEBE escribir apóstofre
+		char capitalC = 'C';
+		//Definimos una variable de tipo byte
+		byte b = 100;
+		//Definimos una variable de tipo short
+		short s = 10000;
+		//Definimos una variable de tipo int, base 10
+		int i = 26;
+		//Definimos una variable de tipo int, representacion hexadecimal
+		int binVal = 0x1a;
+		//Definimos una variable de tipo int, representación binaria
+		int binVal = 0b11010;
+		
+		int octVal = 032;
+		
+		System.out.printIn(i);
+		System.out.printIn(hexVal);
+		System.out.printIn(binVal);
+		System.out.printIn(octVal);
+	}
+
+}

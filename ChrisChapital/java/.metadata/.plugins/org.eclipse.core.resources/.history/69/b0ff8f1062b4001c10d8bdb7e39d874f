@@ -1,0 +1,18 @@
+package principal;
+
+public class MainFactorial {
+
+	public static void main(String[] args) {
+		for (int gera =1; gera <5; gera++) {
+			if (gera !=3) {
+				System.out.println("El gera es n. :" +gera);
+				continue;
+			}
+			System.out.println("El gera origina es n. :" +gera);
+		}
+	}
+		
+
+}
+
+

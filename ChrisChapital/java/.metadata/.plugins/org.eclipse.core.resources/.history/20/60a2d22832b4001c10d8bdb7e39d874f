@@ -1,0 +1,25 @@
+package principal;
+/**
+ * 
+ * Sesión 05 Flujo de control
+ * @author USER
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		boolean condicion = false;
+		int bandera = 1;
+		//If se ejecuta si la condición es verdadera
+		if(condicion) {
+			bandera = 2;
+			System.out.println("La condición es verdadera");
+		}	else {
+			bandera = 3;
+			System.out.println("La condición es falsa");
+		}
+		//comando rápido syso + ctrl + space
+		System.out.println("Se continua con otras instrucciones");
+	}
+
+}

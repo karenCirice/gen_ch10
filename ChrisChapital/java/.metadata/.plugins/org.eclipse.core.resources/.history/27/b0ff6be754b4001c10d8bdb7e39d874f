@@ -1,0 +1,18 @@
+package principal;
+
+public class MainCiclos {
+
+	public static void main(String[] args) {
+		
+		int contador = 0;
+		
+		//uso del ciclo while
+		while (contador <=5) {
+			System.out.println("Valor de contador es while; " + contador);
+			contador++;
+		}
+
+		
+	}
+
+}

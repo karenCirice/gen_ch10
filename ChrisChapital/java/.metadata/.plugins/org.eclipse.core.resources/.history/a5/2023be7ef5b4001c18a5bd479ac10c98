@@ -1,0 +1,15 @@
+package principal;
+
+public class Java06_FizzBuzz {
+
+	public static void main(String[] args) {
+	 int a;
+	 int b;
+	  for (a = 0, b = 0; b > a; a++, b++) {
+		  System.out.println(a + " " + b);
+	  }
+	 System.out.println(a + " " + b);
+
+	}
+
+}

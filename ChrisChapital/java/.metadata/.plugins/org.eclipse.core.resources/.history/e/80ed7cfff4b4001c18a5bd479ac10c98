@@ -1,0 +1,11 @@
+package principal;
+
+public class Java06_FizzBuzz {
+
+	public static void main(String[] args) {
+	 int inicial = 1;
+	 
+
+	}
+
+}

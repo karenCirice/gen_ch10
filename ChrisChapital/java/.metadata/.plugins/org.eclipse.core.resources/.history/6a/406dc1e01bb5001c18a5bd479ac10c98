@@ -1,0 +1,20 @@
+package mx.org.generation;
+
+public class AritmeticaPrueba {
+
+	public static void main(String[] args) {
+		Aritmetica operacion = new Aritmetica();
+		operacion.a = 5;
+		operacion.b = 6;
+		operacion.sumar();
+		
+		//Esta convirtiendo resultado a integer, y esta asignando operacion.sumarConReturn() a la variable resultado
+		int resultado = operacion.sumarConReturn();
+		System.out.println("Resultado return: " +resultado);
+		
+		int resultadoParametro = operacion.sumarConArgumentos( 9, 6);
+		System.out.println("Resultado con parametros :"+resultadoParametro);
+
+	}
+
+}
