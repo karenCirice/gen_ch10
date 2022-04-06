@@ -1,0 +1,174 @@
+/*
+Exercise #1
+Copy the code below into your workspace:
+*/
+let arr = ["This", "is", "a", "sentence."];
+function printOutString() {
+  console.log(arr);
+}
+
+printOutString();
+
+//Complete the function to print out the string: This is a sentence.
+___________________________________________________________________________
+/*
+Exercise #2
+Write a function that:
+
+•	Takes in an array of numbers.
+•	Doubles the value of each number in the array.
+•	Prints out the new updated array.
+Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
+*/
+
+const array = [5, 7, 9, 8, 6];
+
+console.log("Los numeros del son :",array," Y su multiplicación * 2 =");
+
+function mult(array) {
+    for(let i=0; i<5; i++){
+        array[i] *= 2;
+        console.log(array[i]);
+    }
+}
+
+mult(array);
+__________________________________________________________________________________
+/*
+Exercise #3
+Write a program to compute the sum and product (multiplication) of an array of numbers. Print out the sum and the product.
+Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24.
+*/
+const array = [5,10,15,20,25];
+let sum=0, product=1;
+
+
+function sum_and_product(array) {
+    for(let i=0; i<5; i++){
+        sum += array[i];
+        product *= array[i];
+    }
+}
+
+sum_and_product(array);
+
+console.log("La suma de los valores es: ", sum," Y la multiplicación es: ", product);
+______________________________________________________________________________________
+/*
+Exercise #4
+let student1Courses = ['Math', 'English', 'Programming'];
+let student2Courses = ['Geography', 'Spanish', 'Programming'];
+Create a program that loops over the 2 arrays; if there are any common courses print them out to the console.
+*/
+let student1Courses = ['Math', 'English', 'Programming'];
+let student2Courses = ['Geography', 'Spanish', 'Programming'];
+
+function x(array,array) {
+    for(let i=0; i<student1Courses.length; i++){
+        for(let j=0; j<student2Courses.length; j++){
+        if(student1Courses[i] == student2Courses[j]){
+            console.log("Existen 2 cursos iguales que son: ",student1Courses[i]," Y ",student2Courses[j]);
+            
+         }
+           // console.log(i,j);
+      }
+   }
+}
+
+x(student1Courses, student2Courses);
+________________________________________________________________________________________
+
+/*
+    Ejercicio #5
+    Para cada uno de los ejercicios a continuación, suponga que está comenzando con la siguiente matriz de personas.
+    let people = ["María", "Dani", "Luis", "Juan", "Camila"];
+    1. Escriba un comando que imprima a todas las personas de la lista.
+    2. Escriba el comando para eliminar "Dani" de la matriz.
+    3. Escriba el comando para eliminar "Juan" de la matriz.
+    4. Escriba el comando para agregar "Luis" al frente de la matriz.
+    5. Escriba el comando para agregar su nombre al final de la matriz.
+    6. Usando un ciclo, itere a través de esta matriz y después de console.log "Maria", salga del ciclo.
+    7. Escriba el comando que da el índice de donde se encuentra "María".
+    Al final del ejercicio, debe haber 4 personas en la matriz.
+    */
+    
+    let people = ["María", "Dani", "Luis", "Juan", "Camila"];
+    let opc;
+    
+    function eliminar(array,name) {
+        let index = array.indexOf(name);
+        if(index > -1){
+            array.splice(index, 1);
+            console.log("El array actual es: ", people);
+        }
+        else{
+            consol.log(" El elemento no se encuentra... ")
+        }
+    }
+    
+    function agrega_nombre(array) {
+        let pos_cola = people.length;
+        let name = prompt(" Introduce tu nombre para agregar al final del array: ");
+        people.splice(pos_cola, 0, name);
+        console.log(people);
+    }
+    
+    function maria_function(array){
+        for(let i=0; i<people.length; i++){
+            console.log(people[i]);
+            if(people[i] == 'María'){
+                break;
+            }
+        }
+    }
+    
+    function pos_maria(array) {
+        let index_m;
+        index_m = array.indexOf('María')
+         if(index_m > -1 ){
+                console.log(" La posición de María es: ",index_m+1);
+            }
+    }
+    
+    // Operaciones
+        console.log("1- Imprimir todas las personas de la matriz");
+        console.log("2- Eliminar a 'Dani' de la matriz");
+        console.log("3- Eliminar a 'Juan' de la matriz");
+        console.log("4- Agregar a 'Luis' al frente de la matriz");
+        console.log("5- Agregar su nombre al final de la matriz");
+        console.log("6- Usando un ciclo, itere a través de esta matriz y después de console.log 'Maria', salga del ciclo.");
+        console.log("7- Dónde se encuentra 'María'.");
+    do{
+    
+        opc = prompt("Introduce tu Opción: ");
+    
+        if(opc == 1){
+            console.log(people);
+        }
+        if(opc == 2){
+            eliminar(people,"Dani");
+        }
+        if(opc == 3){
+            eliminar(people,"Juan");
+        }
+        if(opc == 4){
+            eliminar(people,"Luis");
+            people.splice(0, 0, 'Luis');
+            console.log(people);
+        }
+        if(opc == 5){
+            agrega_nombre(people);
+        }
+        if(opc == 6){
+            maria_function(people);
+        }
+        if(opc == 7){
+           pos_maria(people);
+        }
+        
+        
+        if(opc == 0)
+            break;
+        else if(opc > 7)
+            console.log(" OPCIÓN INVÁLIDA X");
+    }while(opc <= 7 );
