@@ -50,6 +50,11 @@ public class ArrayListCollection {
 		cars.forEach(car -> {
 			System.out.println("Autos en forEach: "+ car);
 		});
+		
+		//Inicializar un ArrayList usando una subclase anónima
+		ArrayList <Integer> calificaciones = 
+		new ArrayList <Integer>() {{add(9); add(10); add(8);}}; 
+		System.out.println();
 	}
 
 }
