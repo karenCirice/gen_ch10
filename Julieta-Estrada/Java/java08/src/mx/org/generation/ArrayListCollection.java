@@ -47,10 +47,14 @@ public class ArrayListCollection {
 			System.out.println("Auto "+car);
 		}
 		
-		//Tercera forma de interar 
+		//Tercera forma de interar usando forEach
 		cars.forEach(car ->{
 			System.out.println("Autos forEach: "+ car);
 		});
+		
+		//Inicializar un Array usando una subclase anonima
+		ArrayList<Integer> calificaciones =
+				new ArrayList<Integer>() {{add(9);add(10);add(8);}};
 	}
 	
 
