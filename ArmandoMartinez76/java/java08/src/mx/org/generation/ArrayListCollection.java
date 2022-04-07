@@ -17,6 +17,8 @@ public class ArrayListCollection {
 		cars.add("BMW");
 		cars.add("Ford");
 		cars.add("Mazda");
+		cars.add("Ford");
+		cars.add("Mazda");
 		cars.add("Tsuru tuneado");
 		System.out.println(cars);
 		
@@ -49,8 +51,10 @@ public class ArrayListCollection {
 			System.out.println("Autos en forEach: " + car);
 		});
 		
-		
-
+		//Inicializar un Arraylist usando una subclase anonima
+		ArrayList<Integer> calificaciones = 
+				new ArrayList<Integer>() {{add(9);add(10);add(8);}};
+		System.out.println(calificaciones);
 	}
 
 }
