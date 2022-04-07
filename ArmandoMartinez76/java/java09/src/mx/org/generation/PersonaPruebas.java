@@ -24,6 +24,9 @@ public class PersonaPruebas {
 		edadNueva = 30;
 		System.out.println("Valor de edad: " + edad);
 		
+		
+		//Los datos de tipo String, se comportan como valores primitivos
+		//no pasan la referencia, pasan los datos
 		String nombreMascota = "Solovino";
 		String myPet = nombreMascota;
 		myPet = "Firulais";

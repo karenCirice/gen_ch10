@@ -12,7 +12,10 @@ public class Personas {
 //	Abtidoto con alcohol adulterado Methanol, consumir alcohol verdadero 
 	//(tequila, cerveza, vodka, whisky, etc.)
 	
-	
+	/**
+	 * Contructor
+	 * @param 
+	 */
 	
 	Personas(){
 		System.out.println("Se realiza el constructor");
