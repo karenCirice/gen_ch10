@@ -4,13 +4,13 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		int contador = 0; //esta es la variable donde empieza a contar
+		int x = 12; //esta es la variable donde empieza a contar
 		
 		//uso de while
-		/*while (contador <=5) {
-			System.out.println("Valor de contador en while " +contador);
-			contador++; //necesario para que no se haga un ciclo infinito
-		}*/
+		while (x > 10) {
+			System.out.println("Valor de contador en while " +x);
+			x++; //necesario para que no se haga un ciclo infinito
+		}
 		
 		
 		//reinicio mi variable
@@ -47,13 +47,14 @@ public class main {
 		
 		
 		
-		for (int gera= 1; gera <=5; gera++) {
+		/*for (int gera= 1; gera <=5; gera++) {
 			if (gera == 3) {
 			System.out.println("El Gera original es n. :" +gera);
 			break; //la palabra reservada continue va a regresar hasta el inicio del for
 			}
 				System.out.println("Gera pirata. :" +gera);
-			}	
+			}	*/
 	}
 	}
+
 
