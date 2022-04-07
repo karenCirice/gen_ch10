@@ -46,6 +46,11 @@ public class MashMapCollection {
 		for (int key : postres.keySet()) {
 			System.out.println("key :"+key +" value: "+ postres.get(key));
 		}
+		//Iteramso usando for  Each
+		//postres.forEach(llave.valor)->{
+			//System.out.println("La llave "+llave+" tiene el valor"+valor);
+			
+		//}
 	}
 
 }
