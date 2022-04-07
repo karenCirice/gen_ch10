@@ -5,6 +5,23 @@ public class Aritmetica {
 	int a;
 	int b;
 	
+
+	/**
+	 * El nombre del constructor debe ser identico a la clase
+	 * Constructor sin parametro
+	 * Los constructores no de vuelven valor alguno, no se le indica
+	 * un tipode retorno, tampoco la palabra void
+	 * 
+	 * Se le indica un modificador de acceso: Public
+	 * Cuando se crea el objeto, los parentesis llaman al; cosntructores
+	 * Por ejemplo Aritmetica
+	 */
+	
+	Aritmetica(){
+		System.out.println("Ejecutando el constructor");
+	}
+	
+	
 	//definimos un metodo sin retorno (void)
 	//Y sin argumentos
 	
@@ -22,6 +39,14 @@ public class Aritmetica {
 	
 	//Definimos un metodo con retorno
 		// con rgumentos de entrada
+	
+	/**
+	 * Suma dos numeros y se devuelve el resultado
+	 * @param x primer numero a sumar
+	 * @param y seguindo numero a sumar
+	 * @return el resultado de la suma
+	 * int x e int y son mis argumentos del metodo
+	 */
 		
 		int sumarConArgumentos(int x, int y) {
 			a = x;
@@ -37,4 +62,7 @@ public class Aritmetica {
 		}
 }
 
+
+//31b7dea0
+//id = 27
 
