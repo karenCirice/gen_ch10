@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/Users/danielbardan/Desktop/ch10/java/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-2009475339.index
-545098836.index
