@@ -4,7 +4,7 @@ public class Main {
 
 
 		public static void main(String[] args) {
-		
+			
 			/*boolean condicion = false;
 			int bandera = 1;
 			// if se ejecuta si la condición es verdadera
