@@ -14,6 +14,7 @@ function calcular_dia(){
 
     if(valorValido(dia, mes)){
         a=dia+constanteMes(ano, mes)+ano%100+(ano%100/4)+constanteK(ano);
+        console.log(a);
         d=a%7;
         d=parseInt(d);
         console.log(d);
@@ -77,7 +78,7 @@ function valorValido(dia, mes, ano){
         break;
 
         case 2:
-            if(esBisiesto(mes)){
+            if(esBisiesto(ano)){
                 if(!(dia<=29)){
                     return false;
                 }

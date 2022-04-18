@@ -1,0 +1,23 @@
+"name": "miprueba",
+"version": "1.0.1",
+"description": "Mi prueba NPM, si quiero agregar comentarios lo realizó en ésta parte. Borro la última comilla y dentro escribo lo que necesito comentar. Debemos recordar que solamente el último valor lleva coma despues de los apostrofes.",
+"main": "main.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/adonyiriarte/adonyiriartegen10.git"
+},
+"keywords": [
+  "npm.",
+  "generation."
+],
+"author": "adonyiriarte",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/adonyiriarte/adonyiriartegen10/issues"
+},
+"homepage": "https://github.com/adonyiriarte/adonyiriartegen10#readme"
+}
+

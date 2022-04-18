@@ -1,0 +1,2 @@
+module JAVA04 {
+}
