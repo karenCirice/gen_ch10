@@ -1,36 +1,22 @@
-function busquedaUsuarios() {
-  let pagina = parseInt(document.getElementById("select-pagina").value);
+//console.log(js07 Leer JSON);
 
-  console.log(typeof pagina, pagina);
+fetch("colors.json")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
+        console.log(Array.isArray(data.colors));
 
-  
-    fetch(`https://reqres.in/api/users?page=${pagina}`)
-      .then((result) => result.json())
-      .then((users) => {
-        limpiarPantalla();
-        tabla(users);
-      })
-      .catch((error) => {
-        console.log(`Error showed with ${error}`);
-      });
-  
-}
-
-function tabla(users) {
-  let contenido = document.getElementById("contenido");
-
-  for (const usuario of users.data) {
-    contenido.innerHTML += `
-        <tr class="fila-tabla">
-          <td class="elemento-tabla" id="elemento-usuario" >${usuario.id}</td>
-          <td class="elemento-tabla" id="elemento-email">${usuario.email}</td>
-          <td class="elemento-tabla" id="elemento-name">${usuario.first_name}</td>
-          <td class="elemento-tabla" id="elemento-lastName">${usuario.last_name}</td>
-          <td class="elemento-tabla" id="elemento-avatar"><img class="elemento-imagen rounded-circle" src="${usuario.avatar}"></td>
-        </tr>
-        `;
-  }
-}
-
-let limpiarPantalla = () =>
-  (document.getElementById("contenido").innerHTML = ``);
+    let tBody = document.getElementById("tBody");
+    tBody.innerHTML = "";
+    for (let color of data.colors) {
+      //console.log(color.color);
+      tBody.innerHTML += `
+        <tr>
+        <td>${color.color}</td>
+        <td>${color.category}</td>
+        <td>${color.type ? color.type : "no type"}</td>
+        <td>${color.code.hex}</td>
+        <td>${color.code.rgba}</td>
+        </tr> `;
+    }
+  });
