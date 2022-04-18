@@ -14,6 +14,14 @@ public class PruebaPelicula {
 		Pelicula risaVacaciones = new Pelicula ("La risa en vacaciones", "D", 4);
 		
 		ArrayList<Pelicula> catalogo = new ArrayList<Pelicula>();
+		catalogo.add(padrino);
+		catalogo.add(pikachu);
+		catalogo.add(batman);
+		catalogo.add(risaVacaciones);
+		
+		catalogo.forEach(pelicula -> {
+			System.out.println(pelicula);
+		});
 	}
 
 }

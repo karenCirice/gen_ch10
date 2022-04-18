@@ -35,7 +35,11 @@ public class Pelicula {
 		this.region = region;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Pelicula [nombre=" + nombre + ", clasifica=" + clasifica + ", region=" + region + "]";
+	}
+		
 	
 	
 }
