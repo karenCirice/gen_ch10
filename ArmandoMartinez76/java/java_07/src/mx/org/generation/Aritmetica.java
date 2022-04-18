@@ -6,7 +6,7 @@ public class Aritmetica {
 	int b;
 	
 	//definimos un metodo sin retorno (void)
-	//Y sin argumentos
+
 	
 	void sumar( ) {
 		int resultado = a + b;

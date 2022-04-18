@@ -1,6 +1,6 @@
 package java04;
 
-public class java04 {
+public class main {
 
 }
 

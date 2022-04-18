@@ -1,4 +1,4 @@
-package java06_factorial;
+package main.java;
 
 public class java06_factorial {
 

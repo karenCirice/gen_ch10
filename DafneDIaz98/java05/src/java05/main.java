@@ -1,6 +1,6 @@
 package java05;
 
-public class java05 {
+public class main {
 	
 	public static void main(String[] args) {
 	

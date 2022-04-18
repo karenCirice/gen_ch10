@@ -1,6 +1,6 @@
 package java07;
 
-public class java07 {
+public class Aritmetica {
 	
 	public static void main(String[] args) {
 		//definimos los atributos de la clase
