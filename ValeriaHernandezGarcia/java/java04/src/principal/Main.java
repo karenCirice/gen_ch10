@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		int emoFeliz = 5;
 		
-		//System.out.println(emoFeliz++); //5 primeo se lee y luego se incrementa
+		//System.out.println(emoFeliz++); //5 primero se lee y luego se incrementa
 		//System.out.println(emoFeliz); //6, se lee el valor actual
 		
 		//System.out.println(emoFeliz--); //sigue siendo 6, primero se lee, luego se decrementa
@@ -21,7 +21,7 @@ public class Main {
 		
 		int clanEmo = emoFeliz * 5;
 		//System.out.println("clan emo "+ clanEmo); //30 último valor de la variable 
-		//System.out.println("Devidido el clan " + (clanEmo/2)); //15
+		//System.out.println("Dividido el clan " + (clanEmo/2)); //15
 		//System.out.println("Módulo2 " + (clanEmo%2)); //0
 		
 		System.out.println("Es mayor "+ (clanEmo > 20)); //true
