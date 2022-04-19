@@ -6,6 +6,7 @@ public class Aritmetica {
 	int b;
 	
 	//definimos un metodo sin retorno (void)
+
 	
 	void sumar( ) {
 		int resultado = a + b;

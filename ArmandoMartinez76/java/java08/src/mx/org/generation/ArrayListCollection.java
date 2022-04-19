@@ -8,7 +8,7 @@ public class ArrayListCollection {
 		// Una lista es una coleccion ordenada
 		//La cual permite elementos duplicados \
 		//El contenido de ArrayList puede ser dinamico
-		//Puede aumentar su tamaño.\
+		//Puede aumentar su tamaÃ±o.\
 		
 		//Definimos un Array de tipo String
 		//Entre <> se define el tipo de dato envolvente
@@ -17,10 +17,11 @@ public class ArrayListCollection {
 		cars.add("BMW");
 		cars.add("Ford");
 		cars.add("Mazda");
+
 		cars.add("Tsuru tuneado");
 		System.out.println(cars);
 		
-		//Obtenemos el tamaño de ArrayList
+		//Obtenemos el tamaÃ±o de ArrayList
 		int size = cars.size();
 		System.out.println("Total de autos :" + size);
 		
@@ -48,8 +49,6 @@ public class ArrayListCollection {
 		cars.forEach(car -> {
 			System.out.println("Autos en forEach: " + car);
 		});
-		
-		
 
 	}
 
