@@ -3,14 +3,14 @@ package org.generation.pelicula;
 public class Pelicula {
 	private String nombre;
 	private String clasifica;
-	private String region;
+	private int region;
 	/**
 	 * Constructor de la clase pelicula 
 	 * @param nombre de la pelicula 
 	 * @param clasifica de la pelicula 
-	 * @param region donde fue filmada 
+	 * @param i donde fue filmada 
 	 */
-	public Pelicula(String nombre, String clasifica, String region) {
+	public Pelicula(String nombre, String clasifica, int region) {
 		super();
 		this.nombre = nombre;
 		this.clasifica = clasifica;
@@ -43,13 +43,13 @@ public class Pelicula {
 	/**
 	 * @return the region
 	 */
-	public String getRegion() {
+	public int getRegion() {
 		return region;
 	}
 	/**
 	 * @param region the region to set
 	 */
-	public void setRegion(String region) {
+	public void setRegion(int region) {
 		this.region = region;
 	}
 	@Override
