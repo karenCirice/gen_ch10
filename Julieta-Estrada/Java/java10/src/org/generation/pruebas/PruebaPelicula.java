@@ -2,7 +2,7 @@ package org.generation.pruebas;
 
 import java.util.ArrayList;
 
-import org.generation.pelicula.*;
+import org.generation.pelicula.Pelicula;
 
 public class PruebaPelicula {
 
